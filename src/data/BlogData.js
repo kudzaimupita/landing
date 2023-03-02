@@ -1,0 +1,36 @@
+const recentBlogData = [
+  {
+    _id: 1,
+    featureImg: 'media/blog/1.png',
+    postTag: 'Tutorials',
+    postDeatailsLink: '/blog-single',
+    postTitle: 'Google Ads certifications: Are they worth it?',
+    postExerp: "Do one bamboozled cuppa I don't want no agro gosh cras.",
+    authorImg: 'media/testimonial/testimonial1.png',
+    authorName: 'John Doe',
+    postDate: 'April 11, 2021',
+  },
+  {
+    _id: 2,
+    featureImg: 'media/blog/2.png',
+    postTag: 'Software',
+    postDeatailsLink: '/blog-single',
+    postTitle: 'iOS 14 and Facebook ads: All you need to know',
+    postExerp: "Do one bamboozled cuppa I don't want no agro gosh cras.",
+    authorImg: 'media/testimonial/testimonial2.png',
+    authorName: 'Jon Doe',
+    postDate: 'June 11, 2021',
+  },
+  {
+    _id: 3,
+    featureImg: 'media/blog/3.png',
+    postTag: 'Design',
+    postDeatailsLink: '/blog-single',
+    postTitle: 'Letter of Interest: Purpose, Example & Tips',
+    postExerp: "Do one bamboozled cuppa I don't want no agro gosh cras.",
+    authorImg: 'media/testimonial/testimonial3.png',
+    authorName: 'John Doe',
+    postDate: 'July 11, 2021',
+  },
+];
+export default recentBlogData;
