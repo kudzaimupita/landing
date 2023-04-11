@@ -19,20 +19,28 @@ import NavRightTwo from "../../components/NavRight/NavRightTwo";
 import DownloadCta from "../../components/CallToAction/DownloadCta";
 import Navbar from "../../layout/Header/Navbar";
 import ServiceThree from "../../components/Services/ServiceThree";
+import FeatureSeven from "../../components/Features/FeatureSeven";
+import TabSix from "../../components/Tabs/TabSix";
+import SecurityFeature from "../../components/Features/SecurityFeature";
+import HeroOne from "../index1/HeroOne";
+// import NavRightTwo from '../../components/NavRight/NavRightOne';
 const HomeSass = () => {
   return (
     <Layout>
       <PageMeta title="Baboon — Home &amp; Asset and Work Management" />
       <Navbar navRight={<NavRightTwo />} />
+
       <div id="main_content">
-        <HeroTwo />
-        <ServiceThree />
+        <HeroOne /> <SecurityFeature />
+        <TabSix />
+        {/* <FeatureSeven /> */}
+        {/* <ServiceThree /> */}
         <TabTwo />
         <ImageContentThree />
-        <ImageContentFour />
+        {/* <ImageContentFour /> */}
         <ServiceOne />
         <ServiceTwo />
-        <IntroOne />
+        {/* <IntroOne /> */}
         <TabThree />
         <PriceOne />
         {/* <LargeCarousel /> */}

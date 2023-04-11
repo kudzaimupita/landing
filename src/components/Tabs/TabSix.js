@@ -34,7 +34,7 @@ const TabSix = () => {
                       <div className="ultraland-tab-contents">
                         <div className="tab-image">
                           <img
-                            src="media/tabs/tab_three.png"
+                            src="media/tabs/ff.png"
                             alt=""
                             className="tab-image"
                           />
@@ -103,9 +103,9 @@ const TabSix = () => {
                       <span className="tab-icon">
                         <img src="media/tabs/icon1.png" alt="tab icon" />
                       </span>
-                      Want to import designs into
-                      <br />
-                      your product
+                      Reports and Analytics
+                      {/* <br />
+                      your product */}
                     </a>
                     <a
                       className="nav-link"
@@ -119,9 +119,9 @@ const TabSix = () => {
                       <span className="tab-icon">
                         <img src="media/tabs/icon2.png" alt="tab icon" />
                       </span>
-                      Enter your URL and verify
-                      <br />
-                      domain ownership
+                      Predictive maintenance
+                      {/* <br />
+                      domain ownership */}
                     </a>
                     <a
                       className="nav-link"
@@ -135,9 +135,25 @@ const TabSix = () => {
                       <span className="tab-icon">
                         <img src="media/tabs/icon3.png" alt="tab icon" />
                       </span>
-                      Start a new test or schedule
-                      <br />
-                      recurring tests
+                      Aggregate Reports and Audit tools
+                      {/* <br />
+                      recurring tests */}
+                    </a>
+                    <a
+                      className="nav-link"
+                      id="v-pills-profile-tab"
+                      data-toggle="pill"
+                      href="#v-pills-profile"
+                      role="tab"
+                      aria-controls="v-pills-profile"
+                      aria-selected="false"
+                    >
+                      <span className="tab-icon">
+                        <img src="media/tabs/icon2.png" alt="tab icon" />
+                      </span>
+                      Complex job scheduler
+                      {/* <br />
+                      domain ownership */}
                     </a>
                   </div>
                 </div>

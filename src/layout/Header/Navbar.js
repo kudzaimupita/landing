@@ -20,24 +20,24 @@ const Navbar = ({ navRight, logoDark, right }) => {
     <>
       <nav
         className={`site-header navbar navbar-expand-lg ${
-          logoDark ? "dark" : "light"
+          true ? "dark" : "light"
         }  ${scroll > headerTop ? "showed" : ""}`}
       >
         <div className="container">
           <div className="site-logo">
             <Link className="logo" to="/">
               <img
-                style={{ maxWidth: "80px" }}
-                className="main-logo"
-                src="assets/img/logo1.png"
+                style={{ height: "44px" }}
+                // className="main-logo"
+                src="assets/img/baboon-logo_FULL-black_draft_1x1.png"
                 alt="UltraLand"
               />
-              <img
+              {/* <img
                 style={{ height: "50px" }}
                 className="sticky-logo"
-                src="assets/img/logo1.png"
+                src="assets/img/baboon-logo.png"
                 alt="UltraLand"
-              />
+              /> */}
             </Link>
           </div>
 

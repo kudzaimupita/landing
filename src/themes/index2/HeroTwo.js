@@ -4,27 +4,35 @@ import { Link } from "react-router-dom";
 const HeroTwo = () => {
   return (
     <>
-      <section className="banner banner--two">
+      <section className="banner banner--two ">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 tt-order-lg-2">
               <div className="banner__content">
-                <h3 className="banner__subtitle wow fadeInUp">
+                {/* <h3 className="banner__subtitle wow fadeInUp">
                   Welcome To Baboon Pro
                 </h3>
-                <h2
+                <h4
                   className="banner__title wow fadeInUp"
                   data-wow-delay="0.3s"
                 >
                   Next Generation Asset & Work Management
-                </h2>
+                </h4> */}
+
+                <h4
+                  className="banner__title wow fadeInUp"
+                  data-wow-delay="0.3s"
+                >
+                  {/* <span>Next Generation </span> */}
+                  Pro® Application Suite
+                </h4>
                 <p
                   className="wow fadeInUp banner__description"
                   data-wow-delay=".5s"
                 >
-                  Security. Compliance. Manage your organisations asset life
-                  cycle. Fine grained operator security. Aquisition to Disposal.
-                  Customization.
+                  Scale with the right tools Security. Compliance. Manage your
+                  organisations asset life cycle. Fine grained operator
+                  security. Aquisition to Disposal. Customization.
                 </p>
                 <div
                   className="banner__feature-wrap wow fadeInUp"
@@ -36,9 +44,9 @@ const HeroTwo = () => {
                     </div>
 
                     <h4 className="banner__feature-title">
-                      Cloud
+                      Monitor remote
                       <br />
-                      Explore
+                      assets
                     </h4>
                   </div>
 

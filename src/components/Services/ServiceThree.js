@@ -8,8 +8,8 @@ class ServiceThree extends Component {
         <div className="service-three area">
           <div className="container">
             <SectionTitle
-              firstTitle="Ultraland"
-              lastTitle="Trending feature"
+              // firstTitle="Baboon"
+              lastTitle="A Solution Built to Scale"
               description="So I said knees up cuppa such a fibber jeffrey a bit of how's
                 your."
             />
@@ -28,7 +28,7 @@ class ServiceThree extends Component {
 
                   <div className="box-content">
                     <h4 className="box-title">
-                      <Link to="/service">Asset Management</Link>
+                      <Link to="/service">Reduce downtime and costs</Link>
                     </h4>
 
                     <p className="description">
@@ -53,7 +53,9 @@ class ServiceThree extends Component {
 
                   <div className="box-content">
                     <h4 className="box-title">
-                      <Link to="service">Work Management</Link>
+                      <Link to="service">
+                        Optimize maintenance work processes
+                      </Link>
                     </h4>
 
                     <p className="description">
@@ -82,7 +84,7 @@ class ServiceThree extends Component {
 
                   <div className="box-content">
                     <h4 className="box-title">
-                      <Link to="service">Operations</Link>
+                      <Link to="service">Extend asset lifecycles</Link>
                     </h4>
 
                     <p className="description">

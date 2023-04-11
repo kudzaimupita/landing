@@ -8,10 +8,10 @@ class TabTwo extends Component {
         <div className="feature-tabs-two">
           <div className="container">
             <SectionTitle
-              firstTitle="Work together with"
+              firstTitle="Increase Efficiency"
               lastTitle="less friction"
-              description="So I said knees up cuppa such a fibber jeffrey a bit of how's
-                  your."
+              // description="So I said knees up cuppa such a fibber jeffrey a bit of how's
+              //     your."
             />
             <div className="tt-feature-tab wow fadeInUp" data-wow-delay="0.7s">
               <div className="row no-gutters align-items-center">
@@ -29,7 +29,7 @@ class TabTwo extends Component {
                       <div className="ultraland-tabs-contents feature-tab__content-wrap">
                         <div className="feature-tab__image">
                           <img
-                            src="media/tabs/tab_one.png"
+                            src="https://img.freepik.com/free-vector/spreadsheets-concept-illustration_114360-736.jpg?w=900&t=st=1681242648~exp=1681243248~hmac=ed00c5e96750b11f571a193576bdf560a4d19579334ac0bb970559ecb06cf69e"
                             alt="Scale Your Team Quickly "
                           />
                         </div>
