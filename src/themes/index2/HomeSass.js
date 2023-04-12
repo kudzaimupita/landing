@@ -3,6 +3,10 @@ import ServiceOne from "../../components/Services/ServiceOne";
 import ServiceTwo from "../../components/Services/ServiceTwo";
 import TabTwo from "../../components/Tabs/TabTwo";
 import HeroTwo from "./HeroTwo";
+import AboutThree from "../../components/About/AboutThree";
+import ServiceSeven from "../../components/Services/ServiceSeven";
+import DashboardPreview from "../../components/Others/DashboardPreview";
+import ProcessBox from "../../components/Process/ProcessBox";
 import IntroOne from "../../components/IntroVideo/IntroOne";
 import TabThree from "../../components/Tabs/TabThree";
 import TestimonialOne from "../../components/Testimonial/TestimonialOne";
@@ -18,7 +22,7 @@ import FooterOne from "../../layout/Footer/FooterOne";
 import NavRightTwo from "../../components/NavRight/NavRightTwo";
 import DownloadCta from "../../components/CallToAction/DownloadCta";
 import Navbar from "../../layout/Header/Navbar";
-import ServiceThree from "../../components/Services/ServiceThree";
+import ServiceThree from "../../components/Services/ServiceSeven";
 import FeatureSeven from "../../components/Features/FeatureSeven";
 import TabSix from "../../components/Tabs/TabSix";
 import SecurityFeature from "../../components/Features/SecurityFeature";
@@ -32,22 +36,25 @@ const HomeSass = () => {
 
       <div id="main_content">
         <HeroOne /> <SecurityFeature />
-        <TabSix />
+        {/* <TabSix /> */}
         {/* <FeatureSeven /> */}
-        {/* <ServiceThree /> */}
+        {/* <ServiceSeven /> */}
         <TabTwo />
+        <AboutThree />
         <ImageContentThree />
+        {/* <ProcessBox />
+        <DashboardPreview /> */}
         {/* <ImageContentFour /> */}
         <ServiceOne />
         <ServiceTwo />
         {/* <IntroOne /> */}
         <TabThree />
-        <PriceOne />
+        {/* <PriceOne /> */}
         {/* <LargeCarousel /> */}
         {/* <TestimonialOne /> */}
         {/* <RecentBlog /> */}
         {/* <NewsLetterTwo /> */}
-        <DownloadCta />
+        {/* <DownloadCta /> */}
         <FooterOne />
       </div>
     </Layout>

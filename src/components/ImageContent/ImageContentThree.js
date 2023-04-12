@@ -71,9 +71,9 @@ const ImageContentThree = () => {
                       className="description wow fadeInUp"
                       data-wow-delay="0.5s"
                     >
-                      So I said the wireless the bee's knees buggered tickety
-                      boo <br />
-                      my good sir nice one lavatory.
+                      Data protection and client confidence are our priorities{" "}
+                      <br />
+                      {/* my good sir nice one lavatory. */}
                     </p>
                   </div>
 
@@ -87,13 +87,13 @@ const ImageContentThree = () => {
 
                     <div className="box-content">
                       <h4 className="box-title">
-                        <a href="service.html">Duis Aute Irure</a>
+                        <a href="service.html"> ISO 27001 & POPI</a>
                       </h4>
 
-                      <p className="description">
+                      {/* <p className="description">
                         Young delinquent I morish twit amongst
                         <br />A bit of how your father.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
 
@@ -107,22 +107,22 @@ const ImageContentThree = () => {
 
                     <div className="box-content">
                       <h4 className="box-title">
-                        <a href="service.html"> Collaborate Easily</a>
+                        <a href="service.html"> PCI DSS</a>
                       </h4>
 
-                      <p className="description">
+                      {/* <p className="description">
                         Young delinquent I morish twit amongst
                         <br />A bit of how your father.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
 
                   <Link
-                    to="/about"
+                    to="/contact"
                     className="tt__btn btn-round btn-color-two wow fadeInUp"
                     data-wow-delay="1.1s"
                   >
-                    Request Code
+                    Contact Us
                   </Link>
                 </div>
               </div>

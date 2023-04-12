@@ -16,7 +16,7 @@ const HeroOne = () => {
                   className="wow fadeInUp banner__description"
                   data-wow-delay="0.3s"
                 >
-                  A fluid CCMM tailored to address your organization's
+                  A fluid CMMS tailored to address your organization's
                   maintenance needs. Intelligent asset management, monitoring,
                   predictive maintenance and reliability in a single platform.
                   <br />

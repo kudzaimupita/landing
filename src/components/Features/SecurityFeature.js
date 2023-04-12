@@ -13,12 +13,13 @@ const SecurityFeature = () => {
                     className="section-title  wow fadeInUp"
                     data-wow-delay="0.3s"
                   >
-                    Optimize your organization's efficiency
+                    Trusted by IT and Operations
                   </h2>
 
                   <p className="description wow fadeInUp" data-wow-delay="0.5s">
-                    Need help with installation? Looking for a solution to
-                    <br /> a confusing security problem.
+                    Track, analyze and enhance your organization's maintenance
+                    processes on one platform.
+                    <br />
                   </p>
                 </div>
 
@@ -38,22 +39,22 @@ const SecurityFeature = () => {
                   </div>
                 </div>
 
-                <Link
-                  to="/#"
+                <a
+                  href="https://main.d2rjth5qw0o0qm.amplifyapp.com/sign-in"
                   className="tt__btn btn-round wow fadeInUp"
                   data-wow-delay="0.9s"
                 >
                   Begin My 14 Day Free Trial
-                </Link>
+                </a>
               </div>
             </div>
 
             <div className="col-lg-7">
               <div className="security-feature-list-wrapper">
                 <h3 className="security-feature-title wow fadeInUp">
-                  Leverage embedded
+                  Passionate about the
                   <br />
-                  industry expertise
+                  value we give.
                 </h3>
 
                 <div className="row">
@@ -152,22 +153,23 @@ const SecurityFeature = () => {
                       className="section-title wow fadeInUp"
                       data-wow-delay="0.3s"
                     >
-                      Optimize maintenance work processes
+                      Our dynamic unified solution takes the admin pain away
                     </h2>
 
                     <p className="lead wow fadeInUp" data-wow-delay="0.5s">
-                      Looking for a solution to a confusing
-                      <br />
-                      Security problem.
+                      Optimize your organization's operational efficiency with
+                      our easy, powerful and frictionless platform.
+                      {/* <br />
+                      Security problem. */}
                     </p>
 
-                    <p
+                    {/* <p
                       className="description wow fadeInUp"
                       data-wow-delay="0.7s"
                     >
                       So I said knees up cuppa such a fibber jeffrey a<br /> bit
                       of how's your.
-                    </p>
+                    </p> */}
                   </div>
 
                   <div className="row">
@@ -181,8 +183,8 @@ const SecurityFeature = () => {
                         </div>
 
                         <div className="tt-counter-box__content">
-                          <h3 className="tt-counter-box__count">+10k</h3>
-                          <p className="tt-counter-box__count-title">Assets</p>
+                          <h3 className="tt-counter-box__count">300%</h3>
+                          <p className="tt-counter-box__count-title">ROI</p>
                         </div>
                       </div>
                     </div>
@@ -207,7 +209,7 @@ const SecurityFeature = () => {
                   </div>
 
                   <Link
-                    to="/#"
+                    to="/features"
                     className="tt__btn btn-outline-bg btn-round wow fadeInUp"
                     data-wow-delay="1.1s"
                   >

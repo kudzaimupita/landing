@@ -42,9 +42,9 @@ const Routes = () => {
           <Route exact path="/home-education" component={HomeEducation} />
           <Route exact path="/home-data-science" component={HomeDataScience} />
           <Route exact path="/home-security" component={HomeSecurity} />
-          <Route exact path="/company" component={Company} />
-          <Route exact path="/service" component={Service} />
-          <Route exact path="/price" component={Price} />
+          <Route exact path="/industries" component={Company} />
+          <Route exact path="/features" component={Service} />
+          <Route exact path="/pricing" component={Price} />
           <Route exact path="/team" component={Team} />
           <Route exact path="/testimonial" component={Testimonial} />
           <Route exact path="/portfolio" component={Portfolio} />

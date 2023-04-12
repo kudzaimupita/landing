@@ -8,8 +8,8 @@ class ServiceTwo extends Component {
         <div className="service">
           <div className="container">
             <SectionTitle
-              firstTitle=" Ultraland"
-              lastTitle="feature overview"
+              // firstTitle="Features"
+              lastTitle="Feature overview"
               description="So I said knees up cuppa such a fibber jeffrey a bit of how's
                   your."
             />
@@ -28,7 +28,7 @@ class ServiceTwo extends Component {
 
                   <div className="box-content">
                     <h4 className="box-title">
-                      <a href="service.html">Asset Management</a>
+                      <a href="service.html">Asset & Work Order Management</a>
                     </h4>
 
                     <p className="description">
@@ -52,7 +52,7 @@ class ServiceTwo extends Component {
                   </div>
                   <div className="box-content">
                     <h4 className="box-title">
-                      <a href="service">Work Management</a>
+                      <a href="service">Checklist and Procedure repository</a>
                     </h4>
 
                     <p className="description">
@@ -79,7 +79,7 @@ class ServiceTwo extends Component {
 
                   <div className="box-content">
                     <h4 className="box-title">
-                      <a href="service.html">Mobile Capability</a>
+                      <a href="service.html">Custom Fields</a>
                     </h4>
 
                     <p className="description">
@@ -104,7 +104,7 @@ class ServiceTwo extends Component {
 
                   <div className="box-content">
                     <h4 className="box-title">
-                      <a href="service.html">Direct Access</a>
+                      <a href="service.html">Schedule Management</a>
                     </h4>
 
                     <p className="description">
@@ -146,6 +146,87 @@ class ServiceTwo extends Component {
                 </div>
               </div>
 
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div
+                  className="tt-icon-box style-two wow fadeInUp"
+                  data-wow-delay="1.7s"
+                >
+                  <div className="icon-container color__six">
+                    <img
+                      src="media/feature/user-check.svg"
+                      alt="Mobile Capability"
+                    />
+                  </div>
+
+                  <div className="box-content">
+                    <h4 className="box-title">
+                      <a href="service.html">Mobile Capability</a>
+                    </h4>
+
+                    <p className="description">
+                      Cras loo Richard smashing old pukka victoria sponge say.
+                    </p>
+
+                    <a href="service.html" className="tt-more-link">
+                      Read More<i className="feather-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div
+                  className="tt-icon-box style-two wow fadeInUp"
+                  data-wow-delay="1.7s"
+                >
+                  <div className="icon-container color__six">
+                    <img
+                      src="media/feature/user-check.svg"
+                      alt="Mobile Capability"
+                    />
+                  </div>
+
+                  <div className="box-content">
+                    <h4 className="box-title">
+                      <a href="service.html">Mobile Capability</a>
+                    </h4>
+
+                    <p className="description">
+                      Cras loo Richard smashing old pukka victoria sponge say.
+                    </p>
+
+                    <a href="service.html" className="tt-more-link">
+                      Read More<i className="feather-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div
+                  className="tt-icon-box style-two wow fadeInUp"
+                  data-wow-delay="1.7s"
+                >
+                  <div className="icon-container color__six">
+                    <img
+                      src="media/feature/user-check.svg"
+                      alt="Mobile Capability"
+                    />
+                  </div>
+
+                  <div className="box-content">
+                    <h4 className="box-title">
+                      <a href="service.html">Mobile Capability</a>
+                    </h4>
+
+                    <p className="description">
+                      Cras loo Richard smashing old pukka victoria sponge say.
+                    </p>
+
+                    <a href="service.html" className="tt-more-link">
+                      Read More<i className="feather-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div
                   className="tt-icon-box style-two wow fadeInUp"

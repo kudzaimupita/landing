@@ -58,10 +58,12 @@ const Navbar = ({ navRight, logoDark, right }) => {
             id="navbarSupportedContent"
           >
             <ul className={`navbar-nav ${right ? "ml-auto" : "mx-auto"}`}>
-              <li className="nav-item submenu-li dropdown">
-                <Link className="nav-link dropdown-toggle" to="/">
+              <li className="nav-item">
+                <Link className="nav-link" to="/">
                   Home
                 </Link>
+              </li>
+              <li className="nav-item submenu-li dropdown">
                 <ul className="sub-menu">
                   <li className="nav-item">
                     <Link className="nav-link " to="">
@@ -116,17 +118,17 @@ const Navbar = ({ navRight, logoDark, right }) => {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/company">
+                <Link className="nav-link" to="/industries">
                   Industries
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/service">
-                  Solutions
+                <Link className="nav-link" to="/features">
+                  Features
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/service">
+                <Link className="nav-link" to="/pricing">
                   Pricing
                 </Link>
               </li>
@@ -136,9 +138,9 @@ const Navbar = ({ navRight, logoDark, right }) => {
                 </Link>
               </li>
               <li className="nav-item submenu-li dropdown">
-                <Link className="nav-link dropdown-toggle" to="#">
+                {/* <Link className="nav-link dropdown-toggle" to="#">
                   Resources
-                </Link>
+                </Link> */}
                 <ul className="sub-menu">
                   <li className="nav-item">
                     <Link className="nav-link" to="/company">

@@ -14,16 +14,16 @@ class ServiceOne extends Component {
                       className="section-title wow fadeInUp"
                       data-wow-delay="0.3s"
                     >
-                      Choose Us
+                      Set up triggers
                       <br />
-                      lightweight and fast.
+                      for your metered fields
                     </h2>
                     <p
                       className="description wow fadeInUp"
                       data-wow-delay="0.6s"
                     >
-                      Tomfoolery do one spiffing arse over tit amongst <br />
-                      gosh, golly gosh wireless.
+                      Configure what kind of event you want triggered if a
+                      certain field is equal or within a predefined threshold
                     </p>
 
                     <a
@@ -53,7 +53,7 @@ class ServiceOne extends Component {
                 >
                   <span className="desk"></span>
                   <div className="list-content">
-                    <h3 className="list-text">Top Audiences</h3>
+                    <h3 className="list-text">Within range</h3>
                     <p>
                       I don't want no agro car boot what plonker david vabond.
                     </p>
@@ -65,7 +65,7 @@ class ServiceOne extends Component {
                 >
                   <span className="desk"></span>
                   <div className="list-content">
-                    <h3 className="list-text">Top Audiences</h3>
+                    <h3 className="list-text">Equal to</h3>
                     <p>
                       I don't want no agro car boot what plonker david vabond.
                     </p>
@@ -77,7 +77,7 @@ class ServiceOne extends Component {
                 >
                   <span className="desk"></span>
                   <div className="list-content">
-                    <h3 className="list-text">Top Audiences</h3>
+                    <h3 className="list-text">Below or above</h3>
                     <p>
                       I don't want no agro car boot what plonker david vabond.
                     </p>
