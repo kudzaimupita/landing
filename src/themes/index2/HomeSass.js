@@ -41,7 +41,7 @@ const HomeSass = () => {
         {/* <ServiceSeven /> */}
         <TabTwo />
         <AboutThree />
-        <ImageContentThree />
+        {/* <ImageContentThree /> */}
         {/* <ProcessBox />
         <DashboardPreview /> */}
         {/* <ImageContentFour /> */}

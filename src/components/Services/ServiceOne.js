@@ -22,8 +22,10 @@ class ServiceOne extends Component {
                       className="description wow fadeInUp"
                       data-wow-delay="0.6s"
                     >
-                      Configure what kind of event you want triggered if a
-                      certain field is equal or within a predefined threshold
+                      Configure pre-defined values, messages and their
+                      associated operators to trigger alerts to inform/warn the
+                      stakeholders if certain data doesn't meet the defined
+                      threshold. Dates, Numbers and Text inputs supported
                     </p>
 
                     <a
@@ -41,7 +43,7 @@ class ServiceOne extends Component {
                     className="service-list-image text-right wow fadeInUp"
                     data-wow-delay="0.5s"
                   >
-                    <img src="media/feature/service-list.png" alt="service" />
+                    <img src="media/tabs/ff.png" alt="service" />
                   </div>
                 </div>
               </div>
@@ -53,9 +55,11 @@ class ServiceOne extends Component {
                 >
                   <span className="desk"></span>
                   <div className="list-content">
-                    <h3 className="list-text">Within range</h3>
+                    <h3 className="list-text">Values within range</h3>
                     <p>
-                      I don't want no agro car boot what plonker david vabond.
+                      This checks if the values are within pre-defined
+                      thresholds, if that's met then an alert with a
+                      pre-configured message is dispatched.
                     </p>
                   </div>
                 </li>
@@ -65,9 +69,11 @@ class ServiceOne extends Component {
                 >
                   <span className="desk"></span>
                   <div className="list-content">
-                    <h3 className="list-text">Equal to</h3>
+                    <h3 className="list-text">Equality</h3>
                     <p>
-                      I don't want no agro car boot what plonker david vabond.
+                      This checks if the values are equal to pre-defined
+                      thresholds, if that's met then an alert with a
+                      pre-configured message is dispatched.
                     </p>
                   </div>
                 </li>
@@ -77,9 +83,10 @@ class ServiceOne extends Component {
                 >
                   <span className="desk"></span>
                   <div className="list-content">
-                    <h3 className="list-text">Below or above</h3>
+                    <h3 className="list-text">More...</h3>
                     <p>
-                      I don't want no agro car boot what plonker david vabond.
+                      We support other comparison operators to better suite your
+                      business needs when it comes to triggers
                     </p>
                   </div>
                 </li>

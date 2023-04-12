@@ -28,7 +28,7 @@ class ServiceTwo extends Component {
 
                   <div className="box-content">
                     <h4 className="box-title">
-                      <a href="service.html">Asset & Work Order Management</a>
+                      <a href="service.html">Asset Management</a>
                     </h4>
 
                     <p className="description">
@@ -52,7 +52,7 @@ class ServiceTwo extends Component {
                   </div>
                   <div className="box-content">
                     <h4 className="box-title">
-                      <a href="service">Checklist and Procedure repository</a>
+                      <a href="service">Work Order Management</a>
                     </h4>
 
                     <p className="description">
@@ -187,7 +187,7 @@ class ServiceTwo extends Component {
 
                   <div className="box-content">
                     <h4 className="box-title">
-                      <a href="service.html">Mobile Capability</a>
+                      <a href="service.html">Procedure/Checklist library</a>
                     </h4>
 
                     <p className="description">
@@ -214,7 +214,7 @@ class ServiceTwo extends Component {
 
                   <div className="box-content">
                     <h4 className="box-title">
-                      <a href="service.html">Mobile Capability</a>
+                      <a href="service.html">Advanced Reporting & analytics</a>
                     </h4>
 
                     <p className="description">
@@ -241,7 +241,7 @@ class ServiceTwo extends Component {
 
                   <div className="box-content">
                     <h4 className="box-title">
-                      <a href="service.html">Mobile Capability</a>
+                      <a href="service.html">Depreciation Calculator</a>
                     </h4>
 
                     <p className="description">
