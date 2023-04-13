@@ -1,129 +1,123 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const FooterOne = ({ classOption, dark }) => {
   return (
     <>
       <footer
-        id='footer'
-        className={`${classOption} ${dark ? 'footer-dark' : ''}`}
+        id="footer"
+        className={`${classOption} ${dark ? "footer-dark" : ""}`}
       >
-        <div className='container'>
-          <div className='footer-widget-wrapper'>
-            <div className='row'>
-              <div className='col-md-4 col-sm-6'>
+        <div className="container">
+          <div className="footer-widget-wrapper">
+            <div className="row">
+              <div className="col-md-4 col-sm-6">
                 <div
-                  id='ultraland_widget_about-3'
-                  className='widget ultraland_widget about-widget_wrapper  wow fadeInUp'
-                  data-wow-delay='0.3s'
+                  id="ultraland_widget_about-3"
+                  className="widget ultraland_widget about-widget_wrapper  wow fadeInUp"
+                  data-wow-delay="0.3s"
                 >
                   {dark ? (
                     <img
-                      src='assets/img/logo_white.svg'
-                      className='footer-logo'
-                      alt='footer logo'
+                      src="assets/img/baboon-logo_FULL-black_draft_1x1.png"
+                      className="footer-logo"
+                      alt="footer logo"
                     />
                   ) : (
                     <img
-                      src='assets/img/logo_black.svg'
-                      className='footer-logo'
-                      alt='footer logo'
+                      src="assets/img/baboon-logo_FULL-black_draft_1x1.png"
+                      className="footer-logo"
+                      alt="footer logo"
                     />
                   )}
 
-                  <p className='about_text'>
-                    Start for free Try UltraLand Our builder now
+                  <p className="about_text">
+                    Start for free Try Baboon Pro now
                   </p>
-                  <Link to='/signup' className='tt__btn'>
-                    Sign up Free{' '}
-                  </Link>
+                  <a
+                    href="https://main.d2rjth5qw0o0qm.amplifyapp.com/sign-up"
+                    className="tt__btn"
+                  >
+                    Sign up Free{" "}
+                  </a>
                 </div>
               </div>
 
-              <div className='col-md-2 col-sm-6'>
+              <div className="col-md-2 col-sm-6">
                 <div
-                  className='widget widget-footer-menu wow fadeInUp'
-                  data-wow-delay='0.5s'
+                  className="widget widget-footer-menu wow fadeInUp"
+                  data-wow-delay="0.5s"
                 >
-                  <h3 className='widget-title'>Quick Links</h3>
+                  <h3 className="widget-title">Quick Links</h3>
 
-                  <ul className='footer-menu'>
+                  <ul className="footer-menu">
                     <li>
-                      <Link to='/'>Home</Link>
+                      <Link to="/">Home</Link>
                     </li>
                     <li>
-                      <Link to='/portfolio'>Projects</Link>
+                      <Link to="/features">Features</Link>
                     </li>
                     <li>
-                      <Link to='/company'>About</Link>
+                      <Link to="/industries">Industries</Link>
                     </li>
                     <li>
-                      <Link to='/service'>Company</Link>
+                      <Link to="/about">About</Link>
+                    </li>
+                    {/* <li>
+                      <Link to="/contact">Contact</Link>
+                    </li> */}
+                  </ul>
+                </div>
+              </div>
+
+              <div className="col-md-3 col-sm-6">
+                <div
+                  className="widget widget-footer-menu wow fadeInUp"
+                  data-wow-delay="0.7s"
+                >
+                  <h3 className="widget-title">Company</h3>
+
+                  <ul className="footer-menu">
+                    <li>
+                      <Link to="/contact">Contact Us</Link>
                     </li>
                     <li>
-                      <Link to='/contact'>Contact</Link>
+                      <Link to="/pricing">Pricing</Link>
                     </li>
                   </ul>
                 </div>
               </div>
 
-              <div className='col-md-3 col-sm-6'>
+              <div className="col-md-3 col-sm-6">
                 <div
-                  className='widget widget-footer-menu wow fadeInUp'
-                  data-wow-delay='0.7s'
+                  className="widget ultraland-contact-widget wow fadeInUp"
+                  data-wow-delay="0.7s"
                 >
-                  <h3 className='widget-title'>Company</h3>
-
-                  <ul className='footer-menu'>
-                    <li>
-                      <Link to='/company'>About Us</Link>
+                  <h3 className="widget-title">Help</h3>
+                  <ul className="footer-contact-info">
+                    <li className="phone">
+                      <i className="feather-phone"></i>+(27) 81 337 6735{" "}
                     </li>
-                    <li>
-                      <Link to='/testimonial'>Testimonials</Link>
-                    </li>
-                    <li>
-                      <Link to='/service'>Service</Link>
-                    </li>
-                    <li>
-                      <Link to='/team'>Team</Link>
-                    </li>
-                    <li>
-                      <Link to='/price'>Pricing</Link>
+                    <li className="email">
+                      <i className="feather-mail"></i> info@baboon.pro
                     </li>
                   </ul>
-                </div>
-              </div>
-
-              <div className='col-md-3 col-sm-6'>
-                <div
-                  className='widget ultraland-contact-widget wow fadeInUp'
-                  data-wow-delay='0.7s'
-                >
-                  <h3 className='widget-title'>Help</h3>
-                  <ul className='footer-contact-info'>
-                    <li className='phone'>
-                      <i className='feather-phone'></i>+(426) 762 44 356{' '}
-                    </li>
-                    <li className='email'>
-                      <i className='feather-mail'></i> info@example.com
-                    </li>
-                  </ul>
-                  <h4 className='social-title'>Follow Us</h4>
-                  <ul className='footer-social-link'>
+                  <h4 className="social-title">Follow Us</h4>
+                  <ul className="footer-social-link">
                     <li>
-                      <Link to='http://facebook.com'>
-                        <i className='fab fa-facebook-f'></i>
-                      </Link>
+                      <a href="http://facebook.com/baboon.pro">
+                        <i className="fab fa-facebook-f"></i>
+                      </a>
                     </li>
                     <li>
-                      <Link to='http://twitter.com'>
-                        <i className='fab fa-twitter'></i>
-                      </Link>
+                      <a href="http://twitter.com/baboon.pro">
+                        <i className="fab fa-twitter"></i>
+                      </a>
                     </li>
                     <li>
-                      <Link to='http://dribbble.com'>
-                        <i className='fab fa-dribbble'></i>
-                      </Link>
+                      <a href="http://dribbble.com">
+                        <i className="fab fa-dribbble"></i>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -131,17 +125,8 @@ const FooterOne = ({ classOption, dark }) => {
             </div>
           </div>
 
-          <div className='site-info wow fadeIn' data-wow-delay='1.1s'>
-            <p className='copy-right'>
-              © 2021 Ultraland Rights Reserved. Designed By{' '}
-              <a
-                href='https://themetags.com'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                ThemeTags
-              </a>
-            </p>
+          <div className="site-info wow fadeIn" data-wow-delay="1.1s">
+            <p className="copy-right">© 2023 Baboon. All Rights Reserved.</p>
           </div>
         </div>
       </footer>

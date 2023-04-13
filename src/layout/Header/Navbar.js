@@ -27,7 +27,7 @@ const Navbar = ({ navRight, logoDark, right }) => {
           <div className="site-logo">
             <Link className="logo" to="/">
               <img
-                style={{ height: "44px" }}
+                style={{ height: "40px" }}
                 // className="main-logo"
                 src="assets/img/baboon-logo_FULL-black_draft_1x1.png"
                 alt="UltraLand"
@@ -133,11 +133,11 @@ const Navbar = ({ navRight, logoDark, right }) => {
                   Pricing
                 </Link>
               </li>
-              {/* <li className="nav-item">
-                <Link className="nav-link" to="/service">
+              <li className="nav-item">
+                <Link className="nav-link" to="/about">
                   About
                 </Link>
-              </li> */}
+              </li>
               <li className="nav-item submenu-li dropdown">
                 {/* <Link className="nav-link dropdown-toggle" to="#">
                   Resources

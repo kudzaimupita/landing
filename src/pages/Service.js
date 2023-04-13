@@ -18,7 +18,7 @@ class Service extends Component {
         <PageMeta title="Service — Software &amp; App Startup HTML Template" />
         <Navbar logoLight navRight={<NavRightTwo />} />
         <div id="main_content">
-          <ServiceTwo />
+          {/* <ServiceTwo /> */}
           {/* <BreadCrumb breadCrumbTitle='Service' pageName='Service' /> */}
           <FeatureOne />
           <ServiceOne />
