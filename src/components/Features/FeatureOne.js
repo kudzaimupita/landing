@@ -10,9 +10,8 @@ class FeatureOne extends Component {
             <SectionTitle
               // firstTitle="Baboon"
               lastTitle="Feature overview"
-              // description="
-              //     So I said knees up cuppa such a fibber jeffrey a bit of hows
-              //     your"
+              description="
+              What are you looking for?"
               classOption="text-center"
             />
             <div className="row">
@@ -31,8 +30,10 @@ class FeatureOne extends Component {
                     </h4>
 
                     <p className="description">
-                      I only a quid me old mucker Bambo
-                      <br /> led bender chinwag pardon.
+                      – Increase asset uptime with more accurate alerts and
+                      anomaly detection on your assets and their current health.
+                      Also track asset lice cycles
+                      {/* <br /> led bender chinwag pardon. */}
                     </p>
                   </div>
                 </div>
@@ -53,8 +54,9 @@ class FeatureOne extends Component {
                     </h4>
 
                     <p className="description">
-                      I only a quid me old mucker Bambo
-                      <br /> led bender chinwag pardon.
+                      -Ensure production downtime with our real-time and
+                      efficient system which has access to all the system and
+                      custom resources
                     </p>
                   </div>
                 </div>
@@ -71,12 +73,13 @@ class FeatureOne extends Component {
 
                   <div className="box-content">
                     <h4 className="box-title">
-                      <a href="service.html">Custom Fields</a>
+                      <a href="service.html">Custom Fields & Modules</a>
                     </h4>
 
                     <p className="description">
-                      I only a quid me old mucker Bambo
-                      <br /> led bender chinwag pardon.
+                      Customize your experience for your use-case in accordance
+                      to your business language. We can never entirely speak
+                      your language hence we've added custom modules.
                     </p>
                   </div>
                 </div>
