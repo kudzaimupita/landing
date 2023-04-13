@@ -79,7 +79,7 @@ class FeatureOne extends Component {
                     <p className="description">
                       Customize your experience for your use-case in accordance
                       to your business language. We can never entirely speak
-                      your language hence we've added custom modules.
+                      your language hence we've added custom modules and fields.
                     </p>
                   </div>
                 </div>
@@ -100,13 +100,34 @@ class FeatureOne extends Component {
                     </h4>
 
                     <p className="description">
-                      I only a quid me old mucker Bambo
-                      <br /> led bender chinwag pardon.
+                      Whether creation of a weekly report, daily inspection or
+                      monthly work order, with our advanced scheduler you can
+                      schedule for the creation any module item or reminder.
                     </p>
                   </div>
                 </div>
               </div>
+              <div className="col-md-3 col-sm-6 offset-md-1">
+                <div
+                  className="tt-icon-box style-one wow fadeInUp"
+                  data-wow-delay="1.5s"
+                >
+                  <div className="icon-container">
+                    <img src="media/feature/folder.svg" alt="" />
+                  </div>
 
+                  <div className="box-content">
+                    <h4 className="box-title">
+                      <a href="service.html">Fine Grained Permissions</a>
+                    </h4>
+
+                    <p className="description">
+                      Add system permissions to individuals or user groups to
+                      minimize access to sensitive data.{" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
               <div className="col-md-3 col-sm-6 offset-md-1">
                 <div
                   className="tt-icon-box style-one wow fadeInUp"
@@ -122,34 +143,14 @@ class FeatureOne extends Component {
                     </h4>
 
                     <p className="description">
-                      I only a quid me old mucker Bambo
-                      <br /> led bender chinwag pardon.
+                      Get notified if any event is triggered. Users get
+                      unlimited notifications. Email and in-app alerts are
+                      supported only.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-md-3 col-sm-6 offset-md-1">
-                <div
-                  className="tt-icon-box style-one wow fadeInUp"
-                  data-wow-delay="1.5s"
-                >
-                  <div className="icon-container">
-                    <img src="media/feature/folder.svg" alt="" />
-                  </div>
-
-                  <div className="box-content">
-                    <h4 className="box-title">
-                      <a href="service.html">Mobile Capability</a>
-                    </h4>
-
-                    <p className="description">
-                      I only a quid me old mucker Bambo
-                      <br /> led bender chinwag pardon.
-                    </p>
-                  </div>
-                </div>
-              </div>
               <div className="col-md-3 col-sm-6">
                 <div
                   className="tt-icon-box style-one wow fadeInUp"
@@ -165,8 +166,9 @@ class FeatureOne extends Component {
                     </h4>
 
                     <p className="description">
-                      I only a quid me old mucker Bambo
-                      <br /> led bender chinwag pardon.
+                      Store any procedures, forms and checklist in your own
+                      central repository. These can can be assigned to modules
+                      like work orders or inspections
                     </p>
                   </div>
                 </div>
@@ -187,8 +189,9 @@ class FeatureOne extends Component {
                     </h4>
 
                     <p className="description">
-                      I only a quid me old mucker Bambo
-                      <br /> led bender chinwag pardon.
+                      Using the power of aggregation, you have the power build
+                      complex aggregation pipeline to get the best report data
+                      for your business.
                     </p>
                   </div>
                 </div>
@@ -209,8 +212,11 @@ class FeatureOne extends Component {
                     </h4>
 
                     <p className="description">
-                      I only a quid me old mucker Bambo
-                      <br /> led bender chinwag pardon.
+                      Having the ability for users to add modules means nothing
+                      if we can't define behaviors based on criteria. Hence we
+                      have actions, triggers and events which is basically
+                      configuring the system to trigger actions based on your
+                      definition.
                     </p>
                   </div>
                 </div>
