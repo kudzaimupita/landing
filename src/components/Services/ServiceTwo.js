@@ -32,12 +32,13 @@ class ServiceTwo extends Component {
                     </h4>
 
                     <p className="description">
-                      Cras loo Richard smashing old pukka victoria sponge say.
+                      Account for assets including straight line depreciation
+                      and failure.
                     </p>
 
-                    <a href="service.html" className="tt-more-link">
+                    {/* <a href="service.html" className="tt-more-link">
                       Read More<i className="feather-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -56,11 +57,11 @@ class ServiceTwo extends Component {
                     </h4>
 
                     <p className="description">
-                      Cras loo Richard smashing old pukka victoria sponge say.
+                      Automate the work order process
                     </p>
-                    <a href="service" className="tt-more-link">
+                    {/* <a href="service" className="tt-more-link">
                       Read More<i className="feather-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -83,12 +84,12 @@ class ServiceTwo extends Component {
                     </h4>
 
                     <p className="description">
-                      Cras loo Richard smashing old pukka victoria sponge say.
+                      Modify the platform to suite your business needs
                     </p>
 
-                    <a href="service.html" className="tt-more-link">
+                    {/* <a href="service.html" className="tt-more-link">
                       Read More<i className="feather-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -139,9 +140,9 @@ class ServiceTwo extends Component {
                       Cras loo Richard smashing old pukka victoria sponge say.
                     </p>
 
-                    <a href="service.html" className="tt-more-link">
+                    {/* <a href="service.html" className="tt-more-link">
                       Read More<i className="feather-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -167,9 +168,9 @@ class ServiceTwo extends Component {
                       Cras loo Richard smashing old pukka victoria sponge say.
                     </p>
 
-                    <a href="service.html" className="tt-more-link">
+                    {/* <a href="service.html" className="tt-more-link">
                       Read More<i className="feather-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -194,9 +195,9 @@ class ServiceTwo extends Component {
                       Cras loo Richard smashing old pukka victoria sponge say.
                     </p>
 
-                    <a href="service.html" className="tt-more-link">
+                    {/* <a href="service.html" className="tt-more-link">
                       Read More<i className="feather-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -218,12 +219,12 @@ class ServiceTwo extends Component {
                     </h4>
 
                     <p className="description">
-                      Cras loo Richard smashing old pukka victoria sponge say.
+                      Enhanced accountability and forecasting for every resource
                     </p>
 
-                    <a href="service.html" className="tt-more-link">
+                    {/* <a href="service.html" className="tt-more-link">
                       Read More<i className="feather-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -248,9 +249,9 @@ class ServiceTwo extends Component {
                       Cras loo Richard smashing old pukka victoria sponge say.
                     </p>
 
-                    <a href="service.html" className="tt-more-link">
+                    {/* <a href="service.html" className="tt-more-link">
                       Read More<i className="feather-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>

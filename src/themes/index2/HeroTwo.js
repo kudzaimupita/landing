@@ -24,7 +24,7 @@ const HeroTwo = () => {
                   data-wow-delay="0.3s"
                 >
                   {/* <span>Next Generation </span> */}
-                  Pro® Application Suite
+                  Pro® Embedded CMMS Suite
                 </h4>
                 <p
                   className="wow fadeInUp banner__description"

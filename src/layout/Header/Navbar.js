@@ -118,25 +118,26 @@ const Navbar = ({ navRight, logoDark, right }) => {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/industries">
-                  Industries
-                </Link>
-              </li>
-              <li className="nav-item">
                 <Link className="nav-link" to="/features">
                   Features
                 </Link>
               </li>
               <li className="nav-item">
+                <Link className="nav-link" to="/industries">
+                  Industries
+                </Link>
+              </li>
+
+              <li className="nav-item">
                 <Link className="nav-link" to="/pricing">
                   Pricing
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="/service">
                   About
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item submenu-li dropdown">
                 {/* <Link className="nav-link dropdown-toggle" to="#">
                   Resources

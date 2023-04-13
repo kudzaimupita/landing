@@ -46,7 +46,6 @@ const HomeSass = () => {
         <DashboardPreview /> */}
         {/* <ImageContentFour /> */}
         <ServiceOne />
-        <ServiceTwo />
         {/* <IntroOne /> */}
         <TabThree />
         {/* <PriceOne /> */}

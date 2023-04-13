@@ -9,7 +9,7 @@ const HeroOne = () => {
             <div className="col-lg-6 tt-order-2">
               <div className="banner__content">
                 <h2 className="banner__title wow fadeInUp">
-                  Pro® Application Suite
+                  Pro® Embedded CMMS Suite
                 </h2>
 
                 <p
@@ -17,8 +17,9 @@ const HeroOne = () => {
                   data-wow-delay="0.3s"
                 >
                   A fluid CMMS tailored to address your organization's
-                  maintenance needs. Intelligent asset management, monitoring,
-                  predictive maintenance and reliability in a single platform.
+                  maintenance needs. A unified highly customizable platform with
+                  intelligent asset management, monitoring, and predictive
+                  maintenance.
                   <br />
                 </p>
 

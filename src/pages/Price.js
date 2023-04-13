@@ -7,12 +7,12 @@ import TabFour from "../components/Tabs/TabFour";
 import Layout from "../layout";
 import FooterTwo from "../layout/Footer/FooterTwo";
 import Navbar from "../layout/Header/Navbar";
-
+import NavRightTwo from "../components/NavRight/NavRightTwo";
 const Price = () => {
   return (
     <Layout>
       <PageMeta title="Price — Software &amp; App Startup HTML Template" />
-      <Navbar />
+      <Navbar logoLight navRight={<NavRightTwo />} />
       <div id="main_content">
         {/* <PageHeader /> */}
         <PriceOne />
