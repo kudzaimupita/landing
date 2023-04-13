@@ -35,14 +35,6 @@ const ServiceSeven = () => {
                   <h4 className="box-title">
                     <Link to="/service">IT & Operations</Link>
                   </h4>
-
-                  <p className="description">
-                    So I said grub chance blower bleng pardon porkies.
-                  </p>
-
-                  <Link to="/service" className="tt-more-link">
-                    Read More<i className="feather-arrow-right"></i>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -60,14 +52,6 @@ const ServiceSeven = () => {
                   <h4 className="box-title">
                     <Link to="/service">Energy & Utilities</Link>
                   </h4>
-
-                  <p className="description">
-                    So I said grub chance blower bleng pardon porkies.
-                  </p>
-
-                  <Link to="/service" className="tt-more-link">
-                    Read More<i className="feather-arrow-right"></i>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -85,14 +69,6 @@ const ServiceSeven = () => {
                   <h4 className="box-title">
                     <Link to="/service">Manufacturing</Link>
                   </h4>
-
-                  <p className="description">
-                    So I said grub chance blower bleng pardon porkies.
-                  </p>
-
-                  <Link to="/service" className="tt-more-link">
-                    Read More<i className="feather-arrow-right"></i>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -110,14 +86,6 @@ const ServiceSeven = () => {
                   <h4 className="box-title">
                     <Link to="/service">Construction & Mining</Link>
                   </h4>
-
-                  <p className="description">
-                    So I said grub chance blower bleng pardon porkies.
-                  </p>
-
-                  <Link to="/service" className="tt-more-link">
-                    Read More<i className="feather-arrow-right"></i>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -135,14 +103,6 @@ const ServiceSeven = () => {
                   <h4 className="box-title">
                     <Link to="/service">Travel & Transportation</Link>
                   </h4>
-
-                  <p className="description">
-                    So I said grub chance blower bleng pardon porkies.
-                  </p>
-
-                  <Link to="/service" className="tt-more-link">
-                    Read More<i className="feather-arrow-right"></i>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -160,14 +120,6 @@ const ServiceSeven = () => {
                   <h4 className="box-title">
                     <Link to="/service">Education</Link>
                   </h4>
-
-                  <p className="description">
-                    So I said grub chance blower bleng pardon porkies.
-                  </p>
-
-                  <Link to="/service" className="tt-more-link">
-                    Read More<i className="feather-arrow-right"></i>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -185,14 +137,6 @@ const ServiceSeven = () => {
                   <h4 className="box-title">
                     <Link to="/service">Health</Link>
                   </h4>
-
-                  <p className="description">
-                    So I said grub chance blower bleng pardon porkies.
-                  </p>
-
-                  <Link to="/service" className="tt-more-link">
-                    Read More<i className="feather-arrow-right"></i>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -210,14 +154,6 @@ const ServiceSeven = () => {
                   <h4 className="box-title">
                     <Link to="/service">Real Estate</Link>
                   </h4>
-
-                  <p className="description">
-                    So I said grub chance blower bleng pardon porkies.
-                  </p>
-
-                  <Link to="/service" className="tt-more-link">
-                    Read More<i className="feather-arrow-right"></i>
-                  </Link>
                 </div>
               </div>
             </div>
