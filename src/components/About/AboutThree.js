@@ -101,7 +101,7 @@ const AboutThree = () => {
                   <p className="description">
                     Add custom fields to your resources and choose from our many
                     supported field types. Organizations can also asset types
-                    which means any industry specific asset are supported
+                    which means any industry specific assets are supported
                   </p>
                 </div>
 
