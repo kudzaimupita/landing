@@ -82,7 +82,7 @@ const HeroTwo = () => {
                 </h3>
                 <div className="banner__btns">
                   <a
-                    href="https://app.baboon.com/sign-up"
+                    href="https://app.baboon.pro/sign-up"
                     className="tt__btn btn-round btn-outline btn-light banner-btn wow fadeInUp"
                     data-wow-delay=".7s"
                   >
