@@ -8,17 +8,15 @@ const ServiceSeven = () => {
         <div className="container">
           <div className="section-heading style-three">
             <h2 className="section-title wow fadeInUp" data-wow-delay="0.3s">
-              The only analytics tool
-              <br />
-              you'll ever need
+              Use Cases
             </h2>
 
-            <div className="description wow fadeInUp" data-wow-delay="0.5s">
+            {/* <div className="description wow fadeInUp" data-wow-delay="0.5s">
               <p>
                 So I said knees up cuppa such a fibber jeffrey a bit of how's
                 your.
               </p>
-            </div>
+            </div> */}
           </div>
 
           <div className="row">

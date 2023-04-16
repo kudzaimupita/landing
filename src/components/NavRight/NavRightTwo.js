@@ -5,16 +5,10 @@ const NavRightTwo = ({ warningBtn }) => {
   return (
     <>
       <div className={`nav-right ${warningBtn ? "style3" : "style2"}`}>
-        <a
-          href="https://main.d2rjth5qw0o0qm.amplifyapp.com/sign-in"
-          className="nav-link"
-        >
+        <a href="https://app.baboon.com/sign-in" className="nav-link">
           <i className="feather-unlock"></i>Login
         </a>
-        <a
-          href="https://main.d2rjth5qw0o0qm.amplifyapp.com/sign-up"
-          className="nav-btn tt__btn"
-        >
+        <a href="https://app.baboon.com/sign-up" className="nav-btn tt__btn">
           Get Started
         </a>
       </div>

@@ -82,7 +82,7 @@ const HeroTwo = () => {
                 </h3>
                 <div className="banner__btns">
                   <a
-                    href="https://main.d2rjth5qw0o0qm.amplifyapp.com/sign-up"
+                    href="https://app.baboon.com/sign-up"
                     className="tt__btn btn-round btn-outline btn-light banner-btn wow fadeInUp"
                     data-wow-delay=".7s"
                   >

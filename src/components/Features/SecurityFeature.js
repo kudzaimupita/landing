@@ -40,7 +40,7 @@ const SecurityFeature = () => {
                 </div>
 
                 <a
-                  href="https://main.d2rjth5qw0o0qm.amplifyapp.com/sign-in"
+                  href="https://app.baboon.com/sign-in"
                   className="tt__btn btn-round wow fadeInUp"
                   data-wow-delay="0.9s"
                 >
