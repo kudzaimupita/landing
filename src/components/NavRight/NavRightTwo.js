@@ -1,14 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NavRightTwo = ({ warningBtn }) => {
   return (
     <>
-      <div className={`nav-right ${warningBtn ? "style3" : "style2"}`}>
-        <a href="https://app.baboon.pro/sign-in" className="nav-link">
-          <i className="feather-unlock"></i>Login
+      <div className={`nav-right ${warningBtn ? 'style3' : 'style2'}`}>
+        <a href='https://portal.servly.app/sign-in' className='nav-link'>
+          <i className='feather-unlock'></i>Login
         </a>
-        <a href="https://app.baboon.pro/sign-up" className="nav-btn tt__btn">
+        <a href='https://portal.servly.app/sign-up' className='nav-btn tt__btn'>
           Get Started
         </a>
       </div>

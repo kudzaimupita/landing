@@ -1,92 +1,101 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class ServiceOne extends Component {
   render() {
     return (
       <React.Fragment>
-        <section className="service-list-area">
-          <div className="container">
-            <div className="service-list-wrap">
-              <div className="row">
-                <div className="col-md-5">
-                  <div className="section-heading style-one">
+        <section className='service-list-area'>
+          <div className='container'>
+            <div className='service-list-wrap'>
+              <div className='row'>
+                <div className='col-md-5'>
+                  <div className='section-heading style-one'>
                     <h2
-                      className="section-title wow fadeInUp"
-                      data-wow-delay="0.3s"
+                      className='section-title wow fadeInUp'
+                      data-wow-delay='0.3s'
                     >
-                      Set up triggers
+                      Integrate everything
                       <br />
-                      for your metered fields
+                      {/* for your metered fields */}
                     </h2>
                     <p
-                      className="description wow fadeInUp"
-                      data-wow-delay="0.6s"
+                      className='description wow fadeInUp'
+                      data-wow-delay='0.6s'
                     >
-                      Configure pre-defined values, messages and their
-                      associated operators to trigger alerts to inform/warn the
-                      stakeholders if certain data doesn't meet the defined
-                      threshold. Dates, Numbers and Text inputs supported
+                      Our Data Engine offers seamless integration capabilities,
+                      allowing you to connect and consolidate data from a
+                      variety of sources. Whether it's databases, APIs, cloud
+                      storage, or file formats, our integration feature ensures
+                      a smooth and efficient data integration process.
                     </p>
 
                     <a
-                      href="about.html"
-                      className="tt__btn btn-round wow fadeInUp"
-                      data-wow-delay="0.7s"
+                      href='about.html'
+                      className='tt__btn btn-round wow fadeInUp'
+                      data-wow-delay='0.7s'
                     >
-                      Read More<i className="feather-arrow-right"></i>
+                      Read More<i className='feather-arrow-right'></i>
                     </a>
                   </div>
                 </div>
 
-                <div className="col-md-7">
+                <div className='col-md-7'>
                   <div
-                    className="service-list-image text-right wow fadeInUp"
-                    data-wow-delay="0.5s"
+                    className='service-list-image text-right wow fadeInUp'
+                    data-wow-delay='0.5s'
                   >
-                    <img src="media/tabs/ff.png" alt="service" />
+                    <img src='media/tabs/ff.png' alt='service' />
                   </div>
                 </div>
               </div>
 
-              <ul className="tt-list style-two inline-flex">
+              <ul className='tt-list style-two inline-flex'>
                 <li
-                  className="list_item style_disk wow fadeInUp"
-                  data-wow-delay="0.7s"
+                  className='list_item style_disk wow fadeInUp'
+                  data-wow-delay='0.7s'
                 >
-                  <span className="desk"></span>
-                  <div className="list-content">
-                    <h3 className="list-text">Values within range</h3>
+                  <span className='desk'></span>
+                  <div className='list-content'>
+                    <h3 className='list-text'>
+                      Data Transformation and Mapping
+                    </h3>
                     <p>
-                      This checks if the values are within pre-defined
-                      thresholds, if that's met then an alert with a
-                      pre-configured message is dispatched.
+                      Transform and map data from different sources to a unified
+                      format within the Data Engine. Our integration feature
+                      includes powerful data transformation capabilities,
+                      enabling you to cleanse, normalize, and enrich your data
+                      as needed.
                     </p>
                   </div>
                 </li>
                 <li
-                  className="list_item style_disk wow fadeInUp"
-                  data-wow-delay="0.9s"
+                  className='list_item style_disk wow fadeInUp'
+                  data-wow-delay='0.9s'
                 >
-                  <span className="desk"></span>
-                  <div className="list-content">
-                    <h3 className="list-text">Equality</h3>
+                  <span className='desk'></span>
+                  <div className='list-content'>
+                    <h3 className='list-text'>API Connectivity</h3>
                     <p>
-                      This checks if the values are equal to pre-defined
-                      thresholds, if that's met then an alert with a
-                      pre-configured message is dispatched.
+                      Connect and integrate with external systems and services
+                      using APIs. Our Data Engine supports a wide range of APIs,
+                      allowing you to easily exchange data with third-party
+                      applications, platforms, and services.
                     </p>
                   </div>
                 </li>
                 <li
-                  className="list_item style_disk wow fadeInUp"
-                  data-wow-delay="1.1s"
+                  className='list_item style_disk wow fadeInUp'
+                  data-wow-delay='1.1s'
                 >
-                  <span className="desk"></span>
-                  <div className="list-content">
-                    <h3 className="list-text">More...</h3>
+                  <span className='desk'></span>
+                  <div className='list-content'>
+                    <h3 className='list-text'>Pre-built & Custom Connectors</h3>
                     <p>
-                      We support other comparison operators to better suite your
-                      business needs when it comes to triggers
+                      Leverage our extensive library of pre-built connectors to
+                      popular systems, databases, and applications. Our
+                      integration feature includes ready-to-use connectors that
+                      simplify and accelerate the integration process, saving
+                      you time and effort.
                     </p>
                   </div>
                 </li>
