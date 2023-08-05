@@ -35,7 +35,7 @@ const Navbar = ({ navRight, logoDark, right }) => {
               {/* <img
                 style={{ height: "50px" }}
                 className="sticky-logo"
-                src="assets/img/baboon-logo.png"
+                src="assets/img/Servly-logo.png"
                 alt="UltraLand"
               /> */}
             </Link>

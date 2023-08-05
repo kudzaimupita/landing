@@ -51,7 +51,7 @@ const HeroOne = () => {
                       className='tt__btn newsletter-submit'
                     >
                       {/* <a
-                        href="https://app.baboon.pro/sign-up"
+                        href="https://app.Servly.pro/sign-up"
                         // className="tt__btn btn-round btn-outline btn-light banner-btn wow fadeInUp"
                         data-wow-delay=".7s"
                       > */}{' '}

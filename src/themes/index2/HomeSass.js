@@ -31,7 +31,7 @@ import HeroOne from '../index1/HeroOne';
 const HomeSass = () => {
   return (
     <Layout>
-      <PageMeta title='Baboon — Home &amp; Asset and Work Management' />
+      <PageMeta title='Servly | Business Apps' />
       <Navbar navRight={<NavRightTwo />} />
 
       <div id='main_content'>
