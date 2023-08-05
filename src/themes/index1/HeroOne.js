@@ -9,7 +9,8 @@ const HeroOne = () => {
             <div className='col-lg-6 tt-order-2'>
               <div className='banner__content'>
                 <h2 className='banner__title wow fadeInUp'>
-                  Next-gen Data Engine for your business.
+                  {/* Next-gen Data Engine for your business. */}
+                  Transform your business data to apps
                   {/* Unified Platform to capture, manage & audit business data */}
                 </h2>
 

@@ -29,7 +29,7 @@ const Navbar = ({ navRight, logoDark, right }) => {
               <img
                 style={{ height: '40px' }}
                 // className="main-logo"
-                src='assets/img/servly-log (1).png'
+                src='assets/img/8083535-ai.png'
                 alt='UltraLand'
               />
               {/* <img
