@@ -13,12 +13,14 @@ const SecurityFeature = () => {
                     className='section-title  wow fadeInUp'
                     data-wow-delay='0.3s'
                   >
-                    Trusted by IT and Operations
+                    Innovate, collaborate, and achieve excellence
                   </h2>
 
                   <p className='description wow fadeInUp' data-wow-delay='0.5s'>
-                    Our Data Engine offers a range of powerful features to drive
-                    your data processing and analysis to new heights:
+                    Be at the forefront of business management innovation with
+                    our Smart ERP. Empower your teams to collaborate seamlessly,
+                    foster innovation, and achieve operational excellence that
+                    drives lasting success.
                     <br />
                   </p>
                 </div>
@@ -65,18 +67,20 @@ const SecurityFeature = () => {
                     >
                       <li className='list-item'>
                         <i className='feather-check'></i>
-                        <span className='list-text'>Automated Workflows</span>
+                        <span className='list-text'>Warehouse Management</span>
                       </li>
 
                       <li className='list-item'>
                         <i className='feather-check'></i>
-                        <span className='list-text'>
-                          Robust Operator Security
-                        </span>
+                        <span className='list-text'>Project Management</span>
                       </li>
                       <li className='list-item'>
                         <i className='feather-check'></i>
-                        <span className='list-text'>Job Scheduler</span>
+                        <span className='list-text'>Inventory Management</span>
+                      </li>
+                      <li className='list-item'>
+                        <i className='feather-check'></i>
+                        <span className='list-text'>Service Management</span>
                       </li>
                     </ul>
                   </div>
@@ -89,22 +93,24 @@ const SecurityFeature = () => {
                       <li className='list-item'>
                         <i className='feather-check'></i>
                         <span className='list-text'>
-                          Interactive Data Visualization
+                          Supply Chain Management
                         </span>
                       </li>
 
                       <li className='list-item'>
                         <i className='feather-check'></i>
                         <span className='list-text'>
-                          Data Security and Compliance:
+                          Financial & Accounting
                         </span>
                       </li>
 
                       <li className='list-item'>
                         <i className='feather-check'></i>
-                        <span className='list-text'>
-                          Integration Ecosystem:
-                        </span>
+                        <span className='list-text'>HR and Payroll</span>
+                      </li>
+                      <li className='list-item'>
+                        <i className='feather-check'></i>
+                        <span className='list-text'>Business intelligence</span>
                       </li>
                     </ul>
                   </div>

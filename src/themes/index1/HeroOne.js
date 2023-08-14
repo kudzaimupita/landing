@@ -9,8 +9,8 @@ const HeroOne = () => {
             <div className='col-lg-6 tt-order-2'>
               <div className='banner__content'>
                 <h2 className='banner__title wow fadeInUp'>
-                  {/* Next-gen Data Engine for your business. */}
-                  Transform your business data to apps
+                  Next-gen ERP Engine to run all your business
+                  {/* From Chaos to Clarity with Servly ERP */}
                   {/* Unified Platform to capture, manage & audit business data */}
                 </h2>
 
@@ -18,13 +18,11 @@ const HeroOne = () => {
                   className='wow fadeInUp banner__description'
                   data-wow-delay='0.3s'
                 >
-                  Unlock the potential of your industry with our cutting-edge
-                  Data Engine, empowering you to create tailor-made software
-                  solutions. With our platform, you can harness the full
-                  capabilities of data-driven technology to build
-                  industry-specific applications that drive innovation,
-                  efficiency, and growth.
-                  <br />
+                  Our Smart ERP is your transformational tool. Unify disparate
+                  processes, achieve heightened efficiency, and navigate your
+                  business toward success using the intelligence of data-driven
+                  insights.
+                  {/* <br /> */}
                 </p>
 
                 <form
@@ -102,7 +100,7 @@ const HeroOne = () => {
                       <img
                         className='wow fadeInDown'
                         data-wow-delay='ms'
-                        src='media/banner/banner-one/servlyl.png'
+                        src='media/banner/banner-one/sa.png'
                         alt='banner 1'
                       />
                     </li>
