@@ -82,7 +82,7 @@ const HeroTwo = () => {
                 </h3>
                 <div className='banner__btns'>
                   <a
-                    href='https://app.Servly.pro/sign-up'
+                    href='https://app.servly.app/sign-up'
                     className='tt__btn btn-round btn-outline btn-light banner-btn wow fadeInUp'
                     data-wow-delay='.7s'
                   >

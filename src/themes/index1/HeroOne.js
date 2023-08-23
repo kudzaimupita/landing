@@ -9,7 +9,7 @@ const HeroOne = () => {
             <div className='col-lg-6 tt-order-2'>
               <div className='banner__content'>
                 <h2 className='banner__title wow fadeInUp'>
-                  Next-gen ERP Engine to run all your business
+                  Next-gen Adaptive System Builder.
                   {/* From Chaos to Clarity with Servly ERP */}
                   {/* Unified Platform to capture, manage & audit business data */}
                 </h2>
@@ -18,7 +18,7 @@ const HeroOne = () => {
                   className='wow fadeInUp banner__description'
                   data-wow-delay='0.3s'
                 >
-                  Our Smart ERP is your transformational tool. Unify disparate
+                  Our smart ASB is your transformational tool. Unify disparate
                   processes, achieve heightened efficiency, and navigate your
                   business toward success using the intelligence of data-driven
                   insights.
@@ -49,7 +49,7 @@ const HeroOne = () => {
                       className='tt__btn newsletter-submit'
                     >
                       {/* <a
-                        href="https://app.Servly.pro/sign-up"
+                        href="https://app.servly.app/sign-up"
                         // className="tt__btn btn-round btn-outline btn-light banner-btn wow fadeInUp"
                         data-wow-delay=".7s"
                       > */}{' '}

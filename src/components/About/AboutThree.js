@@ -44,7 +44,7 @@ const AboutThree = () => {
                     className='section-title wow fadeInUp'
                     data-wow-delay='0.3s'
                   >
-                    Automated Task Scheduling
+                    Workflow Mastery
                   </h2>
                   {/* <p className="lead">
                     Looking for a solution to a confusing
@@ -53,11 +53,11 @@ const AboutThree = () => {
                   </p> */}
 
                   <p className='description'>
-                    Automated Task Scheduling: Our job scheduler automates the
-                    scheduling and execution of tasks, eliminating the need for
-                    manual intervention. Schedule tasks based on specific time
-                    intervals, dates, or events, ensuring accurate and timely
-                    execution.
+                    We're dedicated to transforming the way businesses operate.
+                    Our workflow feature empowers you to take control of your
+                    processes, orchestrating intricate workflows with simplicity
+                    and precision, resulting in heightened efficiency and
+                    unparalleled productivity.
                   </p>
                 </div>
 
@@ -66,18 +66,20 @@ const AboutThree = () => {
                   data-wow-delay='0.9s'
                 >
                   <li className='list-item'>
-                    <span className='list-text'>Reminders/Alerts</span>
+                    <span className='list-text'> Send Reminders/Alerts</span>
                   </li>
                   <li className='list-item'>
-                    <span className='list-text'>Reports and Audits</span>
-                  </li>
-
-                  <li className='list-item'>
-                    <span className='list-text'>Updates</span>
+                    <span className='list-text'>Send Reports and Audits</span>
                   </li>
 
                   <li className='list-item'>
-                    <span className='list-text'>Creates</span>
+                    <span className='list-text'>
+                      Perform CRUD Functionality
+                    </span>
+                  </li>
+
+                  <li className='list-item'>
+                    <span className='list-text'>etc</span>
                   </li>
                 </ul>
               </div>

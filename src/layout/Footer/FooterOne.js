@@ -34,7 +34,7 @@ const FooterOne = ({ classOption, dark }) => {
                   <p className='about_text'>
                     Start for free Try Servly Pro now
                   </p>
-                  <a href='https://app.Servly.pro/sign-up' className='tt__btn'>
+                  <a href='https://app.servly.app/sign-up' className='tt__btn'>
                     Sign up Free{' '}
                   </a>
                 </div>
@@ -96,18 +96,18 @@ const FooterOne = ({ classOption, dark }) => {
                       <i className='feather-phone'></i>+(27) 81 337 6735{' '}
                     </li>
                     <li className='email'>
-                      <i className='feather-mail'></i> info@Servly.pro
+                      <i className='feather-mail'></i> info@servly.app
                     </li>
                   </ul>
                   <h4 className='social-title'>Follow Us</h4>
                   <ul className='footer-social-link'>
                     <li>
-                      <a href='http://facebook.com/Servly.pro'>
+                      <a href='http://facebook.com/servly.app'>
                         <i className='fab fa-facebook-f'></i>
                       </a>
                     </li>
                     <li>
-                      <a href='http://twitter.com/Servly.pro'>
+                      <a href='http://twitter.com/servly.app'>
                         <i className='fab fa-twitter'></i>
                       </a>
                     </li>

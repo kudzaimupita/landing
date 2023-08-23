@@ -18,9 +18,9 @@ const SecurityFeature = () => {
 
                   <p className='description wow fadeInUp' data-wow-delay='0.5s'>
                     Be at the forefront of business management innovation with
-                    our Smart ERP. Empower your teams to collaborate seamlessly,
-                    foster innovation, and achieve operational excellence that
-                    drives lasting success.
+                    our smart platform. Empower your teams to collaborate
+                    seamlessly, foster innovation, and achieve operational
+                    excellence that drives lasting success.
                     <br />
                   </p>
                 </div>
@@ -42,7 +42,7 @@ const SecurityFeature = () => {
                 </div>
 
                 <a
-                  href='https://app.Servly.pro/sign-in'
+                  href='https://app.servly.app/sign-in'
                   className='tt__btn btn-round wow fadeInUp'
                   data-wow-delay='0.9s'
                 >
@@ -54,9 +54,9 @@ const SecurityFeature = () => {
             <div className='col-lg-7'>
               <div className='security-feature-list-wrapper'>
                 <h3 className='security-feature-title wow fadeInUp'>
-                  Passionate about the
+                  Build app modules
                   <br />
-                  value we give.
+                  that suite your business.
                 </h3>
 
                 <div className='row'>
@@ -67,20 +67,28 @@ const SecurityFeature = () => {
                     >
                       <li className='list-item'>
                         <i className='feather-check'></i>
-                        <span className='list-text'>Warehouse Management</span>
+                        <span className='list-text'>
+                          Custom Portal Creation
+                        </span>
                       </li>
 
                       <li className='list-item'>
                         <i className='feather-check'></i>
-                        <span className='list-text'>Project Management</span>
+                        <span className='list-text'>
+                          Interactive User Interfaces
+                        </span>
                       </li>
                       <li className='list-item'>
                         <i className='feather-check'></i>
-                        <span className='list-text'>Inventory Management</span>
+                        <span className='list-text'>
+                          Streamlined Business Workflows
+                        </span>
                       </li>
                       <li className='list-item'>
                         <i className='feather-check'></i>
-                        <span className='list-text'>Service Management</span>
+                        <span className='list-text'>
+                          Versatile Solution Building
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -93,24 +101,28 @@ const SecurityFeature = () => {
                       <li className='list-item'>
                         <i className='feather-check'></i>
                         <span className='list-text'>
-                          Supply Chain Management
+                          Efficient Task Automation
                         </span>
                       </li>
 
                       <li className='list-item'>
                         <i className='feather-check'></i>
                         <span className='list-text'>
-                          Financial & Accounting
+                          Robust Analytics Tools
                         </span>
                       </li>
 
                       <li className='list-item'>
                         <i className='feather-check'></i>
-                        <span className='list-text'>HR and Payroll</span>
+                        <span className='list-text'>
+                          Customizable Reporting
+                        </span>
                       </li>
                       <li className='list-item'>
                         <i className='feather-check'></i>
-                        <span className='list-text'>Business intelligence</span>
+                        <span className='list-text'>
+                          Collaborative Workspaces
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -159,22 +171,18 @@ const SecurityFeature = () => {
                       className='section-title wow fadeInUp'
                       data-wow-delay='0.3s'
                     >
-                      Industry-Specific Templates and Modules:
+                      Build Unique Business Solutions Your Way
                     </h2>
-
-                    <p className='lead wow fadeInUp' data-wow-delay='0.5s'>
-                      Pre-built templates and modules tailored to specific
-                      industries (e.g., healthcare, finance, retail)
-                      <br />
-                    </p>
 
                     <p
                       className='description wow fadeInUp'
                       data-wow-delay='0.7s'
                     >
-                      Customizable components to meet unique business
-                      requirements. Ready-to-use features for industry-specific
-                      workflows and processes
+                      Welcome to Servly ASB, your canvas for creating
+                      one-of-a-kind business solutions. Discover how our
+                      customization options and versatile templates empower you
+                      to build tailored portals and applications that align
+                      perfectly with your goals.
                     </p>
                   </div>
 
@@ -195,7 +203,7 @@ const SecurityFeature = () => {
                       </div>
                     </div>
 
-                    <div className='col-lg-6'>
+                    {/* <div className='col-lg-6'>
                       <div
                         className='tt-counter-box__item style-two wow fadeInUp'
                         data-wow-delay='0.9s'
@@ -211,7 +219,7 @@ const SecurityFeature = () => {
                           </p>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
 
                   <Link
