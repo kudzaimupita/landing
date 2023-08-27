@@ -40,22 +40,25 @@ const HomeSass = () => {
         <HeroTen />
         <SecurityFeature />
         {/* <TabSix /> */}
-        {/* <FeatureSeven /> */}
+        <FeatureSeven />
         {/* <ServiceSeven /> */}
         {/* <TabTwo />
-        <AboutThree /> */}
+         <AboutThree />
+        <AboutThree /> */}{' '}
+        {/* <AboutThree /> */}
+        {/* <ImageContentFour /> */}
         {/* <ImageContentThree /> */}
         {/* <ProcessBox />
-        <DashboardPreview /> */}
-        {/* <ImageContentFour /> */}
+        > */}
+        {/* <DashboardPreview /> */}
         {/* <ServiceOne /> */}
-        {/* <TabThree /> */}
+        <TabThree />
         {/* <PriceOne /> */}
         {/* <LargeCarousel /> */}
         {/* <TestimonialOne /> */}
         {/* <RecentBlog /> */}
         {/* <NewsLetterTwo /> */}
-        {/* <DownloadCta /> */}
+        <DownloadCta />
         <FooterOne />
       </div>
     </Layout>

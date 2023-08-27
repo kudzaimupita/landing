@@ -13,7 +13,7 @@ const HeroTen = () => {
                   data-wow-delay='0.3s'
                 >
                   <span>Next-gen Adaptive</span>
-                  ERP Builder.
+                  ERP Engine.
                 </h2>
 
                 <p
@@ -25,43 +25,7 @@ const HeroTen = () => {
                   business toward success using the intelligence of data-driven
                   insights.
                 </p>
-                <form
-                  style={{ marginBottom: '20px' }}
-                  action='php/subscribe.php'
-                  method='post'
-                  className='banner__newsletter-form wow fadeInUp'
-                  data-wow-delay='0.7s'
-                  data-tt-form='newsletter-subscribe'
-                >
-                  <div className='newsletter-inner'>
-                    <input
-                      type='email'
-                      name='email'
-                      className='form-control'
-                      id='newsletter-form-email'
-                      placeholder='Enter your Email'
-                      required=''
-                    />
 
-                    <button
-                      // type="submit"
-                      // name="submit"
-                      // id="newsletter-submit"
-                      className='tt__btn newsletter-submit'
-                    >
-                      {/* <a
-                        href="https://app.servly.app/sign-up"
-                        // className="tt__btn btn-round btn-outline btn-light banner-btn wow fadeInUp"
-                        data-wow-delay=".7s"
-                      > */}{' '}
-                      <span>Try It Now</span>
-                      <i className='fas fa-spinner fa-spin'></i> {/* </a> */}
-                    </button>
-                  </div>
-                  <div className='form-result alert'>
-                    <div className='content'></div>
-                  </div>
-                </form>
                 <div
                   className='banner__feature-wrap wow fadeInUp'
                   data-wow-delay='0.7s'
@@ -118,7 +82,7 @@ const HeroTen = () => {
                   </li>
                 </ul>
 
-                <div className='banner__btns'>
+                {/* <div className='banner__btns'>
                   <Link
                     to='/contact'
                     className='tt__btn btn-round banner-btn wow fadeInUp'
@@ -126,8 +90,45 @@ const HeroTen = () => {
                   >
                     Start Free Trial
                   </Link>
-                </div>
+                </div> */}
               </div>
+              <form
+                style={{ marginBottom: '20px' }}
+                action='php/subscribe.php'
+                method='post'
+                className='banner__newsletter-form wow fadeInUp'
+                data-wow-delay='0.7s'
+                data-tt-form='newsletter-subscribe'
+              >
+                <div className='newsletter-inner'>
+                  <input
+                    type='email'
+                    name='email'
+                    className='form-control'
+                    id='newsletter-form-email'
+                    placeholder='Enter your Email'
+                    required=''
+                  />
+
+                  <button
+                    // type="submit"
+                    // name="submit"
+                    // id="newsletter-submit"
+                    className='tt__btn newsletter-submit'
+                  >
+                    {/* <a
+                        href="https://app.servly.app/sign-up"
+                        // className="tt__btn btn-round btn-outline btn-light banner-btn wow fadeInUp"
+                        data-wow-delay=".7s"
+                      > */}{' '}
+                    <span>Try It Now</span>
+                    <i className='fas fa-spinner fa-spin'></i> {/* </a> */}
+                  </button>
+                </div>
+                <div className='form-result alert'>
+                  <div className='content'></div>
+                </div>
+              </form>
             </div>
 
             <div className='col-lg-6'>
