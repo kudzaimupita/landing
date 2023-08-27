@@ -175,16 +175,19 @@ const Navbar = ({ navRight, logoDark, right }) => {
                 </Link>
               </li>
 
-              <li className='nav-item'>
+              {/* <li className='nav-item'>
                 <Link className='nav-link' to='/industries'>
                   Templates
                 </Link>
-              </li>
+              </li> */}
 
               <li className='nav-item'>
-                <Link className='nav-link' to='/industries'>
-                  Resources
-                </Link>
+                <a
+                  className='nav-link'
+                  href='https://documentation.servly.app/'
+                >
+                  Documentation
+                </a>
               </li>
               <li className='nav-item'>
                 <Link className='nav-link' to='/pricing'>

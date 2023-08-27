@@ -54,7 +54,7 @@ const SecurityFeature = () => {
             <div className='col-lg-7'>
               <div className='security-feature-list-wrapper'>
                 <h3 className='security-feature-title wow fadeInUp'>
-                  Build app modules
+                  Build ERP modules
                   <br />
                   that suite your business.
                 </h3>
@@ -178,11 +178,10 @@ const SecurityFeature = () => {
                       className='description wow fadeInUp'
                       data-wow-delay='0.7s'
                     >
-                      Welcome to Servly ASB, your canvas for creating
-                      one-of-a-kind business solutions. Discover how our
-                      customization options and versatile templates empower you
-                      to build tailored portals and applications that align
-                      perfectly with your goals.
+                      Servly is your canvas for creating one-of-a-kind business
+                      solutions. Discover how our customization options and
+                      versatile templates empower you to build tailored portals
+                      and applications that align perfectly with your goals.
                     </p>
                   </div>
 

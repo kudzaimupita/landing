@@ -37,8 +37,8 @@ const HeroTen = () => {
 
                     <h4 className='banner__feature-title'>
                       Cloud
-                      <br />
-                      Explore
+                      {/* <br />
+                      Solution */}
                     </h4>
                   </div>
 
@@ -49,8 +49,8 @@ const HeroTen = () => {
 
                     <h4 className='banner__feature-title'>
                       On Prem
-                      <br />
-                      Explore
+                      {/* <br />
+                      Solution */}
                     </h4>
                   </div>
 
