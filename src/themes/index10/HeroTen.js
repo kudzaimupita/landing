@@ -54,7 +54,7 @@ const HeroTen = () => {
                     </h4>
                   </div>
 
-                  <div className='banner__feature-item'>
+                  {/* <div className='banner__feature-item'>
                     <div className='banner__feature-icon'>
                       <img
                         src='media/banner/banner-ten/smartphone.png'
@@ -67,7 +67,7 @@ const HeroTen = () => {
                       <br />
                       Explore
                     </h4>
-                  </div>
+                  </div> */}
                 </div>
 
                 <ul
