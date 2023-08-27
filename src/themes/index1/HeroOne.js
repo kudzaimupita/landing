@@ -3,17 +3,21 @@ import React from 'react';
 const HeroOne = () => {
   return (
     <>
-      <section className='banner banner--one banner_bg d-flex align-items-center'>
+      <section
+        className='banner banner--one banner_bg d-flex align-items-center'
+        style={{ backgroundColor: '#ebecf0' }}
+      >
         <div className='container'>
           <div className='row align-items-center'>
             <div className='col-lg-6 tt-order-2'>
               <div className='banner__content'>
-                <h2 className='banner__title wow fadeInUp'>
-                  Next-gen Adaptive System Builder.
+                <h2 className='banner__title wow fadeInUp bg bg-gray-500 text-neutral-950'>
+                  Next-gen Adaptive
+                  <br /> ERP Builder.
                   {/* From Chaos to Clarity with Servly ERP */}
                   {/* Unified Platform to capture, manage & audit business data */}
                 </h2>
-
+                <div className='text-blue-700'>drfdssssssssssssssr</div>
                 <p
                   className='wow fadeInUp banner__description'
                   data-wow-delay='0.3s'
@@ -24,7 +28,49 @@ const HeroOne = () => {
                   insights.
                   {/* <br /> */}
                 </p>
+                <div
+                  className='banner__feature-wrap wow fadeInUp'
+                  data-wow-delay='0.7s'
+                >
+                  <div className='banner__feature-item'>
+                    <div className='banner__feature-icon'>
+                      <img src='media/banner/banner-ten/pc.png' alt='pc' />
+                    </div>
 
+                    <h4 className='banner__feature-title'>
+                      Cloud
+                      <br />
+                      Explore
+                    </h4>
+                  </div>
+
+                  <div className='banner__feature-item'>
+                    <div className='banner__feature-icon'>
+                      <img src='media/banner/banner-ten/laptop.png' alt='pc' />
+                    </div>
+
+                    <h4 className='banner__feature-title'>
+                      IOS
+                      <br />
+                      Explore
+                    </h4>
+                  </div>
+
+                  <div className='banner__feature-item'>
+                    <div className='banner__feature-icon'>
+                      <img
+                        src='media/banner/banner-ten/smartphone.png'
+                        alt='pc'
+                      />
+                    </div>
+
+                    <h4 className='banner__feature-title'>
+                      Android
+                      <br />
+                      Explore
+                    </h4>
+                  </div>
+                </div>
                 <form
                   action='php/subscribe.php'
                   method='post'
@@ -100,7 +146,7 @@ const HeroOne = () => {
                       <img
                         className='wow fadeInDown'
                         data-wow-delay='ms'
-                        src='media/banner/banner-one/sa.png'
+                        src='media/banner/banner-ten/banner-ten.png'
                         alt='banner 1'
                       />
                     </li>

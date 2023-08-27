@@ -27,20 +27,23 @@ import FeatureSeven from '../../components/Features/FeatureSeven';
 import TabSix from '../../components/Tabs/TabSix';
 import SecurityFeature from '../../components/Features/SecurityFeature';
 import HeroOne from '../index1/HeroOne';
+import HeroTen from '../index10/HeroTen';
 // import NavRightTwo from '../../components/NavRight/NavRightOne';
 const HomeSass = () => {
   return (
     <Layout>
-      <PageMeta title='Servly | Business Apps' />
+      <PageMeta title='Servly | ERP Engine' />
       <Navbar navRight={<NavRightTwo />} />
 
       <div id='main_content'>
-        <HeroOne /> <SecurityFeature />
+        {/* <HeroOne /> */}
+        <HeroTen />
+        <SecurityFeature />
         {/* <TabSix /> */}
         {/* <FeatureSeven /> */}
         {/* <ServiceSeven /> */}
-        <TabTwo />
-        <AboutThree />
+        {/* <TabTwo />
+        <AboutThree /> */}
         {/* <ImageContentThree /> */}
         {/* <ProcessBox />
         <DashboardPreview /> */}
