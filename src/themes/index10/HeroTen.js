@@ -20,7 +20,7 @@ const HeroTen = () => {
                   className='wow fadeInUp banner__description'
                   data-wow-delay='.5s'
                 >
-                  Our smart ASB is your transformational tool. Unify disparate
+                  Our ERP engine is your transformational tool. Unify disparate
                   processes, achieve heightened efficiency, and navigate your
                   business toward success using the intelligence of data-driven
                   insights.
