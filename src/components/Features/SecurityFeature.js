@@ -68,26 +68,26 @@ const SecurityFeature = () => {
                       <li className='list-item'>
                         <i className='feather-check'></i>
                         <span className='list-text'>
-                          Custom Portal Creation
+                          Streamlined Operations
                         </span>
                       </li>
 
                       <li className='list-item'>
                         <i className='feather-check'></i>
                         <span className='list-text'>
-                          Interactive User Interfaces
+                          Resource Optimization & QA
+                          {/* Interactive User Interfaces */}
                         </span>
                       </li>
                       <li className='list-item'>
                         <i className='feather-check'></i>
-                        <span className='list-text'>
-                          Streamlined Business Workflows
-                        </span>
+                        <span className='list-text'>Streamlined Workflows</span>
                       </li>
                       <li className='list-item'>
                         <i className='feather-check'></i>
                         <span className='list-text'>
-                          Versatile Solution Building
+                          {/* Versatile Solution Building */}
+                          Improved Patient Care
                         </span>
                       </li>
                     </ul>
@@ -108,21 +108,19 @@ const SecurityFeature = () => {
                       <li className='list-item'>
                         <i className='feather-check'></i>
                         <span className='list-text'>
-                          Robust Analytics Tools
+                          Robust Analytics & Report Tools
                         </span>
                       </li>
 
                       <li className='list-item'>
                         <i className='feather-check'></i>
                         <span className='list-text'>
-                          Customizable Reporting
+                          Enhanced Decision-Making
                         </span>
                       </li>
                       <li className='list-item'>
                         <i className='feather-check'></i>
-                        <span className='list-text'>
-                          Collaborative Workspaces
-                        </span>
+                        <span className='list-text'>Reduced Paperwork</span>
                       </li>
                     </ul>
                   </div>

@@ -8,9 +8,9 @@ const NavRightTwo = ({ warningBtn }) => {
         <a href='https://portal.servly.app/sign-in' className='nav-link'>
           <i className='feather-unlock'></i>Login
         </a>
-        <a href='https://portal.servly.app/sign-up' className='nav-btn tt__btn'>
-          Get Started
-        </a>
+        <Link to='/request-demo' className='nav-btn tt__btn'>
+          Request Demo
+        </Link>
       </div>
     </>
   );

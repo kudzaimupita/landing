@@ -12,8 +12,8 @@ const HeroTen = () => {
                   className='banner__title wow fadeInUp'
                   data-wow-delay='0.3s'
                 >
-                  <span>Next-gen </span>
-                  Adaptive ERP.
+                  <span>Next-gen Adaptive</span>
+                  Healthcare Suite
                 </h2>
 
                 <p
@@ -37,8 +37,8 @@ const HeroTen = () => {
 
                     <h4 className='banner__feature-title'>
                       Cloud
-                      {/* <br />
-                      Solution */}
+                      <br />
+                      Solution
                     </h4>
                   </div>
 
@@ -49,8 +49,8 @@ const HeroTen = () => {
 
                     <h4 className='banner__feature-title'>
                       On Prem
-                      {/* <br />
-                      Solution */}
+                      <br />
+                      Solution
                     </h4>
                   </div>
 
