@@ -1,5 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { RiHealthBookFill, RiGovernmentLine } from 'react-icons/ri';
+import { TbBuildingBank } from 'react-icons/tb';
+import {
+  MdOutlineCastForEducation,
+  MdOutlineGasMeter,
+  MdPrecisionManufacturing,
+} from 'react-icons/md';
+
 const HeroTen = () => {
   return (
     <>
@@ -13,7 +21,7 @@ const HeroTen = () => {
                   data-wow-delay='0.3s'
                 >
                   <span>Next-gen Adaptive</span>
-                  Healthcare Suite
+                  ERP Suite
                 </h2>
 
                 <p
@@ -25,35 +33,97 @@ const HeroTen = () => {
                   business toward success using the intelligence of data-driven
                   insights.
                 </p>
-
                 <div
                   className='banner__feature-wrap wow fadeInUp'
                   data-wow-delay='0.7s'
                 >
                   <div className='banner__feature-item'>
                     <div className='banner__feature-icon'>
-                      <img src='media/banner/banner-ten/pc.png' alt='pc' />
+                      <RiHealthBookFill />
                     </div>
 
                     <h4 className='banner__feature-title'>
-                      Cloud
-                      <br />
-                      Solution
+                      Healthcare
+                      {/* <br />
+                      Solution */}
                     </h4>
                   </div>
 
                   <div className='banner__feature-item'>
                     <div className='banner__feature-icon'>
-                      <img src='media/banner/banner-ten/laptop.png' alt='pc' />
+                      <MdPrecisionManufacturing />
                     </div>
 
                     <h4 className='banner__feature-title'>
-                      On Prem
+                      Manufacturing
+                      {/* <br />
+                      Solution */}
+                    </h4>
+                  </div>
+                  <div className='banner__feature-item'>
+                    <div className='banner__feature-icon'>
+                      <RiGovernmentLine />
+                    </div>
+
+                    <h4 className='banner__feature-title'>
+                      Public Sector
+                      {/* <br />
+                      Solution */}
+                    </h4>
+                  </div>
+                  {/* <div className='banner__feature-item'>
+                    <div className='banner__feature-icon'>
+                      <img
+                        src='media/banner/banner-ten/smartphone.png'
+                        alt='pc'
+                      />
+                    </div>
+
+                    <h4 className='banner__feature-title'>
+                      Android
                       <br />
-                      Solution
+                      Explore
+                    </h4>
+                  </div> */}
+                </div>
+                <div
+                  className='banner__feature-wrap wow fadeInUp'
+                  data-wow-delay='0.7s'
+                >
+                  <div className='banner__feature-item'>
+                    <div className='banner__feature-icon'>
+                      <MdOutlineGasMeter />
+                    </div>
+
+                    <h4 className='banner__feature-title'>
+                      Energy
+                      {/* <br />
+                      Solution */}
                     </h4>
                   </div>
 
+                  <div className='banner__feature-item'>
+                    <div className='banner__feature-icon'>
+                      <MdOutlineCastForEducation />
+                    </div>
+
+                    <h4 className='banner__feature-title'>
+                      Education
+                      {/* <br />
+                      Solution */}
+                    </h4>
+                  </div>
+                  <div className='banner__feature-item'>
+                    <div className='banner__feature-icon'>
+                      <TbBuildingBank />
+                    </div>
+
+                    <h4 className='banner__feature-title'>
+                      Finance
+                      {/* <br />
+                      Solution */}
+                    </h4>
+                  </div>
                   {/* <div className='banner__feature-item'>
                     <div className='banner__feature-icon'>
                       <img

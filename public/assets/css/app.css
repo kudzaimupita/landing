@@ -4468,7 +4468,7 @@ Creation date: 04/06/2018 14:38
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 27px;
+  margin-bottom: 9px;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -4481,7 +4481,7 @@ Creation date: 04/06/2018 14:38
   -ms-flex-align: center;
   align-items: center;
   background-color: #fff;
-  padding: 15px;
+  padding: 8px;
   margin-right: 10px;
   border-radius: 6px;
   min-width: 150px;
@@ -4500,7 +4500,7 @@ Creation date: 04/06/2018 14:38
 }
 
 .banner__feature-icon {
-  margin-right: 20px;
+  margin-right: 10px;
   line-height: 1;
 }
 

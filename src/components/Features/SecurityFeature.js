@@ -13,7 +13,7 @@ const SecurityFeature = () => {
                     className='section-title  wow fadeInUp'
                     data-wow-delay='0.3s'
                   >
-                    Innovate, collaborate, and achieve excellence
+                    Innovate and achieve excellence
                   </h2>
 
                   <p className='description wow fadeInUp' data-wow-delay='0.5s'>
@@ -87,7 +87,7 @@ const SecurityFeature = () => {
                         <i className='feather-check'></i>
                         <span className='list-text'>
                           {/* Versatile Solution Building */}
-                          Improved Patient Care
+                          Improved Customer Service
                         </span>
                       </li>
                     </ul>

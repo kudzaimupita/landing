@@ -41,9 +41,6 @@ const FeatureSeven = () => {
                     The bee's knees say arse over tit it's all gone to pot
                     tickety.
                   </p>
-                  <Link to='/service' className='tt-more-link'>
-                    Read More<i className='feather-arrow-right'></i>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -70,10 +67,6 @@ const FeatureSeven = () => {
                     The bee's knees say arse over tit it's all gone to pot
                     tickety.
                   </p>
-
-                  <Link to='/service' className='tt-more-link'>
-                    Read More<i className='feather-arrow-right'></i>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -101,9 +94,9 @@ const FeatureSeven = () => {
                     tickety.
                   </p>
 
-                  <Link to='service.' className='tt-more-link'>
+                  {/* <Link to='service.' className='tt-more-link'>
                     Read More<i className='feather-arrow-right'></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
