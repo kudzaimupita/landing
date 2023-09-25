@@ -39,7 +39,7 @@ class TabThree extends Component {
                     </div>
                     <div className='nav_content'>
                       <h4 className='feature-tab-two-nav__title'>
-                        Data Encryption
+                        Pre-Build Modules
                       </h4>
                     </div>
                   </a>
@@ -58,7 +58,7 @@ class TabThree extends Component {
 
                     <div className='nav_content'>
                       <h4 className='feature-tab-two-nav__title'>
-                        Access Controls
+                        Custom Modules
                       </h4>
                     </div>
                   </a>
@@ -77,14 +77,13 @@ class TabThree extends Component {
                   <div className='ultraland-tabs-contents feature-tab-two__content-wrap'>
                     <h3 className='feature-tab-two__title'></h3>
                     <p className='feature-tab-two__description'>
-                      At our company, we prioritize the security of your data.
-                      Our Data Engine is built with robust security measures to
-                      ensure the confidentiality, integrity, and availability of
-                      your data. Here are some key aspects of our data engine
-                      security:
+                      we offer the flexibility of creating custom modules. These
+                      modules are designed to address your organization's unique
+                      requirements and specific business processes, ensuring
+                      that your ERP system aligns perfectly with your
+                      operations.
                     </p>
-                    - Secure Integration - Data Masking and Anonymization -
-                    Compliance with Regulations - Audit Trails and Logging
+
                     <Link
                       to='/features'
                       className='tt__btn btn-outline btn-round'
@@ -108,16 +107,21 @@ class TabThree extends Component {
                   aria-labelledby='nav-profile-tab'
                 >
                   <div className='ultraland-tabs-contents feature-tab-two__content-wrap'>
-                    <h3 className='feature-tab-two__title'>
-                      Using our API, integrate your systems with ours to suite
-                      your needs.
+                    <p className='feature-tab-two__description'>
+                      We offer the flexibility of creating custom modules. These
+                      modules are designed to address your organization's unique
+                      requirements and specific business processes, ensuring
+                      that your ERP system aligns perfectly with your
+                      operations.
+                      {/* </p> */}
                       {/* <br /> Modern Learning Platform */}
-                    </h3>
+                    </p>
 
                     <p className='feature-tab-two__description'>
-                      Our team is currently working on some common integrations
-                      to make the process easy. If you have suggestions please
-                      contact us.
+                      With custom modules, you have the power to define
+                      precisely how your ERP software functions. Whether you
+                      have industry-specific processes or unique workflows, we
+                      can build modules that match your exact specifications.
                     </p>
 
                     <Link

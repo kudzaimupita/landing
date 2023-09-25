@@ -58,7 +58,7 @@ const HomeSass = () => {
         {/* <TestimonialOne /> */}
         {/* <RecentBlog /> */}
         {/* <NewsLetterTwo /> */}
-        <DownloadCta />
+        {/* <DownloadCta /> */}
         <FooterOne />
       </div>
     </Layout>

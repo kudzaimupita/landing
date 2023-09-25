@@ -9,9 +9,9 @@ class FeatureOne extends Component {
           <div className='container'>
             <SectionTitle
               // firstTitle="Servly"
-              lastTitle='Feature overview'
+              lastTitle='Explore the Versatility of Servly'
               description='
-              What are you looking for?'
+              Unleash Efficiency, Flexibility, and Growth with Our Customizable Features'
               classOption='text-center'
             />
             <div className='row'>
@@ -26,14 +26,15 @@ class FeatureOne extends Component {
 
                   <div className='box-content'>
                     <h4 className='box-title'>
-                      <a href='service.html'>Asset Management</a>
+                      <a href='service.html'>Customizable Dashboards</a>
                     </h4>
 
                     <p className='description'>
-                      – Increase asset uptime with more accurate alerts and
-                      anomaly detection on your assets and their current health.
-                      Also track asset lice cycles
-                      {/* <br /> led bender chinwag pardon. */}
+                      Create personalized dashboards that display the data and
+                      metrics most relevant to your role and responsibilities.
+                      Drag-and-drop widgets, charts, and reports to design a
+                      dashboard that helps you monitor key performance
+                      indicators (KPIs) effectively.
                     </p>
                   </div>
                 </div>
@@ -50,13 +51,14 @@ class FeatureOne extends Component {
 
                   <div className='box-content'>
                     <h4 className='box-title'>
-                      <a href='service.html'>Work Order Management</a>
+                      <a href='service.html'> Access Control</a>
                     </h4>
 
                     <p className='description'>
-                      -Ensure production downtime with our real-time and
-                      efficient system which has access to all the system and
-                      custom resources
+                      Define user roles and permissions to control who can
+                      access and modify data within the ERP system. Customize
+                      access levels to ensure data security and compliance with
+                      your organization's hierarchy.
                     </p>
                   </div>
                 </div>
@@ -73,13 +75,13 @@ class FeatureOne extends Component {
 
                   <div className='box-content'>
                     <h4 className='box-title'>
-                      <a href='service.html'>Custom Fields & Modules</a>
+                      <a href='service.html'>Workflow Automation</a>
                     </h4>
 
                     <p className='description'>
-                      Customize your experience for your use-case in accordance
-                      to your business language. We can never entirely speak
-                      your language hence we've added custom modules and fields.
+                      Automate repetitive tasks and processes by designing
+                      custom workflows. Define triggers, actions, and conditions
+                      to streamline operations and reduce manual effort.
                     </p>
                   </div>
                 </div>
@@ -96,13 +98,14 @@ class FeatureOne extends Component {
 
                   <div className='box-content'>
                     <h4 className='box-title'>
-                      <a href='service.html'>Schedule Management</a>
+                      <a href='service.html'>Custom Reports and Analytics</a>
                     </h4>
 
                     <p className='description'>
-                      Whether creation of a weekly report, daily inspection or
-                      monthly work order, with our advanced scheduler you can
-                      schedule for the creation any module item or reminder.
+                      Build custom reports and analytics dashboards to gain
+                      insights specific to your business. Select data fields,
+                      set filters, and choose visualization options that suit
+                      your reporting needs.
                     </p>
                   </div>
                 </div>
@@ -118,12 +121,14 @@ class FeatureOne extends Component {
 
                   <div className='box-content'>
                     <h4 className='box-title'>
-                      <a href='service.html'>Fine Grained Permissions</a>
+                      <a href='service.html'>Custom Fields and Data Models</a>
                     </h4>
 
                     <p className='description'>
-                      Add system permissions to individuals or user groups to
-                      minimize access to sensitive data.{' '}
+                      Extend the ERP system's data structure by adding custom
+                      fields and data models. Capture unique data points, track
+                      specialized information, and tailor data entry forms to
+                      match your requirements.
                     </p>
                   </div>
                 </div>
@@ -139,13 +144,16 @@ class FeatureOne extends Component {
 
                   <div className='box-content'>
                     <h4 className='box-title'>
-                      <a href='service.html'>Push Notifications</a>
+                      <a href='service.html'>
+                        Custom Templates and Document Management
+                      </a>
                     </h4>
 
                     <p className='description'>
-                      Get notified if any event is triggered. Users get
-                      unlimited notifications. Email and in-app alerts are
-                      supported only.
+                      Design custom document templates for invoices, purchase
+                      orders, contracts, and more. Maintain a structured
+                      document repository and automate document generation based
+                      on predefined templates.
                     </p>
                   </div>
                 </div>
@@ -162,13 +170,14 @@ class FeatureOne extends Component {
 
                   <div className='box-content'>
                     <h4 className='box-title'>
-                      <a href='service.html'>Procedure/Checklist library</a>
+                      <a href='service.html'>Custom Integrations</a>
                     </h4>
 
                     <p className='description'>
-                      Store any procedures, forms and checklist in your own
-                      central repository. These can can be assigned to modules
-                      like work orders or inspections
+                      Integrate the ERP system with other software applications,
+                      third-party services, or APIs that are specific to your
+                      business processes. Create seamless data flows and
+                      communication channels between systems.
                     </p>
                   </div>
                 </div>
@@ -185,13 +194,14 @@ class FeatureOne extends Component {
 
                   <div className='box-content'>
                     <h4 className='box-title'>
-                      <a href='service.html'>Advanced Reporting & analytics</a>
+                      <a href='service.html'>Data Migration and Import Tools</a>
                     </h4>
 
                     <p className='description'>
-                      Using the power of aggregation, you have the power build
-                      complex aggregation pipeline to get the best report data
-                      for your business.
+                      Create custom data migration scripts and import tools to
+                      transfer historical data from legacy systems into the ERP
+                      database. Ensure a seamless transition when implementing
+                      the ERP system.
                     </p>
                   </div>
                 </div>
@@ -208,15 +218,14 @@ class FeatureOne extends Component {
 
                   <div className='box-content'>
                     <h4 className='box-title'>
-                      <a href='service.html'>Event Triggers</a>
+                      <a href='service.html'>Custom Alerts and Notifications</a>
                     </h4>
 
                     <p className='description'>
-                      Having the ability for users to add modules means nothing
-                      if we can't define behaviors based on criteria. Hence we
-                      have actions, triggers and events which is basically
-                      configuring the system to trigger actions based on your
-                      definition.
+                      Description: Set up custom alerts and notifications to
+                      keep users informed about critical events and actions
+                      within the ERP system. Configure notifications based on
+                      your unique business processes.
                     </p>
                   </div>
                 </div>

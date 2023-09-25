@@ -13,15 +13,15 @@ class DownloadCta extends Component {
                     className='section-title wow fadeInUp'
                     data-wow-delay='0.3s'
                   >
-                    Download your
+                    Interested
                     <br />
-                    App available now.
+                    Get Started Now
                   </h2>
 
-                  <p className='description wow fadeInUp' data-wow-delay='0.5s'>
+                  {/* <p className='description wow fadeInUp' data-wow-delay='0.5s'>
                     Loo spiffing it's your round dropped a clanger haggle
                     <br /> say faff about argy bargy.
-                  </p>
+                  </p> */}
                 </div>
               </div>
 
@@ -36,7 +36,7 @@ class DownloadCta extends Component {
                       <i aria-hidden='true' className='fab fa-apple'></i>
                     </span>
 
-                    <span className='btn-lebels'>Download Apple Store</span>
+                    <span className='btn-lebels'>Request Demo</span>
                   </Link>
 
                   <Link
@@ -48,7 +48,7 @@ class DownloadCta extends Component {
                       <i aria-hidden='true' className='fab fa-google-play'></i>
                     </span>
 
-                    <span className='btn-lebels'>Download Play Store</span>
+                    <span className='btn-lebels'>View Pricing</span>
                   </Link>
 
                   <Link
@@ -60,7 +60,7 @@ class DownloadCta extends Component {
                       <i aria-hidden='true' className='fab fa-windows'></i>
                     </span>
 
-                    <span className='btn-lebels'>Download Windows Store</span>
+                    <span className='btn-lebels'>Explore Features</span>
                   </Link>
                 </div>
               </div>

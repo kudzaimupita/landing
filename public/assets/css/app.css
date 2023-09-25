@@ -826,7 +826,7 @@ Creation date: 04/06/2018 14:38
 
 @media (max-width: 991px) {
   .tt-parallax__image--ten {
-    margin-top: 50px;
+    margin-top: 10px;
   }
 }
 
@@ -8407,11 +8407,11 @@ Creation date: 04/06/2018 14:38
 .pricing-table {
   position: relative;
   overflow: hidden;
-  padding: 46px 0 50px;
+  padding: 20px 0 20px;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
   background: #fff;
   border-radius: 10px;
   -webkit-box-shadow: 0 20px 50px 0 rgba(9, 11, 41, 0.1);
@@ -8420,13 +8420,13 @@ Creation date: 04/06/2018 14:38
 
 .pricing-table .pricing-header {
   position: relative;
-  margin-bottom: 27px;
+  margin-bottom: 10px;
   border-bottom: 1px solid #ebedf3;
   padding: 0 40px 25px;
 }
 
 .pricing-table .pricing-header .price-subtitle {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   color: #686979;
   margin-bottom: 0;
@@ -8436,8 +8436,8 @@ Creation date: 04/06/2018 14:38
 }
 
 .pricing-table .pricing-header .price-title {
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 15px;
+  margin-bottom: 12px;
   font-weight: 500;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -8445,11 +8445,11 @@ Creation date: 04/06/2018 14:38
 }
 
 .pricing-table .pricing-header .price {
-  font-size: 40px;
+  font-size: 27px;
   font-weight: 700;
   color: #1c1e21;
   line-height: 1;
-  margin-bottom: 11px;
+  margin-bottom: 7px;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -8472,7 +8472,7 @@ Creation date: 04/06/2018 14:38
 
 .pricing-table .price-feture li {
   display: block;
-  font-size: 15px;
+  font-size: 12px;
   color: #4f5158;
   font-weight: 400;
   position: relative;
@@ -8480,7 +8480,7 @@ Creation date: 04/06/2018 14:38
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  margin-bottom: 9px;
+  margin-bottom: 2px;
 }
 
 .pricing-table .price-feture li:before {

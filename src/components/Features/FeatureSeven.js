@@ -7,14 +7,18 @@ const FeatureSeven = () => {
         <div className='container'>
           <div className='section-heading style-four header-light text-center'>
             <h2 className='section-title wow fadeInUp' data-wow-delay='0.3s'>
-              Code changes are complex
+              Precision, Performance, Profit
               <br />
-              and free software
+              with Servly
             </h2>
 
             <p className='description wow fadeInUp' data-wow-delay='0.5s'>
-              So I said knees up cuppa such a fibber jeffrey a bit of how's
-              your.
+              In the world of business, precision is the cornerstone of success.
+              It encompasses the ability to operate with accuracy, attention to
+              detail, and a commitment to getting things right the first time.
+              In the context of Servly, precision means ensuring that every
+              transaction, every piece of data, and every decision is made with
+              meticulous care.
             </p>
           </div>
 
@@ -38,8 +42,10 @@ const FeatureSeven = () => {
                   </h4>
 
                   <p className='description'>
-                    The bee's knees say arse over tit it's all gone to pot
-                    tickety.
+                    Our ERP system doesn't just handle your business processes;
+                    it transforms them into efficient, self-driven workflows
+                    that save you time, reduce errors, and increase
+                    productivity.
                   </p>
                 </div>
               </div>
@@ -57,15 +63,17 @@ const FeatureSeven = () => {
                 <div className='box-content'>
                   <h4 className='box-title'>
                     <Link to='service.html'>
-                      Managed
+                      Intelligent
                       <br />
-                      Security Services
+                      Data Capture
                     </Link>
                   </h4>
 
                   <p className='description'>
-                    The bee's knees say arse over tit it's all gone to pot
-                    tickety.
+                    Say goodbye to manual data entry. Our ERP system can
+                    intelligently capture data from various sources, such as
+                    invoices, receipts, and forms. This not only saves time but
+                    also reduces data entry errors.
                   </p>
                 </div>
               </div>
@@ -83,15 +91,17 @@ const FeatureSeven = () => {
                 <div className='box-content'>
                   <h4 className='box-title'>
                     <Link to='/service'>
-                      Expert
+                      Robust
                       <br />
-                      Assistance
+                      Security
                     </Link>
                   </h4>
 
                   <p className='description'>
-                    The bee's knees say arse over tit it's all gone to pot
-                    tickety.
+                    Fortified by encryption, access controls, and vigilant
+                    monitoring, Servly ensures the utmost data security. We
+                    follow strict compliance standards, safeguarding your
+                    business against threats."
                   </p>
 
                   {/* <Link to='service.' className='tt-more-link'>

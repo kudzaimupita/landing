@@ -1,99 +1,102 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import SectionTitle from "../SectionTitle/SectionTitle";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import SectionTitle from '../SectionTitle/SectionTitle';
 
 const PriceOne = ({ hasSectionTitle }) => {
   return (
     <>
-      <section className="pricing">
-        <div className="container">
+      <section className='pricing'>
+        <div className='container'>
           {hasSectionTitle ? (
             <SectionTitle
-              firstTitle="Choose the offer"
-              lastTitle="That suits you"
-              description="So I said knees up cuppa such a fibber jeffrey a bit of hows
-                your"
-              classOption="text-center"
+              firstTitle='Choose the offer'
+              lastTitle='That suits you'
+              description='So I said knees up cuppa such a fibber jeffrey a bit of hows
+                your'
+              classOption='text-center'
             />
           ) : (
-            ""
+            ''
           )}
 
-          <div className="priceing-tab">
-            <nav className="mb-5">
+          <div className='priceing-tab'>
+            <nav className='mb-5'>
               <div
-                className="nav nav-pills justify-content-center pricing-tab-list"
-                id="nav-tab"
-                role="tablist"
+                className='nav nav-pills justify-content-center pricing-tab-list'
+                id='nav-tab'
+                role='tablist'
               >
                 <a
-                  className="active"
-                  id="nav-home-tab"
-                  data-toggle="tab"
-                  href="#nav-home"
-                  role="tab"
-                  aria-controls="nav-home"
-                  aria-selected="true"
+                  className='active'
+                  id='nav-home-tab'
+                  data-toggle='tab'
+                  href='#nav-home'
+                  role='tab'
+                  aria-controls='nav-home'
+                  aria-selected='true'
                 >
                   Monthly
                 </a>
                 <a
                   disabled
-                  id="nav-profile-tab"
-                  data-toggle="tab"
-                  href="#nav-profile"
-                  role="tab"
-                  aria-controls="nav-profile"
-                  aria-selected="false"
+                  id='nav-profile-tab'
+                  data-toggle='tab'
+                  href='#nav-profile'
+                  role='tab'
+                  aria-controls='nav-profile'
+                  aria-selected='false'
                 >
                   Annually
                 </a>
               </div>
             </nav>
-            <div className="tab-content" id="nav-tabContent">
+            <div className='tab-content' id='nav-tabContent'>
               <div
-                className="tab-pane fade show active"
-                id="nav-home"
-                role="tabpanel"
-                aria-labelledby="nav-home-tab"
+                className='tab-pane fade show active'
+                id='nav-home'
+                role='tabpanel'
+                aria-labelledby='nav-home-tab'
               >
-                <div className="row advanced-pricing-table">
+                <div className='row advanced-pricing-table'>
                   <div
-                    className="col-xl-3 col-lg-6 col-md-6"
-                    data-wow-dealy="0.4s"
+                    className='col-xl-3 col-lg-6 col-md-6'
+                    data-wow-dealy='0.4s'
                   >
-                    <div className="pricing-table" id="pric-886-0">
-                      <div className="price-content-wrapper">
-                        <div className="pricing-header pricing-amount">
-                          <h2 className="price-title">Basic</h2>
-                          <div className="monthly-price">
-                            <h3 className="price">
-                              $89<span className="period">/month</span>
+                    <div className='pricing-table' id='pric-886-0'>
+                      <div className='price-content-wrapper'>
+                        <div className='pricing-header pricing-amount'>
+                          <h2 className='price-title'>Basic</h2>
+                          <div className='monthly-price'>
+                            <h3 className='price'>
+                              $59<span className='period'>/month</span>
                             </h3>
                           </div>
-                          <h3 className="price-subtitle">
-                            14-day trial subscription
-                          </h3>
+                          <h3 className='price-subtitle'>Per System User</h3>
                         </div>
-                        <ul className="price-feture">
+                        <ul className='price-feture'>
                           <li>1 site</li>
-                          <li>2 teams</li>
-                          <li>2 modules</li>
-                          <li>5 users </li>
-                          <li>10 asset types</li>
-                          <li>10 schedule jobs</li>
-                          <li>80 locations</li>
-
-                          <li>200 Assets</li>
+                          <li>2 User Groups</li>
+                          <li>4 modules</li>
+                          <li>20 Portal Users </li>
+                          <li>3 Data Capture Forms</li>
+                          <li>5 Task Auto-mations</li>
+                          <li>Document Builder</li>
+                          <li>No Virtuals</li>
+                          <li>5 Data Insights</li>
+                          <li>5 Hook Workflows</li>
+                          <li>14 Day Log Retention</li>
                           <li>Unlimited Work Orders</li>
                           <li>Unlimited Documents</li>
                           <li>Basic reports</li>
-                          <li>5 Checklists/Forms/Procedures</li>
+                          <li>Basic Document Restore</li>
+                          <li>10 Hour Free System Setup</li>
+                          <li>No Header Analytics</li>
+                          <li>No Feed</li>
                         </ul>
-                        <div className="action">
-                          <div className="btn-month monthly-price">
-                            <Link to="/contact" className="tt__btn btn-outline">
-                              Subscription{" "}
+                        <div className='action'>
+                          <div className='btn-month monthly-price'>
+                            <Link to='/contact' className='tt__btn btn-outline'>
+                              Subscription{' '}
                             </Link>
                           </div>
                         </div>
@@ -101,21 +104,21 @@ const PriceOne = ({ hasSectionTitle }) => {
                     </div>
                   </div>
                   <div
-                    className="col-xl-3 col-lg-6 col-md-6 wow pixFadeUp animated"
-                    data-wow-dealy="0.4s"
+                    className='col-xl-3 col-lg-6 col-md-6 wow pixFadeUp animated'
+                    data-wow-dealy='0.4s'
                   >
-                    <div className="pricing-table">
-                      <div className="price-content-wrapper">
-                        <div className="pricing-header pricing-amount">
-                          <h2 className="price-title">Advanced Plan</h2>
-                          <div className="monthly-price">
-                            <h3 className="price">
-                              $199<span className="period">/month</span>
+                    <div className='pricing-table'>
+                      <div className='price-content-wrapper'>
+                        <div className='pricing-header pricing-amount'>
+                          <h2 className='price-title'>Advanced Plan</h2>
+                          <div className='monthly-price'>
+                            <h3 className='price'>
+                              $89<span className='period'>/month</span>
                             </h3>
                           </div>
-                          <h3 className="price-subtitle">14-day free trial</h3>
+                          <h3 className='price-subtitle'>Per User</h3>
                         </div>
-                        <ul className="price-feture">
+                        <ul className='price-feture'>
                           <li>5 sites</li>
                           <li>50 teams</li>
                           <li>10 modules</li>
@@ -130,10 +133,10 @@ const PriceOne = ({ hasSectionTitle }) => {
                           <li>Basic reports</li>
                           <li>5 Checklists/Forms/Procedures</li>
                         </ul>
-                        <div className="action">
-                          <div className="btn-month monthly-price">
-                            <Link to="/contact" className="tt__btn btn-outline">
-                              Get Started{" "}
+                        <div className='action'>
+                          <div className='btn-month monthly-price'>
+                            <Link to='/contact' className='tt__btn btn-outline'>
+                              Get Started{' '}
                             </Link>
                           </div>
                         </div>
@@ -141,23 +144,21 @@ const PriceOne = ({ hasSectionTitle }) => {
                     </div>
                   </div>
                   <div
-                    className="col-xl-3 col-lg-6 col-md-6 wow pixFadeUp animated"
-                    data-wow-dealy="0.4s"
+                    className='col-xl-3 col-lg-6 col-md-6 wow pixFadeUp animated'
+                    data-wow-dealy='0.4s'
                   >
-                    <div className="pricing-table">
-                      <div className="price-content-wrapper">
-                        <div className="pricing-header pricing-amount">
-                          <h2 className="price-title">Premium Plan</h2>
-                          <div className="monthly-price">
-                            <h3 className="price">
-                              $499<span className="period">/month</span>
+                    <div className='pricing-table'>
+                      <div className='price-content-wrapper'>
+                        <div className='pricing-header pricing-amount'>
+                          <h2 className='price-title'>Premium Plan</h2>
+                          <div className='monthly-price'>
+                            <h3 className='price'>
+                              $119<span className='period'>/month</span>
                             </h3>
                           </div>
-                          <h3 className="price-subtitle">
-                            Simple email management
-                          </h3>
+                          <h3 className='price-subtitle'>Per User</h3>
                         </div>
-                        <ul className="price-feture">
+                        <ul className='price-feture'>
                           <li>10 sites</li>
                           <li>50 teams</li>
                           <li>10 modules</li>
@@ -171,21 +172,21 @@ const PriceOne = ({ hasSectionTitle }) => {
                           <li>Advanced reports</li>
                         </ul>
 
-                        <div className="action">
-                          <div className="btn-month monthly-price">
-                            <Link to="/contact" className="tt__btn ">
-                              Buy Now{" "}
+                        <div className='action'>
+                          <div className='btn-month monthly-price'>
+                            <Link to='/contact' className='tt__btn '>
+                              Buy Now{' '}
                             </Link>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="col-xl-3 col-lg-6 col-md-6">
-                    <div className="pricing-table">
-                      <div className="price-content-wrapper">
-                        <div className="pricing-header pricing-amount">
-                          <h2 className="price-title">Enterprise Plan</h2>
+                  <div className='col-xl-3 col-lg-6 col-md-6'>
+                    <div className='pricing-table'>
+                      <div className='price-content-wrapper'>
+                        <div className='pricing-header pricing-amount'>
+                          <h2 className='price-title'>Enterprise Plan</h2>
 
                           {/* <div className="monthly-price">
                             <h3 className="price">
@@ -193,9 +194,9 @@ const PriceOne = ({ hasSectionTitle }) => {
                             </h3>
                           </div> */}
 
-                          <h3 className="price-subtitle">Contact Us</h3>
+                          <h3 className='price-subtitle'>Contact Us</h3>
                         </div>
-                        <ul className="price-feture">
+                        <ul className='price-feture'>
                           <li>Custom Domain </li>
                           <li> Weekly Sentiment</li>
                           <li> Data History</li>
@@ -204,10 +205,10 @@ const PriceOne = ({ hasSectionTitle }) => {
                           <li> Projects Downgrade</li>
                         </ul>
 
-                        <div className="action">
-                          <div className="btn-month monthly-price">
-                            <Link to="/contact" className="tt__btn btn-outline">
-                              Buy Now{" "}
+                        <div className='action'>
+                          <div className='btn-month monthly-price'>
+                            <Link to='/contact' className='tt__btn btn-outline'>
+                              Buy Now{' '}
                             </Link>
                           </div>
                         </div>
@@ -217,30 +218,30 @@ const PriceOne = ({ hasSectionTitle }) => {
                 </div>
               </div>
               <div
-                className="tab-pane fade"
-                id="nav-profile"
-                role="tabpanel"
-                aria-labelledby="nav-profile-tab"
+                className='tab-pane fade'
+                id='nav-profile'
+                role='tabpanel'
+                aria-labelledby='nav-profile-tab'
               >
-                <div className="row advanced-pricing-table">
+                <div className='row advanced-pricing-table'>
                   <div
-                    className="col-xl-3 col-lg-6 col-md-6"
-                    data-wow-dealy="0.4s"
+                    className='col-xl-3 col-lg-6 col-md-6'
+                    data-wow-dealy='0.4s'
                   >
-                    <div className="pricing-table">
-                      <div className="price-content-wrapper">
-                        <div className="pricing-header pricing-amount">
-                          <h2 className="price-title">Free Plan</h2>
-                          <div className="yearly-price">
-                            <h3 className="price">
-                              $29 <span className="period">/month</span>
+                    <div className='pricing-table'>
+                      <div className='price-content-wrapper'>
+                        <div className='pricing-header pricing-amount'>
+                          <h2 className='price-title'>Free Plan</h2>
+                          <div className='yearly-price'>
+                            <h3 className='price'>
+                              $29 <span className='period'>/month</span>
                             </h3>
                           </div>
-                          <h3 className="price-subtitle">
+                          <h3 className='price-subtitle'>
                             14-day trial subscription
                           </h3>
                         </div>
-                        <ul className="price-feture">
+                        <ul className='price-feture'>
                           <li>Product Training </li>
                           <li>Advanced Analytics</li>
                           <li>Weekly Sentiment</li>
@@ -248,10 +249,10 @@ const PriceOne = ({ hasSectionTitle }) => {
                           <li>Users Unlimited</li>
                           <li>Downgrade</li>
                         </ul>
-                        <div className="action">
-                          <div className="btn-annual yearly-price">
-                            <Link to="/contact" className="tt__btn btn-outline">
-                              Subscription{" "}
+                        <div className='action'>
+                          <div className='btn-annual yearly-price'>
+                            <Link to='/contact' className='tt__btn btn-outline'>
+                              Subscription{' '}
                             </Link>
                           </div>
                         </div>
@@ -259,22 +260,22 @@ const PriceOne = ({ hasSectionTitle }) => {
                     </div>
                   </div>
                   <div
-                    className="col-xl-3 col-lg-6 col-md-6 wow pixFadeUp animated"
-                    data-wow-dealy="0.4s"
+                    className='col-xl-3 col-lg-6 col-md-6 wow pixFadeUp animated'
+                    data-wow-dealy='0.4s'
                   >
-                    <div className="pricing-table">
-                      <div className="price-content-wrapper">
-                        <div className="pricing-header pricing-amount">
-                          <h2 className="price-title">Basic Plan</h2>
+                    <div className='pricing-table'>
+                      <div className='price-content-wrapper'>
+                        <div className='pricing-header pricing-amount'>
+                          <h2 className='price-title'>Basic Plan</h2>
 
-                          <div className="yearly-price">
-                            <h3 className="price">
-                              $56 <span className="period">/month</span>
+                          <div className='yearly-price'>
+                            <h3 className='price'>
+                              $56 <span className='period'>/month</span>
                             </h3>
                           </div>
-                          <h3 className="price-subtitle">7-day free trial</h3>
+                          <h3 className='price-subtitle'>7-day free trial</h3>
                         </div>
-                        <ul className="price-feture">
+                        <ul className='price-feture'>
                           <li>Basic reports</li>
                           <li> Weekly Sentiment</li>
                           <li> Data History</li>
@@ -282,10 +283,10 @@ const PriceOne = ({ hasSectionTitle }) => {
                           <li> Users Unlimited</li>
                           <li> Basic Reports</li>
                         </ul>
-                        <div className="action">
-                          <div className="btn-annual yearly-price">
-                            <Link to="/contact" className="tt__btn btn-outline">
-                              Get Started{" "}
+                        <div className='action'>
+                          <div className='btn-annual yearly-price'>
+                            <Link to='/contact' className='tt__btn btn-outline'>
+                              Get Started{' '}
                             </Link>
                           </div>
                         </div>
@@ -293,23 +294,23 @@ const PriceOne = ({ hasSectionTitle }) => {
                     </div>
                   </div>
                   <div
-                    className="col-xl-3 col-lg-6 col-md-6 "
-                    data-wow-dealy="0.4s"
+                    className='col-xl-3 col-lg-6 col-md-6 '
+                    data-wow-dealy='0.4s'
                   >
-                    <div className="pricing-table featured">
-                      <div className="price-content-wrapper">
-                        <div className="pricing-header pricing-amount">
-                          <h2 className="price-title">Advanced Plan</h2>
-                          <div className="yearly-price">
-                            <h3 className="price">
-                              $60<span className="period">/month</span>
+                    <div className='pricing-table featured'>
+                      <div className='price-content-wrapper'>
+                        <div className='pricing-header pricing-amount'>
+                          <h2 className='price-title'>Advanced Plan</h2>
+                          <div className='yearly-price'>
+                            <h3 className='price'>
+                              $60<span className='period'>/month</span>
                             </h3>
                           </div>
-                          <h3 className="price-subtitle">
+                          <h3 className='price-subtitle'>
                             Simple email management
                           </h3>
                         </div>
-                        <ul className="price-feture">
+                        <ul className='price-feture'>
                           <li>Collaboration Tools</li>
                           <li> Weekly Sentiment</li>
                           <li> Data History</li>
@@ -318,31 +319,31 @@ const PriceOne = ({ hasSectionTitle }) => {
                           <li> Projects Downgrade</li>
                         </ul>
 
-                        <div className="action">
-                          <div className="btn-annual yearly-price">
-                            <Link to="/contact" className="tt__btn ">
-                              Buy Now{" "}
+                        <div className='action'>
+                          <div className='btn-annual yearly-price'>
+                            <Link to='/contact' className='tt__btn '>
+                              Buy Now{' '}
                             </Link>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="col-xl-3 col-lg-6 col-md-6">
-                    <div className="pricing-table">
-                      <div className="price-content-wrapper">
-                        <div className="pricing-header pricing-amount">
-                          <h2 className="price-title">Premium Plan</h2>
-                          <div className="yearly-price">
-                            <h3 className="price">
-                              $130 <span className="period">/month</span>
+                  <div className='col-xl-3 col-lg-6 col-md-6'>
+                    <div className='pricing-table'>
+                      <div className='price-content-wrapper'>
+                        <div className='pricing-header pricing-amount'>
+                          <h2 className='price-title'>Premium Plan</h2>
+                          <div className='yearly-price'>
+                            <h3 className='price'>
+                              $130 <span className='period'>/month</span>
                             </h3>
                           </div>
-                          <h3 className="price-subtitle">
+                          <h3 className='price-subtitle'>
                             Ticketing system for teams
                           </h3>
                         </div>
-                        <ul className="price-feture">
+                        <ul className='price-feture'>
                           <li>Custom Domain </li>
                           <li> Weekly Sentiment</li>
                           <li> Data History</li>
@@ -351,10 +352,10 @@ const PriceOne = ({ hasSectionTitle }) => {
                           <li> Projects Downgrade</li>
                         </ul>
 
-                        <div className="action">
-                          <div className="btn-annual yearly-price">
-                            <Link to="/contact" className="tt__btn btn-outline">
-                              Buy Now{" "}
+                        <div className='action'>
+                          <div className='btn-annual yearly-price'>
+                            <Link to='/contact' className='tt__btn btn-outline'>
+                              Buy Now{' '}
                             </Link>
                           </div>
                         </div>

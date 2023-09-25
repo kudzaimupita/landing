@@ -174,13 +174,17 @@ const Navbar = ({ navRight, logoDark, right }) => {
                   Product
                 </Link>
               </li>
-
+              <li className='nav-item'>
+                <Link className='nav-link' to='/fqaqs'>
+                  FAQs
+                </Link>
+              </li>
               {/* <li className='nav-item'>
                 <Link className='nav-link' to='/industries'>
                   Templates
                 </Link>
               </li> */}
-
+              {/* 
               <li className='nav-item'>
                 <a
                   className='nav-link'
@@ -188,7 +192,7 @@ const Navbar = ({ navRight, logoDark, right }) => {
                 >
                   Documentation
                 </a>
-              </li>
+              </li> */}
               <li className='nav-item'>
                 <Link className='nav-link' to='/pricing'>
                   Pricing
