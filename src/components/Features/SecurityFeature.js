@@ -152,7 +152,7 @@ const SecurityFeature = () => {
                         alt='Shape'
                       />
                     </div>
-
+                    {/* 
                     <div className='image-three'>
                       <img
                         src='media/image-content/hs3.jpg'
@@ -160,7 +160,7 @@ const SecurityFeature = () => {
                         data-parallax='{"y": -50}'
                         alt='Shape'
                       />
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
