@@ -99,8 +99,11 @@ const PriceOne = ({ hasSectionTitle }) => {
                         </ul>
                         <div className='action'>
                           <div className='btn-month monthly-price'>
-                            <Link to='/contact' className='tt__btn btn-outline'>
-                              Subscription{' '}
+                            <Link
+                              to='/request-demo'
+                              className='tt__btn btn-outline'
+                            >
+                              Get Started{' '}
                             </Link>
                           </div>
                         </div>

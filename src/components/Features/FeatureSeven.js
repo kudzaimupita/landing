@@ -8,8 +8,7 @@ const FeatureSeven = () => {
           <div className='section-heading style-four header-light text-center'>
             <h2 className='section-title wow fadeInUp' data-wow-delay='0.3s'>
               Precision, Performance, Profit
-              <br />
-              with Servly
+              <br /> with Servly
             </h2>
 
             <p className='description wow fadeInUp' data-wow-delay='0.5s'>
