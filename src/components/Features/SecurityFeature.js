@@ -137,12 +137,7 @@ const SecurityFeature = () => {
                     <div
                       className='image-one wow ttfadeInUp animated'
                       data-wow-dealy='0.5s'
-                    >
-                      {/* <img
-                        src='media/image-content/landing-bg.png'
-                        alt='Shape'
-                      /> */}
-                    </div>
+                    ></div>
 
                     <div className='image-two'>
                       <img
@@ -152,15 +147,6 @@ const SecurityFeature = () => {
                         alt='Shape'
                       />
                     </div>
-                    {/* 
-                    <div className='image-three'>
-                      <img
-                        src='media/image-content/hs3.jpg'
-                        className='wow fadeIn'
-                        data-parallax='{"y": -50}'
-                        alt='Shape'
-                      />
-                    </div> */}
                   </div>
                 </div>
               </div>
