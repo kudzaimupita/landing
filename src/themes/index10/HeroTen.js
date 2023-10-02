@@ -162,7 +162,7 @@ const HeroTen = () => {
                   </Link>
                 </div> */}
               </div>
-              <form
+              <div
                 style={{ marginBottom: '20px' }}
                 action='php/subscribe.php'
                 method='post'
@@ -186,19 +186,20 @@ const HeroTen = () => {
                     // id="newsletter-submit"
                     className='tt__btn newsletter-submit'
                   >
-                    {/* <a
-                        href="https://app.servly.app/sign-up"
-                        // className="tt__btn btn-round btn-outline btn-light banner-btn wow fadeInUp"
-                        data-wow-delay=".7s"
-                      > */}{' '}
-                    <span>Try It Now</span>
-                    <i className='fas fa-spinner fa-spin'></i> {/* </a> */}
+                    <a
+                      href='/request-demo'
+                      // className="tt__btn btn-round btn-outline btn-light banner-btn wow fadeInUp"
+                      data-wow-delay='.7s'
+                    >
+                      <span style={{ color: 'white' }}>Try It Now</span>
+                      <i className='fas fa-spinner fa-spin'></i>{' '}
+                    </a>
                   </button>
                 </div>
                 <div className='form-result alert'>
                   <div className='content'></div>
                 </div>
-              </form>
+              </div>
             </div>
 
             <div className='col-lg-6'>

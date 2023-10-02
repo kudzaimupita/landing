@@ -71,42 +71,43 @@ const HeroOne = () => {
                     </h4>
                   </div>
                 </div>
-                <form
+                {/* <form
                   action='php/subscribe.php'
                   method='post'
                   className='banner__newsletter-form wow fadeInUp'
                   data-wow-delay='0.7s'
                   data-tt-form='newsletter-subscribe'
-                >
-                  <div className='newsletter-inner'>
-                    <input
-                      type='email'
-                      name='email'
-                      className='form-control'
-                      id='newsletter-form-email'
-                      placeholder='Enter your Email'
-                      required=''
-                    />
+                > */}
+                <div className='newsletter-inner'>
+                  <input
+                    type='email'
+                    name='email'
+                    className='form-control'
+                    id='newsletter-form-email'
+                    placeholder='Enter your Email'
+                    required=''
+                  />
 
-                    <button
-                      // type="submit"
-                      // name="submit"
-                      // id="newsletter-submit"
-                      className='tt__btn newsletter-submit'
+                  <button
+                    // type="submit"
+                    // name="submit"
+                    // id="newsletter-submit"
+                    className='tt__btn '
+                  >
+                    <a
+                      href='https://app.servly.app/sign-up'
+                      // className="tt__btn btn-round btn-outline btn-light banner-btn wow fadeInUp"
+                      data-wow-delay='.7s'
                     >
-                      {/* <a
-                        href="https://app.servly.app/sign-up"
-                        // className="tt__btn btn-round btn-outline btn-light banner-btn wow fadeInUp"
-                        data-wow-delay=".7s"
-                      > */}{' '}
                       <span>Try It Now</span>
-                      <i className='fas fa-spinner fa-spin'></i> {/* </a> */}
-                    </button>
-                  </div>
-                  <div className='form-result alert'>
-                    <div className='content'></div>
-                  </div>
-                </form>
+                      <i className='fas fa-spinner fa-spin'></i>{' '}
+                    </a>
+                  </button>
+                </div>
+                <div className='form-result alert'>
+                  <div className='content'></div>
+                </div>
+                {/* </form> */}
 
                 <ul
                   className='banner__feature wow fadeInUp'
