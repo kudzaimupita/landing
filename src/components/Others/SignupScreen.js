@@ -27,7 +27,7 @@ const SignupScreen = () => {
     message.info('Sending....');
     // Send the form data to the server using fetch or axios
     fetch(
-      'https://05qc9nufsi.execute-api.us-east-1.amazonaws.com/v1/auth/send-message',
+      'https://05qc9nufsi.execute-api.us-east-1.amazonaws.com/v1/auth/request-demo',
       {
         method: 'POST',
         headers: {
@@ -39,7 +39,7 @@ const SignupScreen = () => {
       .then((data) => {
         setLoading(false);
         message.success('Message Sent');
-        setFormData({ name: '', email: '', content: '' });
+        setFormData({ name: '', email: '', content: '', companyName: '' });
         // Handle the server response here, e.g., display a success message
         console.log(data);
       })
@@ -101,6 +101,7 @@ const SignupScreen = () => {
                     type='email'
                     placeholder='e-mail address'
                     required
+                    name='email'
                   />
                   <i className='feather-mail'></i>
                 </div>
