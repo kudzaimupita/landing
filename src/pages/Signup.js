@@ -5,16 +5,17 @@ import PageMeta from '../components/PageMeta';
 import Layout from '../layout';
 import NavRightOne from '../components/NavRight/NavRightOne';
 import Navbar from '../layout/Header/Navbar';
+import NavRightTwo from '../components/NavRight/NavRightTwo';
 
 const Signup = () => {
   return (
     <Layout>
-      <PageMeta title='Sign Up — Software &amp; App Startup HTML Template' />
-      <Navbar logoDark navRight={<NavRightOne />} />
+      <PageMeta title='Request Demo — Servly App' />
+      <Navbar logoDark navRight={<NavRightTwo />} />
 
       <div id='main_content'>
         <SignupScreen />
-        <FooterOne dark />
+        <FooterOne />
       </div>
     </Layout>
   );

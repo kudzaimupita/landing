@@ -8,7 +8,7 @@ const ErrorScreen = () => {
           <div className='error_page_wrapper text-center'>
             <div className='error-page-content'>
               <div className='error-image'>
-                <img src='media/error/404.png' alt='UltraLand' />
+                {/* <img src='media/error/404.png' alt='UltraLand' /> */}
               </div>
 
               <div className='error-info'>
@@ -18,13 +18,13 @@ const ErrorScreen = () => {
                   We can’t seem to find the page you’re looking for
                 </p>
 
-                <a href='index.html' className='tt__btn error_btn'>
+                <a href='/' className='tt__btn error_btn'>
                   <i className='feather-arrow-left'></i>
                   Go Back to Home
                 </a>
               </div>
 
-              <ul className='error-animate-element animate-element'>
+              {/* <ul className='error-animate-element animate-element'>
                 <li className='layer'>
                   <img src='media/error/element1.png' alt='UltraLand' />
                 </li>
@@ -34,7 +34,7 @@ const ErrorScreen = () => {
                 <li className='layer'>
                   <img src='media/error/element3.png' alt='UltraLand' />
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

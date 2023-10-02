@@ -15745,7 +15745,7 @@ blockquote img {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 200px 0 140px;
+  padding: 120px 0 140px;
 }
 
 @media (max-width: 991px) {
