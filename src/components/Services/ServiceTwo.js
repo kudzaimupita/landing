@@ -9,9 +9,8 @@ class ServiceTwo extends Component {
           <div className='container'>
             <SectionTitle
               // firstTitle="Features"
-              lastTitle='Feature overview'
-              description="So I said knees up cuppa such a fibber jeffrey a bit of how's
-                  your."
+              lastTitle='Industry Use Cases'
+              description='Discover How Our Solutions Benefit Different Sectors.'
             />
             <div className='row'>
               <div className='col-lg-3 col-md-6 col-sm-6'>

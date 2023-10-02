@@ -20,6 +20,7 @@ class ServiceOne extends Component {
                     </h2>
                     <p
                       className='description wow fadeInUp'
+                      style={{ fontSize: '14px', lineHeight: '18px' }}
                       data-wow-delay='0.6s'
                     >
                       In today's dynamic business landscape, flexibility is the
@@ -56,7 +57,7 @@ class ServiceOne extends Component {
                   <span className='desk'></span>
                   <div className='list-content'>
                     <h3 className='list-text'>Module Customization</h3>
-                    <p>
+                    <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                       Customize your ERP by selecting only the modules that
                       align with your business needs. Scale up or down as your
                       requirements change, avoiding unnecessary costs.
@@ -70,7 +71,7 @@ class ServiceOne extends Component {
                   <span className='desk'></span>
                   <div className='list-content'>
                     <h3 className='list-text'>Configurable Workflows</h3>
-                    <p>
+                    <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                       Craft workflows that match your specific business
                       processes, making operations more efficient. Reduce manual
                       work, improve accuracy, and enhance productivity.
@@ -84,7 +85,7 @@ class ServiceOne extends Component {
                   <span className='desk'></span>
                   <div className='list-content'>
                     <h3 className='list-text'>Scalability</h3>
-                    <p>
+                    <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                       Grow your business confidently, knowing your ERP scales
                       seamlessly. No disruptions, no compromises - just the
                       flexibility you need to expand

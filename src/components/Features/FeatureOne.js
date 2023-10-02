@@ -29,7 +29,10 @@ class FeatureOne extends Component {
                       <a href='service.html'>Customizable Dashboards</a>
                     </h4>
 
-                    <p className='description'>
+                    <p
+                      className='description'
+                      style={{ fontSize: '14px', lineHeight: '18px' }}
+                    >
                       Create personalized dashboards that display the data and
                       metrics most relevant to your role and responsibilities.
                       Drag-and-drop widgets, charts, and reports to design a
@@ -54,7 +57,10 @@ class FeatureOne extends Component {
                       <a href='service.html'> Access Control</a>
                     </h4>
 
-                    <p className='description'>
+                    <p
+                      className='description'
+                      style={{ fontSize: '14px', lineHeight: '18px' }}
+                    >
                       Define user roles and permissions to control who can
                       access and modify data within the ERP system. Customize
                       access levels to ensure data security and compliance with
@@ -78,7 +84,10 @@ class FeatureOne extends Component {
                       <a href='service.html'>Workflow Automation</a>
                     </h4>
 
-                    <p className='description'>
+                    <p
+                      className='description'
+                      style={{ fontSize: '14px', lineHeight: '18px' }}
+                    >
                       Automate repetitive tasks and processes by designing
                       custom workflows. Define triggers, actions, and conditions
                       to streamline operations and reduce manual effort.
@@ -101,7 +110,10 @@ class FeatureOne extends Component {
                       <a href='service.html'>Custom Reports and Analytics</a>
                     </h4>
 
-                    <p className='description'>
+                    <p
+                      className='description'
+                      style={{ fontSize: '14px', lineHeight: '18px' }}
+                    >
                       Build custom reports and analytics dashboards to gain
                       insights specific to your business. Select data fields,
                       set filters, and choose visualization options that suit
@@ -124,7 +136,10 @@ class FeatureOne extends Component {
                       <a href='service.html'>Custom Fields and Data Models</a>
                     </h4>
 
-                    <p className='description'>
+                    <p
+                      className='description'
+                      style={{ fontSize: '14px', lineHeight: '18px' }}
+                    >
                       Extend the ERP system's data structure by adding custom
                       fields and data models. Capture unique data points, track
                       specialized information, and tailor data entry forms to
@@ -149,7 +164,10 @@ class FeatureOne extends Component {
                       </a>
                     </h4>
 
-                    <p className='description'>
+                    <p
+                      className='description'
+                      style={{ fontSize: '14px', lineHeight: '18px' }}
+                    >
                       Design custom document templates for invoices, purchase
                       orders, contracts, and more. Maintain a structured
                       document repository and automate document generation based
@@ -173,7 +191,10 @@ class FeatureOne extends Component {
                       <a href='service.html'>Custom Integrations</a>
                     </h4>
 
-                    <p className='description'>
+                    <p
+                      className='description'
+                      style={{ fontSize: '14px', lineHeight: '18px' }}
+                    >
                       Integrate the ERP system with other software applications,
                       third-party services, or APIs that are specific to your
                       business processes. Create seamless data flows and
@@ -197,7 +218,10 @@ class FeatureOne extends Component {
                       <a href='service.html'>Data Migration and Import Tools</a>
                     </h4>
 
-                    <p className='description'>
+                    <p
+                      className='description'
+                      style={{ fontSize: '14px', lineHeight: '18px' }}
+                    >
                       Create custom data migration scripts and import tools to
                       transfer historical data from legacy systems into the ERP
                       database. Ensure a seamless transition when implementing
@@ -221,7 +245,10 @@ class FeatureOne extends Component {
                       <a href='service.html'>Custom Alerts and Notifications</a>
                     </h4>
 
-                    <p className='description'>
+                    <p
+                      className='description'
+                      style={{ fontSize: '14px', lineHeight: '18px' }}
+                    >
                       Description: Set up custom alerts and notifications to
                       keep users informed about critical events and actions
                       within the ERP system. Configure notifications based on

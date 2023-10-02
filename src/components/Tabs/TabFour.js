@@ -13,8 +13,7 @@ const TabFour = () => {
             </h2>
 
             <p className='description wow fadeInUp' data-wow-delay='0.3s'>
-              So I said knees up cuppa such a fibber jeffrey a bit of how's
-              your.
+              Find answers to common questions below.
             </p>
           </div>
           <div className='tt-accordian wow fadeInUp' data-wow-delay='0.5s'>
@@ -120,7 +119,7 @@ const TabFour = () => {
                       data-parent='#accordion-1'
                     >
                       <div className='card-body'>
-                        <p>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                           A customizable ERP system is cloud-based software
                           designed for businesses to manage their core
                           operations, such as finance, HR, inventory, and more.
@@ -150,7 +149,7 @@ const TabFour = () => {
                       data-parent='#accordion-1'
                     >
                       <div className='card-body'>
-                        <p>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                           Customizable ERP systems offer flexibility to adapt to
                           your specific business processes, providing
                           efficiency, cost savings, and a competitive edge.
@@ -177,7 +176,7 @@ const TabFour = () => {
                       data-parent='#accordion-1'
                     >
                       <div className='card-body'>
-                        <p>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                           Customization involves configuring the ERP software to
                           match your business processes and requirements. This
                           may include adjusting workflows, adding or removing
@@ -209,7 +208,7 @@ const TabFour = () => {
                       data-parent='#accordion-2'
                     >
                       <div className='card-body'>
-                        <p>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                           Yes, many modern ERP systems provide user-friendly
                           tools, such as drag-and-drop interfaces and wizards,
                           making it accessible to non-technical users.
@@ -237,7 +236,7 @@ const TabFour = () => {
                       data-parent='#accordion-2'
                     >
                       <div className='card-body'>
-                        <p>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                           The time required for customization varies based on
                           the complexity of your requirements. Small adjustments
                           may be quick, while extensive customizations may take
@@ -265,7 +264,7 @@ const TabFour = () => {
                       data-parent='#accordion-2'
                     >
                       <div className='card-body'>
-                        <p>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                           While some customization can be done in-house,
                           larger-scale or complex customizations may benefit
                           from the expertise of ERP consultants or developers.
@@ -300,7 +299,7 @@ const TabFour = () => {
                       data-parent='#accordion-3'
                     >
                       <div className='card-body'>
-                        <p>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                           A blinding shot mush bog arse hunky-dory super spend a
                           penny, baking cakes Charles bugger Richard chancer
                           haggle gutted mate, Oxford Queen’s English don’t get
@@ -328,7 +327,7 @@ const TabFour = () => {
                       data-parent='#accordion-3'
                     >
                       <div className='card-body'>
-                        <p>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                           A blinding shot mush bog arse hunky-dory super spend a
                           penny, baking cakes Charles bugger Richard chancer
                           haggle gutted mate, Oxford Queen’s English don’t get
@@ -356,7 +355,7 @@ const TabFour = () => {
                       data-parent='#accordion-3'
                     >
                       <div className='card-body'>
-                        <p>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                           A blinding shot mush bog arse hunky-dory super spend a
                           penny, baking cakes Charles bugger Richard chancer
                           haggle gutted mate, Oxford Queen’s English don’t get
@@ -384,7 +383,7 @@ const TabFour = () => {
                       data-parent='#accordion-3'
                     >
                       <div className='card-body'>
-                        <p>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                           A blinding shot mush bog arse hunky-dory super spend a
                           penny, baking cakes Charles bugger Richard chancer
                           haggle gutted mate, Oxford Queen’s English don’t get
@@ -412,7 +411,7 @@ const TabFour = () => {
                       data-parent='#accordion-3'
                     >
                       <div className='card-body'>
-                        <p>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                           A blinding shot mush bog arse hunky-dory super spend a
                           penny, baking cakes Charles bugger Richard chancer
                           haggle gutted mate, Oxford Queen’s English don’t get
@@ -448,7 +447,7 @@ const TabFour = () => {
                       data-parent='#accordion-4'
                     >
                       <div className='card-body'>
-                        <p>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                           A blinding shot mush bog arse hunky-dory super spend a
                           penny, baking cakes Charles bugger Richard chancer
                           haggle gutted mate, Oxford Queen’s English don’t get
@@ -476,7 +475,7 @@ const TabFour = () => {
                       data-parent='#accordion-4'
                     >
                       <div className='card-body'>
-                        <p>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                           A blinding shot mush bog arse hunky-dory super spend a
                           penny, baking cakes Charles bugger Richard chancer
                           haggle gutted mate, Oxford Queen’s English don’t get
@@ -504,7 +503,7 @@ const TabFour = () => {
                       data-parent='#accordion-4'
                     >
                       <div className='card-body'>
-                        <p>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
                           A blinding shot mush bog arse hunky-dory super spend a
                           penny, baking cakes Charles bugger Richard chancer
                           haggle gutted mate, Oxford Queen’s English don’t get
