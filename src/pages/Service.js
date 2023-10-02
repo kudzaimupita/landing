@@ -15,7 +15,7 @@ class Service extends Component {
   render() {
     return (
       <Layout>
-        <PageMeta title='Service — Software &amp; App Startup HTML Template' />
+        <PageMeta title='Features — Servly App' />
         <Navbar logoLight navRight={<NavRightTwo />} />
         <div id='main_content'>
           {/* <ServiceTwo /> */}

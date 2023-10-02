@@ -70,11 +70,11 @@ const TabFour = () => {
                 <li className='nav-item'>
                   <a
                     className='nav-link '
-                    id='multiple-states-tab'
+                    id='support-tab'
                     data-toggle='tab'
                     role='tab'
                     aria-controls='multiple-states'
-                    href='#multiple-states'
+                    href='#support'
                   >
                     Support and Training
                   </a>
@@ -82,11 +82,11 @@ const TabFour = () => {
                 <li className='nav-item'>
                   <a
                     className='nav-link '
-                    id='multiple-states-tab'
+                    id='security-tab'
                     data-toggle='tab'
                     role='tab'
                     aria-controls='multiple-states'
-                    href='#multiple-states'
+                    href='#security'
                   >
                     Security and Compliance
                   </a>
@@ -289,7 +289,8 @@ const TabFour = () => {
                         data-target='#privacy-security-collapse-0'
                         aria-controls='privacy-security-collapse-0'
                       >
-                        How is our service better than other products?
+                        Can a customizable ERP system integrate with our
+                        existing software?
                         <i className='ei ei-arrow_carrot-up'></i>
                       </h5>
                     </div>
@@ -300,10 +301,9 @@ const TabFour = () => {
                     >
                       <div className='card-body'>
                         <p style={{ fontSize: '14px', lineHeight: '18px' }}>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
+                          Yes, Servly offers integration capabilities to connect
+                          with other software and tools, allowing data to flow
+                          seamlessly.
                         </p>
                       </div>
                     </div>
@@ -317,7 +317,8 @@ const TabFour = () => {
                         data-target='#privacy-security-collapse-1'
                         aria-controls='privacy-security-collapse-1'
                       >
-                        How to contact with Customer Service?
+                        How does scalability work with a customizable ERP
+                        system?
                         <i className='ei ei-arrow_carrot-up'></i>
                       </h5>
                     </div>
@@ -328,94 +329,10 @@ const TabFour = () => {
                     >
                       <div className='card-body'>
                         <p style={{ fontSize: '14px', lineHeight: '18px' }}>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className='card '>
-                    <div className='card-header' id='privacy-security-2'>
-                      <h5
-                        className='collapsed'
-                        data-toggle='collapse'
-                        data-target='#privacy-security-collapse-2'
-                        aria-controls='privacy-security-collapse-2'
-                      >
-                        Where is the edit optioon on dashboard?
-                        <i className='ei ei-arrow_carrot-up'></i>
-                      </h5>
-                    </div>
-                    <div
-                      id='privacy-security-collapse-2'
-                      className='collapse'
-                      data-parent='#accordion-3'
-                    >
-                      <div className='card-body'>
-                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className='card '>
-                    <div className='card-header' id='privacy-security-3'>
-                      <h5
-                        className='collapsed'
-                        data-toggle='collapse'
-                        data-target='#privacy-security-collapse-3'
-                        aria-controls='privacy-security-collapse-3'
-                      >
-                        Is there any custome pricing system?
-                        <i className='ei ei-arrow_carrot-up'></i>
-                      </h5>
-                    </div>
-                    <div
-                      id='privacy-security-collapse-3'
-                      className='collapse'
-                      data-parent='#accordion-3'
-                    >
-                      <div className='card-body'>
-                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className='card '>
-                    <div className='card-header' id='privacy-security-4'>
-                      <h5
-                        className='collapsed'
-                        data-toggle='collapse'
-                        data-target='#privacy-security-collapse-4'
-                        aria-controls='privacy-security-collapse-4'
-                      >
-                        On the other hand the strengthening?
-                        <i className='ei ei-arrow_carrot-up'></i>
-                      </h5>
-                    </div>
-                    <div
-                      id='privacy-security-collapse-4'
-                      className='collapse'
-                      data-parent='#accordion-3'
-                    >
-                      <div className='card-body'>
-                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
+                          Our customizable ERP system should scale with your
+                          business as it grows. You can add or modify features
+                          and resources to accommodate expansion without
+                          disruption.
                         </p>
                       </div>
                     </div>
@@ -437,7 +354,8 @@ const TabFour = () => {
                         data-target='#multiple-states-collapse-0'
                         aria-controls='multiple-states-collapse-0'
                       >
-                        How to contact with Customer Service?
+                        Is a customizable ERP system more expensive than a
+                        standard one-size-fits-all ERP?
                         <i className='ei ei-arrow_carrot-up'></i>
                       </h5>
                     </div>
@@ -448,10 +366,10 @@ const TabFour = () => {
                     >
                       <div className='card-body'>
                         <p style={{ fontSize: '14px', lineHeight: '18px' }}>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
+                          The cost of our customizable ERP system can vary, but
+                          it often provides a better ROI because you pay only
+                          for the features you need and can reduce unnecessary
+                          expenses.
                         </p>
                       </div>
                     </div>
@@ -465,7 +383,7 @@ const TabFour = () => {
                         data-target='#multiple-states-collapse-1'
                         aria-controls='multiple-states-collapse-1'
                       >
-                        On the other hand the strengthening?
+                        What factors affect the cost of customization?
                         <i className='ei ei-arrow_carrot-up'></i>
                       </h5>
                     </div>
@@ -476,38 +394,128 @@ const TabFour = () => {
                     >
                       <div className='card-body'>
                         <p style={{ fontSize: '14px', lineHeight: '18px' }}>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
+                          Factors include the complexity of customization, the
+                          size of your organization, the number of users, and
+                          the extent of third-party integrations.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className='tab-pane fade ' id='security' role='tabpanel'>
+                <div id='accordion-3' className='tt-accordian_faq'>
+                  <div className='card active'>
+                    <div className='card-header' id='security-0'>
+                      <h5
+                        className=''
+                        data-toggle='collapse'
+                        data-target='#security-collapse-0'
+                        aria-controls='security-collapse-0'
+                      >
+                        How does customization affect data security and
+                        compliance?
+                        <i className='ei ei-arrow_carrot-up'></i>
+                      </h5>
+                    </div>
+                    <div
+                      id='security-collapse-0'
+                      className='collapse show'
+                      data-parent='#accordion-3'
+                    >
+                      <div className='card-body'>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
+                          Customization should not compromise security or
+                          compliance. It's important to work with ERP systems
+                          that maintain robust security measures and adhere to
+                          regulatory standards.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* <div className='card '>
+                    <div className='card-header' id='privacy-security-1'>
+                      <h5
+                        className='collapsed'
+                        data-toggle='collapse'
+                        data-target='#privacy-security-collapse-1'
+                        aria-controls='privacy-security-collapse-1'
+                      >
+                Do customizable ERP systems undergo security audits?
+                        <i className='ei ei-arrow_carrot-up'></i>
+                      </h5>
+                    </div>
+                    <div
+                      id='privacy-security-collapse-1'
+                      className='collapse'
+                      data-parent='#accordion-3'
+                    >
+                      <div className='card-body'>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
+                          Yes, ERP vendors often provide training sessions and
+                          materials to ensure users maximize the benefits of
+                          customization.
+                        </p>
+                      </div>
+                    </div>
+                  </div> */}
+                </div>
+              </div>
+              <div className='tab-pane fade ' id='support' role='tabpanel'>
+                <div id='accordion-5' className='tt-accordian_faq'>
+                  <div className='card active'>
+                    <div className='card-header' id='support-0'>
+                      <h5
+                        className=''
+                        data-toggle='collapse'
+                        data-target='#support-collapse-0'
+                        aria-controls='support-collapse-0'
+                      >
+                        What kind of support is available for users customizing
+                        the ERP system?
+                        <i className='ei ei-arrow_carrot-up'></i>
+                      </h5>
+                    </div>
+                    <div
+                      id='support-collapse-0'
+                      className='collapse show'
+                      data-parent='#accordion-5'
+                    >
+                      <div className='card-body'>
+                        <p style={{ fontSize: '14px', lineHeight: '18px' }}>
+                          We offer customer support, training resources, and
+                          documentation to assist users during the customization
+                          process.
                         </p>
                       </div>
                     </div>
                   </div>
 
                   <div className='card '>
-                    <div className='card-header' id='multiple-states-2'>
+                    <div className='card-header' id='support-1'>
                       <h5
                         className='collapsed'
                         data-toggle='collapse'
-                        data-target='#multiple-states-collapse-2'
-                        aria-controls='multiple-states-collapse-2'
+                        data-target='#support-collapse-1'
+                        aria-controls='support-collapse-1'
                       >
-                        Largely determines the creation?
+                        Is there ongoing training for using the customized ERP
+                        system?
                         <i className='ei ei-arrow_carrot-up'></i>
                       </h5>
                     </div>
                     <div
-                      id='multiple-states-collapse-2'
+                      id='support-collapse-1'
                       className='collapse'
-                      data-parent='#accordion-4'
+                      data-parent='#accordion-3'
                     >
                       <div className='card-body'>
                         <p style={{ fontSize: '14px', lineHeight: '18px' }}>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
+                          Yes, ERP vendors often provide training sessions and
+                          materials to ensure users maximize the benefits of
+                          customization.
                         </p>
                       </div>
                     </div>

@@ -12,7 +12,7 @@ import FooterOne from '../layout/Footer/FooterOne';
 const Price = () => {
   return (
     <Layout>
-      <PageMeta title='Price — Software &amp; App Startup HTML Template' />
+      <PageMeta title='Pricing — Servly App' />
       <Navbar logoLight navRight={<NavRightTwo />} />
       <div id='main_content'>
         {/* <PageHeader /> */}

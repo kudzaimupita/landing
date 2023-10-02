@@ -12,7 +12,7 @@ const Portfolio = () => {
   return (
     <>
       <Layout>
-        <PageMeta title='Portfolios — Software &amp; App Startup HTML Template' />
+        <PageMeta title='Industries — Servly APP' />
         <Navbar logoLight navRight={<NavRightTwo />} />
         <div id='main_content'>
           {/* <BreadCrumb breadCrumbTitle='Portfolio' pageName='Portfolio ' /> */}

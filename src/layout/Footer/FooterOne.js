@@ -25,17 +25,15 @@ const FooterOne = ({ classOption, dark }) => {
                     />
                   ) : (
                     <img
-                      src='assets/img/Servly-logo_FULL-black_draft_1x1.png'
+                      src='https://lean-front-git-main-kudzaimupita.vercel.app/static/media/8083535-ai.2e13fa0b9a79b340430b.png'
                       className='footer-logo'
                       alt='footer logo'
                     />
                   )}
 
-                  <p className='about_text'>
-                    Start for free Try Servly Pro now
-                  </p>
-                  <a href='https://app.servly.app/sign-up' className='tt__btn'>
-                    Sign up Free{' '}
+                  <p className='about_text'>Start for free Try Servly now</p>
+                  <a href='/request-demo' className='tt__btn'>
+                    Request Demo
                   </a>
                 </div>
               </div>
@@ -58,7 +56,7 @@ const FooterOne = ({ classOption, dark }) => {
                       <Link to='/industries'>Industries</Link>
                     </li>
                     <li>
-                      <Link to='/about'>About</Link>
+                      <Link to='/faqs'>FAQs</Link>
                     </li>
                     {/* <li>
                       <Link to="/contact">Contact</Link>
@@ -109,11 +107,6 @@ const FooterOne = ({ classOption, dark }) => {
                     <li>
                       <a href='http://twitter.com/servly.app'>
                         <i className='fab fa-twitter'></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href='http://dribbble.com'>
-                        <i className='fab fa-dribbble'></i>
                       </a>
                     </li>
                   </ul>

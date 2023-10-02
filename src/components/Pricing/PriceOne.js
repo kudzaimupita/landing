@@ -71,26 +71,29 @@ const PriceOne = ({ hasSectionTitle }) => {
                               $59<span className='period'>/month</span>
                             </h3>
                           </div>
-                          <h3 className='price-subtitle'>Per System User</h3>
+                          <h3 className='price-subtitle'>Per Seat</h3>
                         </div>
                         <ul className='price-feture'>
                           <li>1 site</li>
-                          <li>2 User Groups</li>
-                          <li>4 modules</li>
-                          <li>20 Portal Users </li>
-                          <li>3 Data Capture Forms</li>
-                          <li>5 Task Auto-mations</li>
-                          <li>Document Builder</li>
-                          <li>No Virtuals</li>
-                          <li>5 Data Insights</li>
-                          <li>5 Hook Workflows</li>
+                          <li>5 User Groups</li>
+                          <li>10 modules</li>
+                          {/* <li>20 Portal Users </li> */}
+                          <li>5 Data Capture Forms</li>
+                          <li>5 Task Automations</li>
+                          <li>Unlimited Document Builder</li>
+                          <li>No Virtual Fields</li>
+                          <li>5 Insights Per Module</li>
+                          <li>5 Hook Actions Per Module</li>
+                          <li>3 Header Analytics Per Module</li>
+                          <li>1GB Storage Per Module</li>
+                          <li>3000 Alerts Per Month</li>
                           <li>14 Day Log Retention</li>
-                          <li>Unlimited Work Orders</li>
-                          <li>Unlimited Documents</li>
+                          <li>No Field Level Security</li>
+                          <li>No Broadcasts</li>
+                          <li>No Document Restore</li>
                           <li>Basic reports</li>
-                          <li>Basic Document Restore</li>
-                          <li>10 Hour Free System Setup</li>
-                          <li>No Header Analytics</li>
+                          <li>12 Hour Free System Setup</li>
+
                           <li>No Feed</li>
                         </ul>
                         <div className='action'>
@@ -116,26 +119,37 @@ const PriceOne = ({ hasSectionTitle }) => {
                               $89<span className='period'>/month</span>
                             </h3>
                           </div>
-                          <h3 className='price-subtitle'>Per User</h3>
+                          <h3 className='price-subtitle'>Per Seat</h3>
                         </div>
                         <ul className='price-feture'>
                           <li>5 sites</li>
-                          <li>50 teams</li>
-                          <li>10 modules</li>
-                          <li> users </li>
-                          <li>10 asset types</li>
-                          <li>10 schedule jobs</li>
-                          <li>80 locations</li>
-
-                          <li>200 Assets</li>
-                          <li>Unlimited Work Orders</li>
-                          <li>Unlimited Documents</li>
+                          <li>10 User Groups</li>
+                          <li>15 modules</li>
+                          {/* <li>20 Portal Users </li> */}
+                          <li>10 Data Capture Forms</li>
+                          <li>15 Task Automations</li>
+                          <li>Unlimited Document Builder</li>
+                          <li>No Virtual Fields</li>
+                          <li>10 Insights Per Module</li>
+                          <li>10 Hook Actions Per Module</li>
+                          <li>5 Header Analytics Per Module</li>
+                          <li>2GB Storage Per Module</li>
+                          <li>8000 Alerts Per Month</li>
+                          <li>31 Day Log Retention</li>
+                          <li>No Field Level Security</li>
+                          <li>No Broadcasts</li>
+                          <li>Document Restore </li>
                           <li>Basic reports</li>
-                          <li>5 Checklists/Forms/Procedures</li>
+                          <li>24 Hour Free System Setup</li>
+
+                          <li>Tenant Feed</li>
                         </ul>
                         <div className='action'>
                           <div className='btn-month monthly-price'>
-                            <Link to='/contact' className='tt__btn btn-outline'>
+                            <Link
+                              to='/request-demo'
+                              className='tt__btn btn-outline'
+                            >
                               Get Started{' '}
                             </Link>
                           </div>
@@ -156,26 +170,39 @@ const PriceOne = ({ hasSectionTitle }) => {
                               $119<span className='period'>/month</span>
                             </h3>
                           </div>
-                          <h3 className='price-subtitle'>Per User</h3>
+                          <h3 className='price-subtitle'>Per Seat</h3>
                         </div>
                         <ul className='price-feture'>
                           <li>10 sites</li>
-                          <li>50 teams</li>
-                          <li>10 modules</li>
-                          <li>100 users </li>
-                          <li>100 asset types</li>
-                          <li>Unlimited scheduler</li>
-                          <li>Unlimited locations</li>
-                          <li>10000 Assets</li>
-                          <li>Unlimited Work Orders</li>
-                          <li>Unlimited Documents</li>
-                          <li>Advanced reports</li>
+                          <li>20 User Groups</li>
+                          <li>20 modules</li>
+                          {/* <li>20 Portal Users </li> */}
+                          <li>20 Data Capture Forms</li>
+                          <li>30 Task Automations</li>
+                          <li>Unlimited Document Builder</li>
+                          <li>Virtual Fields</li>
+                          <li>25 Insights Per Module</li>
+                          <li>20 Hook Actions Per Module</li>
+                          <li>Unlimited Header Analytics Per Module</li>
+                          <li>5GB Storage Per Module</li>
+                          <li>15000 Alerts Per Month</li>
+                          <li>6 months Log Retention</li>
+                          <li>Field Level Security</li>
+                          <li>Broadcasts</li>
+                          <li>Document Restore </li>
+                          <li>Advanced Reporting</li>
+
+                          <li>24 Hour Free System Setup</li>
+                          <li>Tenant Feed</li>
                         </ul>
 
                         <div className='action'>
                           <div className='btn-month monthly-price'>
-                            <Link to='/contact' className='tt__btn '>
-                              Buy Now{' '}
+                            <Link
+                              to='/request-demo'
+                              className='tt__btn btn-outline'
+                            >
+                              Get Started{' '}
                             </Link>
                           </div>
                         </div>
@@ -198,17 +225,24 @@ const PriceOne = ({ hasSectionTitle }) => {
                         </div>
                         <ul className='price-feture'>
                           <li>Custom Domain </li>
-                          <li> Weekly Sentiment</li>
-                          <li> Data History</li>
-                          <li> Increased Number of</li>
-                          <li> Users Unlimited</li>
-                          <li> Projects Downgrade</li>
+                          <li>On Prem/Hybrid</li>
+                          <li>Dedicated 24/7 premium Support</li>
+                          <li>Custom Pricing</li>
+                          <li>Custom Auth</li>
+
+                          <li> Tailored customization and development </li>
+                          <li>On Prem/Hybrid Infrastructure</li>
+                          <li>API access</li>
+                          <li>Custom Pricing</li>
                         </ul>
 
                         <div className='action'>
                           <div className='btn-month monthly-price'>
-                            <Link to='/contact' className='tt__btn btn-outline'>
-                              Buy Now{' '}
+                            <Link
+                              to='/request-demo'
+                              className='tt__btn btn-outline'
+                            >
+                              Get Started{' '}
                             </Link>
                           </div>
                         </div>
@@ -228,31 +262,47 @@ const PriceOne = ({ hasSectionTitle }) => {
                     className='col-xl-3 col-lg-6 col-md-6'
                     data-wow-dealy='0.4s'
                   >
-                    <div className='pricing-table'>
+                    <div className='pricing-table' id='pric-886-0'>
                       <div className='price-content-wrapper'>
                         <div className='pricing-header pricing-amount'>
-                          <h2 className='price-title'>Free Plan</h2>
-                          <div className='yearly-price'>
+                          <h2 className='price-title'>Basic</h2>
+                          <div className='monthly-price'>
                             <h3 className='price'>
-                              $29 <span className='period'>/month</span>
+                              $649<span className='period'>/year</span>
                             </h3>
                           </div>
-                          <h3 className='price-subtitle'>
-                            14-day trial subscription
-                          </h3>
+                          <h3 className='price-subtitle'>Per Seat</h3>
                         </div>
                         <ul className='price-feture'>
-                          <li>Product Training </li>
-                          <li>Advanced Analytics</li>
-                          <li>Weekly Sentiment</li>
-                          <li>White label</li>
-                          <li>Users Unlimited</li>
-                          <li>Downgrade</li>
+                          <li>1 site</li>
+                          <li>5 User Groups</li>
+                          <li>10 modules</li>
+                          {/* <li>20 Portal Users </li> */}
+                          <li>5 Data Capture Forms</li>
+                          <li>5 Task Automations</li>
+                          <li>Unlimited Document Builder</li>
+                          <li>No Virtual Fields</li>
+                          <li>5 Insights Per Module</li>
+                          <li>5 Hook Actions Per Module</li>
+                          <li>3 Header Analytics Per Module</li>
+                          <li>1GB Storage Per Module</li>
+                          <li>3000 Alerts Per Month</li>
+                          <li>14 Day Log Retention</li>
+                          <li>No Field Level Security</li>
+                          <li>No Broadcasts</li>
+                          <li>No Document Restore</li>
+                          <li>Basic reports</li>
+                          <li>12 Hour Free System Setup</li>
+
+                          <li>No Feed</li>
                         </ul>
                         <div className='action'>
-                          <div className='btn-annual yearly-price'>
-                            <Link to='/contact' className='tt__btn btn-outline'>
-                              Subscription{' '}
+                          <div className='btn-month monthly-price'>
+                            <Link
+                              to='/request-demo'
+                              className='tt__btn btn-outline'
+                            >
+                              Get Started{' '}
                             </Link>
                           </div>
                         </div>
@@ -266,26 +316,44 @@ const PriceOne = ({ hasSectionTitle }) => {
                     <div className='pricing-table'>
                       <div className='price-content-wrapper'>
                         <div className='pricing-header pricing-amount'>
-                          <h2 className='price-title'>Basic Plan</h2>
+                          <h2 className='price-title'>Advanced Plan</h2>
 
                           <div className='yearly-price'>
                             <h3 className='price'>
-                              $56 <span className='period'>/month</span>
+                              $979 <span className='period'>/year</span>
                             </h3>
                           </div>
-                          <h3 className='price-subtitle'>7-day free trial</h3>
+                          <h3 className='price-subtitle'>Per Seat</h3>
                         </div>
                         <ul className='price-feture'>
+                          <li>5 sites</li>
+                          <li>10 User Groups</li>
+                          <li>15 modules</li>
+                          {/* <li>20 Portal Users </li> */}
+                          <li>10 Data Capture Forms</li>
+                          <li>15 Task Automations</li>
+                          <li>Unlimited Document Builder</li>
+                          <li>No Virtual Fields</li>
+                          <li>10 Insights Per Module</li>
+                          <li>10 Hook Actions Per Module</li>
+                          <li>5 Header Analytics Per Module</li>
+                          <li>2GB Storage Per Module</li>
+                          <li>8000 Alerts Per Month</li>
+                          <li>31 Day Log Retention</li>
+                          <li>No Field Level Security</li>
+                          <li>No Broadcasts</li>
+                          <li>Document Restore </li>
                           <li>Basic reports</li>
-                          <li> Weekly Sentiment</li>
-                          <li> Data History</li>
-                          <li> Increased Number of</li>
-                          <li> Users Unlimited</li>
-                          <li> Basic Reports</li>
+                          <li>24 Hour Free System Setup</li>
+
+                          <li>Tenant Feed</li>
                         </ul>
                         <div className='action'>
                           <div className='btn-annual yearly-price'>
-                            <Link to='/contact' className='tt__btn btn-outline'>
+                            <Link
+                              to='/request-demo'
+                              className='tt__btn btn-outline'
+                            >
                               Get Started{' '}
                             </Link>
                           </div>
@@ -300,29 +368,45 @@ const PriceOne = ({ hasSectionTitle }) => {
                     <div className='pricing-table featured'>
                       <div className='price-content-wrapper'>
                         <div className='pricing-header pricing-amount'>
-                          <h2 className='price-title'>Advanced Plan</h2>
+                          <h2 className='price-title'>Premium Plan</h2>
                           <div className='yearly-price'>
                             <h3 className='price'>
-                              $60<span className='period'>/month</span>
+                              $1309<span className='period'>/year</span>
                             </h3>
                           </div>
-                          <h3 className='price-subtitle'>
-                            Simple email management
-                          </h3>
+                          <h3 className='price-subtitle'>Per Seat</h3>
                         </div>
                         <ul className='price-feture'>
-                          <li>Collaboration Tools</li>
-                          <li> Weekly Sentiment</li>
-                          <li> Data History</li>
-                          <li> Increased Number of</li>
-                          <li> Users Unlimited</li>
-                          <li> Projects Downgrade</li>
+                          <li>10 sites</li>
+                          <li>20 User Groups</li>
+                          <li>20 modules</li>
+                          {/* <li>20 Portal Users </li> */}
+                          <li>20 Data Capture Forms</li>
+                          <li>30 Task Automations</li>
+                          <li>Unlimited Document Builder</li>
+                          <li>Virtual Fields</li>
+                          <li>25 Insights Per Module</li>
+                          <li>20 Hook Actions Per Module</li>
+                          <li>Unlimited Header Analytics Per Module</li>
+                          <li>5GB Storage Per Module</li>
+                          <li>15000 Alerts Per Month</li>
+                          <li>6 months Log Retention</li>
+                          <li>Field Level Security</li>
+                          <li>Broadcasts</li>
+                          <li>Document Restore </li>
+                          <li>Advanced Reporting</li>
+
+                          <li>24 Hour Free System Setup</li>
+                          <li>Tenant Feed</li>
                         </ul>
 
                         <div className='action'>
                           <div className='btn-annual yearly-price'>
-                            <Link to='/contact' className='tt__btn '>
-                              Buy Now{' '}
+                            <Link
+                              to='/request-demo'
+                              className='tt__btn btn-outline'
+                            >
+                              Get Started{' '}
                             </Link>
                           </div>
                         </div>
@@ -333,29 +417,32 @@ const PriceOne = ({ hasSectionTitle }) => {
                     <div className='pricing-table'>
                       <div className='price-content-wrapper'>
                         <div className='pricing-header pricing-amount'>
-                          <h2 className='price-title'>Premium Plan</h2>
+                          <h2 className='price-title'>Enterprise Plan</h2>
                           <div className='yearly-price'>
-                            <h3 className='price'>
-                              $130 <span className='period'>/month</span>
-                            </h3>
+                            <h3 className='price-subtitle'>Contact Us</h3>
                           </div>
-                          <h3 className='price-subtitle'>
-                            Ticketing system for teams
-                          </h3>
+                          {/* <h3 className='price-subtitle'>Custom</h3> */}
                         </div>
                         <ul className='price-feture'>
                           <li>Custom Domain </li>
-                          <li> Weekly Sentiment</li>
-                          <li> Data History</li>
-                          <li> Increased Number of</li>
-                          <li> Users Unlimited</li>
-                          <li> Projects Downgrade</li>
+                          <li>On Prem/Hybrid</li>
+                          <li>Dedicated 24/7 premium Support</li>
+                          <li>Custom Pricing</li>
+                          <li>Custom Auth</li>
+
+                          <li> Tailored customization and development </li>
+                          <li>On Prem/Hybrid Infrastructure</li>
+                          <li>API access</li>
+                          <li>Custom Pricing</li>
                         </ul>
 
                         <div className='action'>
                           <div className='btn-annual yearly-price'>
-                            <Link to='/contact' className='tt__btn btn-outline'>
-                              Buy Now{' '}
+                            <Link
+                              to='/request-demo'
+                              className='tt__btn btn-outline'
+                            >
+                              Get Started{' '}
                             </Link>
                           </div>
                         </div>

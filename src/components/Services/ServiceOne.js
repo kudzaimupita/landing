@@ -44,7 +44,10 @@ class ServiceOne extends Component {
                     className='service-list-image text-right wow fadeInUp'
                     data-wow-delay='0.5s'
                   >
-                    <img src='media/tabs/ff.png' alt='service' />
+                    <img
+                      src='https://ultraland-react.themetags.com/media/tabs/tab_two.png'
+                      alt='service'
+                    />
                   </div>
                 </div>
               </div>

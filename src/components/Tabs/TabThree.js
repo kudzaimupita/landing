@@ -95,7 +95,7 @@ class TabThree extends Component {
 
                   <div className='feature-tab-two__image'>
                     <img
-                      src='media/tabs/ff.png'
+                      src='https://ultraland-react.themetags.com/media/tabs/tab_two.png'
                       alt='Say hello to your<br> Modern Learning Platform'
                     />
                   </div>
@@ -134,7 +134,7 @@ class TabThree extends Component {
                   </div>
                   <div className='feature-tab-two__image'>
                     <img
-                      src='media/tabs/ff.png'
+                      src='https://ultraland-react.themetags.com/media/tabs/tab_one.png'
                       alt='Say hello to your<br> Modern Learning Platform'
                     />
                   </div>

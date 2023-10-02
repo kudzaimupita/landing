@@ -16,7 +16,7 @@ import ServiceTwo from '../components/Services/ServiceTwo';
 const Company = () => {
   return (
     <Layout>
-      <PageMeta title='About — Software &amp; App Startup HTML Template' />
+      <PageMeta title='Industries — Servly App' />
       <Navbar logoLight navRight={<NavRightTwo />} />
       <div id='main_content'>
         <ServiceTwo />

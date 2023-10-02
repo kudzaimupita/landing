@@ -146,7 +146,7 @@ const SecurityFeature = () => {
 
                     <div className='image-two'>
                       <img
-                        src='media/image-content/hs2.jpg'
+                        src='https://ultraland-react.themetags.com/media/banner/banner-one/main.png'
                         className='wow fadeIn'
                         data-parallax='{"x": -50}'
                         alt='Shape'

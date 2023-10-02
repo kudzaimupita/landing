@@ -13,7 +13,7 @@ class Blogs extends Component {
     return (
       <React.Fragment>
         <Layout>
-          <PageMeta />
+          <PageMeta title='FAQs — Servly App' />
           <Navbar logoLight navRight={<NavRightTwo />} />
           <div id='main_content'>
             <TabFour />
