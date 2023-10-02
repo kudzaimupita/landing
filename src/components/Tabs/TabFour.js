@@ -32,7 +32,6 @@ const TabFour = () => {
                     General Questions
                   </a>
                 </li>
-
                 <li className='nav-item'>
                   <a
                     className='nav-link '
@@ -42,10 +41,9 @@ const TabFour = () => {
                     aria-controls='message-send'
                     href='#message-send'
                   >
-                    Message send
+                    Customization Process
                   </a>
                 </li>
-
                 <li className='nav-item'>
                   <a
                     className='nav-link '
@@ -55,10 +53,9 @@ const TabFour = () => {
                     aria-controls='privacy-security'
                     href='#privacy-security'
                   >
-                    Privacy & Security
+                    Integration and Scalability
                   </a>
                 </li>
-
                 <li className='nav-item'>
                   <a
                     className='nav-link '
@@ -68,7 +65,31 @@ const TabFour = () => {
                     aria-controls='multiple-states'
                     href='#multiple-states'
                   >
-                    Multiple States
+                    Cost and ROI
+                  </a>
+                </li>{' '}
+                <li className='nav-item'>
+                  <a
+                    className='nav-link '
+                    id='multiple-states-tab'
+                    data-toggle='tab'
+                    role='tab'
+                    aria-controls='multiple-states'
+                    href='#multiple-states'
+                  >
+                    Support and Training
+                  </a>
+                </li>{' '}
+                <li className='nav-item'>
+                  <a
+                    className='nav-link '
+                    id='multiple-states-tab'
+                    data-toggle='tab'
+                    role='tab'
+                    aria-controls='multiple-states'
+                    href='#multiple-states'
+                  >
+                    Security and Compliance
                   </a>
                 </li>
               </ul>
@@ -89,7 +110,7 @@ const TabFour = () => {
                         data-target='#general-questions-collapse-0'
                         aria-controls='general-questions-collapse-0'
                       >
-                        How is our service better than other products?
+                        What is a customizable ERP system?
                         <i className='ei ei-arrow_carrot-up'></i>
                       </h5>
                     </div>
@@ -100,10 +121,11 @@ const TabFour = () => {
                     >
                       <div className='card-body'>
                         <p>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
+                          A customizable ERP system is cloud-based software
+                          designed for businesses to manage their core
+                          operations, such as finance, HR, inventory, and more.
+                          Customizability means it can be tailored to meet the
+                          unique needs of different businesses.
                         </p>
                       </div>
                     </div>
@@ -117,7 +139,8 @@ const TabFour = () => {
                         data-target='#general-questions-collapse-1'
                         aria-controls='general-questions-collapse-1'
                       >
-                        Do i have to sign a long term contract?
+                        Why should my business consider a customizable ERP
+                        system?
                         <i className='ei ei-arrow_carrot-up'></i>
                       </h5>
                     </div>
@@ -128,10 +151,9 @@ const TabFour = () => {
                     >
                       <div className='card-body'>
                         <p>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
+                          Customizable ERP systems offer flexibility to adapt to
+                          your specific business processes, providing
+                          efficiency, cost savings, and a competitive edge.
                         </p>
                       </div>
                     </div>
@@ -145,7 +167,7 @@ const TabFour = () => {
                         data-target='#general-questions-collapse-2'
                         aria-controls='general-questions-collapse-2'
                       >
-                        Where can I learn more about using cloudflare?
+                        How does customization work in an ERP system?
                         <i className='ei ei-arrow_carrot-up'></i>
                       </h5>
                     </div>
@@ -156,66 +178,10 @@ const TabFour = () => {
                     >
                       <div className='card-body'>
                         <p>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className='card '>
-                    <div className='card-header' id='general-questions-3'>
-                      <h5
-                        className='collapsed'
-                        data-toggle='collapse'
-                        data-target='#general-questions-collapse-3'
-                        aria-controls='general-questions-collapse-3'
-                      >
-                        What is a project?
-                        <i className='ei ei-arrow_carrot-up'></i>
-                      </h5>
-                    </div>
-                    <div
-                      id='general-questions-collapse-3'
-                      className='collapse'
-                      data-parent='#accordion-1'
-                    >
-                      <div className='card-body'>
-                        <p>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className='card '>
-                    <div className='card-header' id='general-questions-4'>
-                      <h5
-                        className='collapsed'
-                        data-toggle='collapse'
-                        data-target='#general-questions-collapse-4'
-                        aria-controls='general-questions-collapse-4'
-                      >
-                        Is there 24/7 customer support?
-                        <i className='ei ei-arrow_carrot-up'></i>
-                      </h5>
-                    </div>
-                    <div
-                      id='general-questions-collapse-4'
-                      className='collapse'
-                      data-parent='#accordion-1'
-                    >
-                      <div className='card-body'>
-                        <p>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
+                          Customization involves configuring the ERP software to
+                          match your business processes and requirements. This
+                          may include adjusting workflows, adding or removing
+                          modules, and creating custom reports.
                         </p>
                       </div>
                     </div>
@@ -233,7 +199,7 @@ const TabFour = () => {
                         data-target='#message-send-collapse-0'
                         aria-controls='message-send-collapse-0'
                       >
-                        Do i have to sign a long term contract?
+                        Can non-technical users customize the ERP system?
                         <i className='ei ei-arrow_carrot-up'></i>
                       </h5>
                     </div>
@@ -244,10 +210,9 @@ const TabFour = () => {
                     >
                       <div className='card-body'>
                         <p>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
+                          Yes, many modern ERP systems provide user-friendly
+                          tools, such as drag-and-drop interfaces and wizards,
+                          making it accessible to non-technical users.
                         </p>
                       </div>
                     </div>
@@ -261,7 +226,8 @@ const TabFour = () => {
                         data-target='#message-send-collapse-1'
                         aria-controls='message-send-collapse-1'
                       >
-                        What is a project?
+                        How long does it typically take to customize an ERP
+                        system?
                         <i className='ei ei-arrow_carrot-up'></i>
                       </h5>
                     </div>
@@ -272,10 +238,10 @@ const TabFour = () => {
                     >
                       <div className='card-body'>
                         <p>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
+                          The time required for customization varies based on
+                          the complexity of your requirements. Small adjustments
+                          may be quick, while extensive customizations may take
+                          weeks or months.
                         </p>
                       </div>
                     </div>
@@ -289,7 +255,7 @@ const TabFour = () => {
                         data-target='#message-send-collapse-2'
                         aria-controls='message-send-collapse-2'
                       >
-                        Is there any custome pricing system?
+                        Is professional assistance required for customization?
                         <i className='ei ei-arrow_carrot-up'></i>
                       </h5>
                     </div>
@@ -300,38 +266,9 @@ const TabFour = () => {
                     >
                       <div className='card-body'>
                         <p>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className='card '>
-                    <div className='card-header' id='message-send-3'>
-                      <h5
-                        className='collapsed'
-                        data-toggle='collapse'
-                        data-target='#message-send-collapse-3'
-                        aria-controls='message-send-collapse-3'
-                      >
-                        Largely determines the creation?
-                        <i className='ei ei-arrow_carrot-up'></i>
-                      </h5>
-                    </div>
-                    <div
-                      id='message-send-collapse-3'
-                      className='collapse'
-                      data-parent='#accordion-2'
-                    >
-                      <div className='card-body'>
-                        <p>
-                          A blinding shot mush bog arse hunky-dory super spend a
-                          penny, baking cakes Charles bugger Richard chancer
-                          haggle gutted mate, Oxford Queen’s English don’t get
-                          shirty.
+                          While some customization can be done in-house,
+                          larger-scale or complex customizations may benefit
+                          from the expertise of ERP consultants or developers.
                         </p>
                       </div>
                     </div>

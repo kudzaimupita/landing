@@ -6,6 +6,7 @@ import PageMeta from '../../components/PageMeta';
 import FooterOne from '../../layout/Footer/FooterOne';
 import NavRightTwo from '../../components/NavRight/NavRightTwo';
 import Navbar from '../../layout/Header/Navbar';
+import TabFour from '../../components/Tabs/TabFour';
 
 class Blogs extends Component {
   render() {
@@ -15,8 +16,10 @@ class Blogs extends Component {
           <PageMeta />
           <Navbar logoLight navRight={<NavRightTwo />} />
           <div id='main_content'>
-            <BreadCrumb breadCrumbTitle='Blogs' pageName='Blogs' />
-            <BlogAll />
+            <TabFour />
+
+            {/* <BreadCrumb breadCrumbTitle='Blogs' pageName='Blogs' /> */}
+            {/* <BlogAll /> */}
             <FooterOne />
           </div>
         </Layout>

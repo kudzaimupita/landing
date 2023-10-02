@@ -117,7 +117,7 @@ const Navbar = ({ navRight, logoDark, right }) => {
                   </li>
                 </ul>
               </li>
-              <li className='nav-item submenu-li dropdown'>
+              {/* <li className='nav-item submenu-li dropdown'>
                 <Link className='nav-link dropdown-toggle' to='#'>
                   Use Cases
                 </Link>
@@ -168,6 +168,11 @@ const Navbar = ({ navRight, logoDark, right }) => {
                     </Link>
                   </li>
                 </ul>
+              </li>{' '} */}
+              <li className='nav-item'>
+                <Link className='nav-link' to='/industries'>
+                  Industries
+                </Link>
               </li>
               <li className='nav-item'>
                 <Link className='nav-link' to='/features'>
@@ -175,7 +180,7 @@ const Navbar = ({ navRight, logoDark, right }) => {
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link className='nav-link' to='/fqaqs'>
+                <Link className='nav-link' to='/faqs'>
                   FAQs
                 </Link>
               </li>
@@ -203,7 +208,6 @@ const Navbar = ({ navRight, logoDark, right }) => {
                   About
                 </Link>
               </li> */}
-
               <li className='nav-item submenu-li dropdwon'>
                 {/* <Link className="nav-link dropdown-toggle" to="#">
                   Blog

@@ -14,7 +14,7 @@ class ServiceOne extends Component {
                       className='section-title wow fadeInUp'
                       data-wow-delay='0.3s'
                     >
-                      Integrate everything
+                      Tailor-Made Solutions for Your Unique Needs
                       <br />
                       {/* for your metered fields */}
                     </h2>
@@ -22,19 +22,18 @@ class ServiceOne extends Component {
                       className='description wow fadeInUp'
                       data-wow-delay='0.6s'
                     >
-                      Our Data Engine offers seamless integration capabilities,
-                      allowing you to connect and consolidate data from a
-                      variety of sources. Whether it's databases, APIs, cloud
-                      storage, or file formats, our integration feature ensures
-                      a smooth and efficient data integration process.
+                      In today's dynamic business landscape, flexibility is the
+                      key to success. Our ERP software empowers you to customize
+                      and adapt, ensuring that your business operates at its
+                      best, no matter the industry or size.
                     </p>
 
                     <a
-                      href='about.html'
+                      href='/request-demo'
                       className='tt__btn btn-round wow fadeInUp'
                       data-wow-delay='0.7s'
                     >
-                      Read More<i className='feather-arrow-right'></i>
+                      Get Started<i className='feather-arrow-right'></i>
                     </a>
                   </div>
                 </div>
@@ -56,15 +55,11 @@ class ServiceOne extends Component {
                 >
                   <span className='desk'></span>
                   <div className='list-content'>
-                    <h3 className='list-text'>
-                      Data Transformation and Mapping
-                    </h3>
+                    <h3 className='list-text'>Module Customization</h3>
                     <p>
-                      Transform and map data from different sources to a unified
-                      format within the Data Engine. Our integration feature
-                      includes powerful data transformation capabilities,
-                      enabling you to cleanse, normalize, and enrich your data
-                      as needed.
+                      Customize your ERP by selecting only the modules that
+                      align with your business needs. Scale up or down as your
+                      requirements change, avoiding unnecessary costs.
                     </p>
                   </div>
                 </li>
@@ -74,12 +69,11 @@ class ServiceOne extends Component {
                 >
                   <span className='desk'></span>
                   <div className='list-content'>
-                    <h3 className='list-text'>API Connectivity</h3>
+                    <h3 className='list-text'>Configurable Workflows</h3>
                     <p>
-                      Connect and integrate with external systems and services
-                      using APIs. Our Data Engine supports a wide range of APIs,
-                      allowing you to easily exchange data with third-party
-                      applications, platforms, and services.
+                      Craft workflows that match your specific business
+                      processes, making operations more efficient. Reduce manual
+                      work, improve accuracy, and enhance productivity.
                     </p>
                   </div>
                 </li>
@@ -89,13 +83,11 @@ class ServiceOne extends Component {
                 >
                   <span className='desk'></span>
                   <div className='list-content'>
-                    <h3 className='list-text'>Pre-built & Custom Connectors</h3>
+                    <h3 className='list-text'>Scalability</h3>
                     <p>
-                      Leverage our extensive library of pre-built connectors to
-                      popular systems, databases, and applications. Our
-                      integration feature includes ready-to-use connectors that
-                      simplify and accelerate the integration process, saving
-                      you time and effort.
+                      Grow your business confidently, knowing your ERP scales
+                      seamlessly. No disruptions, no compromises - just the
+                      flexibility you need to expand
                     </p>
                   </div>
                 </li>

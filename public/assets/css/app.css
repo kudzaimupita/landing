@@ -5294,11 +5294,11 @@ Creation date: 04/06/2018 14:38
   -webkit-box-flex: 2;
   -ms-flex: 2;
   flex: 2;
-  padding-right: 40px;
+  padding-right: 20px;
 }
 
 .tt-list.style-two .list_item {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 991px) {
@@ -5308,12 +5308,12 @@ Creation date: 04/06/2018 14:38
 }
 
 .tt-list.style-two i {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .tt-list.style-two .list-text {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 5x;
 }
 
 .tt-list.style-three li {
@@ -5600,7 +5600,7 @@ Creation date: 04/06/2018 14:38
 }
 
 .tt-icon-box {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -5618,7 +5618,7 @@ Creation date: 04/06/2018 14:38
   justify-content: center;
   text-align: center;
   font-size: 30px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -5629,7 +5629,7 @@ Creation date: 04/06/2018 14:38
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .tt-icon-box .box-title a {

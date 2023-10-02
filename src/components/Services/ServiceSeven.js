@@ -1,13 +1,13 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ServiceSeven = () => {
   return (
     <React.Fragment>
-      <div className="service-nine">
-        <div className="container">
-          <div className="section-heading style-three">
-            <h2 className="section-title wow fadeInUp" data-wow-delay="0.3s">
+      <div className='service-nine'>
+        <div className='container'>
+          <div className='section-heading style-three'>
+            <h2 className='section-title wow fadeInUp' data-wow-delay='0.3s'>
               Use Cases
             </h2>
 
@@ -19,142 +19,142 @@ const ServiceSeven = () => {
             </div> */}
           </div>
 
-          <div className="row">
-            <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className='row'>
+            <Link className='col-lg-3 col-md-4 col-sm-6'>
               <div
-                className="tt-icon-box style-ten wow fadeInUp"
-                data-wow-delay="0.7s"
+                className='tt-icon-box style-ten wow fadeInUp'
+                data-wow-delay='0.7s'
               >
-                <div className="icon-container">
-                  <img src="media/feature/dt1.png" alt="Direct Access" />
+                <div className='icon-container'>
+                  <img src='media/feature/dt1.png' alt='Direct Access' />
                 </div>
 
-                <div className="box-content">
-                  <h4 className="box-title">
-                    <Link to="/service">IT & Operations</Link>
+                <div className='box-content'>
+                  <h4 className='box-title'>
+                    <Link to='/service'>IT & Operations</Link>
                   </h4>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="col-lg-3 col-md-4 col-sm-6">
+            <Link className='col-lg-3 col-md-4 col-sm-6'>
               <div
-                className="tt-icon-box style-ten wow fadeInUp"
-                data-wow-delay="0.9s"
+                className='tt-icon-box style-ten wow fadeInUp'
+                data-wow-delay='0.9s'
               >
-                <div className="icon-container">
-                  <img src="media/feature/dts2.png" alt="Push Notification" />
+                <div className='icon-container'>
+                  <img src='media/feature/dts2.png' alt='Push Notification' />
                 </div>
 
-                <div className="box-content">
-                  <h4 className="box-title">
-                    <Link to="/service">Energy & Utilities</Link>
+                <div className='box-content'>
+                  <h4 className='box-title'>
+                    <Link to='/service'>Energy & Utilities</Link>
                   </h4>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="col-lg-3 col-md-4 col-sm-6">
+            <Link className='col-lg-3 col-md-4 col-sm-6'>
               <div
-                className="tt-icon-box style-ten wow fadeInUp"
-                data-wow-delay="1.1s"
+                className='tt-icon-box style-ten wow fadeInUp'
+                data-wow-delay='1.1s'
               >
-                <div className="icon-container">
-                  <img src="media/feature/dts3.png" alt="Mobile Capability" />
+                <div className='icon-container'>
+                  <img src='media/feature/dts3.png' alt='Mobile Capability' />
                 </div>
 
-                <div className="box-content">
-                  <h4 className="box-title">
-                    <Link to="/service">Manufacturing</Link>
+                <div className='box-content'>
+                  <h4 className='box-title'>
+                    <Link to='/service'>Manufacturing</Link>
                   </h4>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="col-lg-3 col-md-4 col-sm-6">
+            <Link className='col-lg-3 col-md-4 col-sm-6'>
               <div
-                className="tt-icon-box style-ten wow fadeInUp"
-                data-wow-delay="1.3s"
+                className='tt-icon-box style-ten wow fadeInUp'
+                data-wow-delay='1.3s'
               >
-                <div className="icon-container">
-                  <img src="media/feature/dts4.png" alt="Direct Access" />
+                <div className='icon-container'>
+                  <img src='media/feature/dts4.png' alt='Direct Access' />
                 </div>
 
-                <div className="box-content">
-                  <h4 className="box-title">
-                    <Link to="/service">Construction & Mining</Link>
+                <div className='box-content'>
+                  <h4 className='box-title'>
+                    <Link to='/service'>Construction & Mining</Link>
                   </h4>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="col-lg-3 col-md-4 col-sm-6">
+            <Link className='col-lg-3 col-md-4 col-sm-6'>
               <div
-                className="tt-icon-box style-ten wow fadeInUp"
-                data-wow-delay="1.5s"
+                className='tt-icon-box style-ten wow fadeInUp'
+                data-wow-delay='1.5s'
               >
-                <div className="icon-container">
-                  <img src="media/feature/dts5.png" alt="Push Notification" />
+                <div className='icon-container'>
+                  <img src='media/feature/dts5.png' alt='Push Notification' />
                 </div>
 
-                <div className="box-content">
-                  <h4 className="box-title">
-                    <Link to="/service">Travel & Transportation</Link>
+                <div className='box-content'>
+                  <h4 className='box-title'>
+                    <Link to='/service'>Travel & Transportation</Link>
                   </h4>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="col-lg-3 col-md-4 col-sm-6">
+            <Link className='col-lg-3 col-md-4 col-sm-6'>
               <div
-                className="tt-icon-box style-ten wow fadeInUp"
-                data-wow-delay="1.7s"
+                className='tt-icon-box style-ten wow fadeInUp'
+                data-wow-delay='1.7s'
               >
-                <div className="icon-container">
-                  <img src="media/feature/dts6.png" alt="Mobile Capability" />
+                <div className='icon-container'>
+                  <img src='media/feature/dts6.png' alt='Mobile Capability' />
                 </div>
 
-                <div className="box-content">
-                  <h4 className="box-title">
-                    <Link to="/service">Education</Link>
+                <div className='box-content'>
+                  <h4 className='box-title'>
+                    <Link to='/service'>Education</Link>
                   </h4>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="col-lg-3 col-md-4 col-sm-6">
+            <Link className='col-lg-3 col-md-4 col-sm-6'>
               <div
-                className="tt-icon-box style-ten wow fadeInUp"
-                data-wow-delay="1.7s"
+                className='tt-icon-box style-ten wow fadeInUp'
+                data-wow-delay='1.7s'
               >
-                <div className="icon-container">
-                  <img src="media/feature/dts7.png" alt="Mobile Capability" />
+                <div className='icon-container'>
+                  <img src='media/feature/dts7.png' alt='Mobile Capability' />
                 </div>
 
-                <div className="box-content">
-                  <h4 className="box-title">
-                    <Link to="/service">Health</Link>
+                <div className='box-content'>
+                  <h4 className='box-title'>
+                    <Link to='/service'>Health</Link>
                   </h4>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="col-lg-3 col-md-4 col-sm-6">
+            <Link className='col-lg-3 col-md-4 col-sm-6'>
               <div
-                className="tt-icon-box style-ten wow fadeInUp"
-                data-wow-delay="1.7s"
+                className='tt-icon-box style-ten wow fadeInUp'
+                data-wow-delay='1.7s'
               >
-                <div className="icon-container">
-                  <img src="media/feature/dts8.png" alt="Mobile Capability" />
+                <div className='icon-container'>
+                  <img src='media/feature/dts8.png' alt='Mobile Capability' />
                 </div>
 
-                <div className="box-content">
-                  <h4 className="box-title">
-                    <Link to="/service">Real Estate</Link>
+                <div className='box-content'>
+                  <h4 className='box-title'>
+                    <Link to='/service'>Real Estate</Link>
                   </h4>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
