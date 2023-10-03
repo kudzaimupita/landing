@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import React, { useState } from 'react';
-import { message } from 'antd';
+import { Segmented, Select, message } from 'antd';
 
 const SignupScreen = () => {
   // function ContactForm() {
@@ -11,6 +11,8 @@ const SignupScreen = () => {
     email: '',
     content: '',
     companyName: '',
+    size: '',
+    industry: '',
   });
 
   const handleChange = (e) => {
@@ -39,7 +41,14 @@ const SignupScreen = () => {
       .then((data) => {
         setLoading(false);
         message.success('Message Sent');
-        setFormData({ name: '', email: '', content: '', companyName: '' });
+        setFormData({
+          name: '',
+          email: '',
+          content: '',
+          companyName: '',
+          size: '1-25',
+          industry: 'Healthcare',
+        });
         // Handle the server response here, e.g., display a success message
         console.log(data);
       })
@@ -64,7 +73,7 @@ const SignupScreen = () => {
           <div className='tt-form-wrapper'>
             <form onSubmit={handleSubmit} className='tt-form'>
               <div className='input-wrap'>
-                <label>Your Name</label>
+                <label style={{ fontSize: '14px' }}>Your Name</label>
                 <div className='input-field'>
                   <input
                     type='text'
@@ -78,7 +87,7 @@ const SignupScreen = () => {
                 </div>
               </div>
               <div className='input-wrap'>
-                <label>Company Name</label>
+                <label style={{ fontSize: '14px' }}>Company Name</label>
                 <div className='input-field'>
                   <input
                     type='text'
@@ -92,7 +101,7 @@ const SignupScreen = () => {
                 </div>
               </div>
               <div className='input-wrap'>
-                <label>Work email</label>
+                <label style={{ fontSize: '14px' }}>Work email</label>
 
                 <div className='input-field'>
                   <input
@@ -106,8 +115,56 @@ const SignupScreen = () => {
                   <i className='feather-mail'></i>
                 </div>
               </div>
+              <div className='input-wrap'>
+                <label style={{ fontSize: '14px' }}>Industry</label>
 
-              <div className='input-wrap mb--5'>
+                <div className='input-field'>
+                  <Select
+                    onChange={(item) => {
+                      console.log(item);
+                      setFormData({ ...formData, industry: item });
+                    }}
+                    defaultValue='Heathcare'
+                    style={{ width: 120 }}
+                    // loading
+                    // suffixIcon={<>huiu</>}
+                    options={[
+                      { value: 'Healthcare', label: 'Healthcare' },
+                      { value: 'Retail', label: 'Retail' },
+                      { value: 'Manufacturing', label: 'Manufacturing' },
+                      { value: 'Engineering', label: 'Engineering' },
+                      { value: 'Education', label: 'Education' },
+                      { value: 'Finance', label: 'Finance' },
+                      { value: 'Hospitality', label: 'Hospitality' },
+                      {
+                        value: 'Hospitality and Travel',
+                        label: 'Hospitality and Travel',
+                      },
+                      {
+                        value: 'Legal & Compliance',
+                        label: 'Legal & Compliance',
+                      },
+                    ]}
+                  />
+                  {/* <i className='feather-mail'></i> */}
+                </div>
+              </div>
+              <div className='input-wrap'>
+                <label style={{ fontSize: '14px' }}>Size</label>
+
+                <div className='input-field'>
+                  <Segmented
+                    onChange={(item) => {
+                      console.log(item);
+                      setFormData({ ...formData, size: item });
+                    }}
+                    block
+                    options={['1-25', '25-100', '100-500']}
+                  />
+                  {/* <i className='feather-mail'></i> */}
+                </div>
+              </div>
+              {/* <div className='input-wrap mb--5'>
                 <label>Message</label>
                 <div className='input-field message-field'>
                   <textarea
@@ -119,7 +176,7 @@ const SignupScreen = () => {
                   ></textarea>
                   <i className='feather-message-square'></i>
                 </div>
-              </div>
+              </div> */}
 
               {/* <div className='condition-wrap'>
                 <div className='input-checkbox'>
