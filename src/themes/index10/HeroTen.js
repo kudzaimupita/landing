@@ -148,7 +148,7 @@ const HeroTen = () => {
                     <i className='ei ei-icon_check'></i>Servly Forms
                   </li>
                   <li>
-                    <i className='ei ei-icon_check'></i>Servly Portal
+                    <i className='ei ei-icon_check'></i>Servly Client Portals
                   </li>
                 </ul>
 
