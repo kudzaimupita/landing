@@ -145,10 +145,10 @@ const HeroTen = () => {
                   data-wow-delay='0.9s'
                 >
                   <li>
-                    <i className='ei ei-icon_check'></i>Monthly subscription
+                    <i className='ei ei-icon_check'></i>Servly Forms
                   </li>
                   <li>
-                    <i className='ei ei-icon_check'></i>Free to get started
+                    <i className='ei ei-icon_check'></i>Servly Portal
                   </li>
                 </ul>
 
