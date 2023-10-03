@@ -11,8 +11,8 @@ const SignupScreen = () => {
     email: '',
     content: '',
     companyName: '',
-    size: '',
-    industry: '',
+    size: '1-25',
+    industry: 'Healthcare',
   });
 
   const handleChange = (e) => {
