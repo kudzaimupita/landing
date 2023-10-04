@@ -387,18 +387,28 @@ const PriceOne = ({ hasSectionTitle }) => {
                           {/* <h3 className='price-subtitle'>Per Seat</h3> */}
                         </div>
                         <ul className='price-feture'>
-                          <li>Custom Domain </li>
-                          <li>Custom Users</li>
-                          <li>Custom Sites</li>
-                          <li>On Prem/Hybrid</li>
-                          <li>Dedicated 24/7 premium Support</li>
-                          <li>Custom Pricing</li>
-                          <li>Custom Auth</li>
+                          <li>6 sites</li>
+                          <li>50 System Users</li>
+                          <li>Unlimited Client Users</li>
+                          <li>20 modules</li>
+                          {/* <li>20 Portal Users </li> */}
+                          <li>20 Data Capture Forms</li>
+                          <li>30 Task Automations</li>
+                          <li>Unlimited Document Builder</li>
+                          <li>Virtual Fields</li>
+                          <li>25 Insights Per Module</li>
+                          <li>20 Hook Actions Per Module</li>
+                          <li>Unlimited Header Analytics Per Module</li>
+                          <li>5GB Storage Per Module</li>
+                          <li>15000 Alerts Per Month</li>
+                          <li>6 months Log Retention</li>
+                          <li>Field Level Security</li>
+                          <li>Broadcasts</li>
+                          <li>Document Restore </li>
+                          <li>Advanced Reporting</li>
 
-                          <li> Tailored customization and development </li>
-                          <li>On Prem/Hybrid Infrastructure</li>
-                          <li>API access</li>
-                          <li>Custom Pricing</li>
+                          <li>24 Hour Free System Setup</li>
+                          <li>Tenant Feed</li>
                         </ul>
 
                         <div className='action'>
