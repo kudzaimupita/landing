@@ -19,7 +19,7 @@ const FooterFive = () => {
                     alt='footer logo'
                   />
                   <p class='about_text'>
-                    Start for free Try UltraLand Our builder now
+                    Start for free Try Servly Our builder now
                   </p>
                   <ul class='footer-contact-info'>
                     <li class='phone'>

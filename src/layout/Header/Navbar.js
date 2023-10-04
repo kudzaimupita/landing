@@ -30,13 +30,13 @@ const Navbar = ({ navRight, logoDark, right }) => {
                 style={{ height: '50px', marginRight: '20px' }}
                 className='mt-12'
                 src='assets/img/8083535-ai.png'
-                alt='UltraLand'
+                alt='Servly'
               />
               {/* <img
                 style={{ height: "50px" }}
                 className="sticky-logo"
                 src="assets/img/Servly-logo.png"
-                alt="UltraLand"
+                alt="Servly"
               /> */}
             </Link>
           </div>

@@ -11,7 +11,7 @@ const DashboardPreview = () => {
               <h2 className='section-title wow fadeInUp' data-wow-delay='0.3s'>
                 Sign up for free to get
                 <br />
-                started with UltraLand
+                started with Servly
               </h2>
               <p className='description wow fadeInUp' data-wow-delay='0.5s'>
                 So I said knees up cuppa such a fibber jeffrey a bit of how's

@@ -55,7 +55,7 @@ const FooterThree = () => {
                     alt='footer logo'
                   />
                   <p className='about_text'>
-                    Start for free Try UltraLand Our builder now
+                    Start for free Try Servly Our builder now
                   </p>
                   <ul className='footer-contact-info'>
                     <li className='phone'>

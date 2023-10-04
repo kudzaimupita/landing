@@ -8,7 +8,7 @@ class CallToActionOne extends Component {
           <div className='container'>
             <div className='actions-content'>
               <h2 className='action-title wow fadeInUp'>
-                Find out what UltraLand
+                Find out what Servly
                 <br />
                 can do for your API spend
               </h2>

@@ -319,7 +319,7 @@ const BlogAll = () => {
                       <Link to='#'>App & Saas</Link>
                     </li>
                     <li>
-                      <Link to='#'>Why UltraLand</Link>
+                      <Link to='#'>Why Servly</Link>
                     </li>
                     <li>
                       <Link to='#'>Business</Link>
@@ -328,7 +328,7 @@ const BlogAll = () => {
                       <Link to='#'>UX Design</Link>
                     </li>
                     <li>
-                      <Link to='#'>UltraLand Saas</Link>
+                      <Link to='#'>Servly Saas</Link>
                     </li>
                   </ul>
                 </div>

@@ -5,9 +5,9 @@ const NavRightTwo = ({ warningBtn }) => {
   return (
     <>
       <div className={`nav-right ${warningBtn ? 'style3' : 'style2'}`}>
-        <a href='https://portal.servly.app/sign-in' className='nav-link'>
+        {/* <a href='https://portal.servly.app/sign-in' className='nav-link'>
           <i className='feather-unlock'></i>Login
-        </a>
+        </a> */}
         <Link to='/request-demo' className='nav-btn tt__btn'>
           Request Demo
         </Link>

@@ -40,7 +40,7 @@ const TestimonialThree = () => {
                       className='description wow fadeInUp'
                       data-wow-delay='0.3s'
                     >
-                      UltraLand an Official Marketing Partner
+                      Servly an Official Marketing Partner
                     </p>
                   </div>
 

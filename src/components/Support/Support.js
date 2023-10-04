@@ -26,7 +26,7 @@ class Support extends Component {
                   </div>
 
                   <h4 className='title wow fadeInUp' data-wow-delay='0.9s'>
-                    UltraLand an Official Marketing Partner
+                    Servly an Official Marketing Partner
                   </h4>
                   <SmallCarousel />
                 </div>

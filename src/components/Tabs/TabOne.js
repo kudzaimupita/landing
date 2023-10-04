@@ -26,7 +26,7 @@ class TabOne extends Component {
                     >
                       What customers
                       <br />
-                      think of UltraLand
+                      think of Servly
                     </h2>
                     <p
                       className='description wow fadeInUp'
