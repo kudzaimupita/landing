@@ -164,7 +164,7 @@ const SignupScreen = () => {
                   {/* <i className='feather-mail'></i> */}
                 </div>
               </div>
-              {/* <div className='input-wrap mb--5'>
+              <div className='input-wrap mb--5'>
                 <label>Message</label>
                 <div className='input-field message-field'>
                   <textarea
@@ -176,7 +176,7 @@ const SignupScreen = () => {
                   ></textarea>
                   <i className='feather-message-square'></i>
                 </div>
-              </div> */}
+              </div>
 
               {/* <div className='condition-wrap'>
                 <div className='input-checkbox'>
