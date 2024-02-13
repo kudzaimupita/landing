@@ -21,7 +21,7 @@ const HeroTen = () => {
                   data-wow-delay='0.3s'
                 >
                   <span>Next-gen Adaptive</span>
-                  ERP Suite
+                  ERP Composer
                 </h2>
 
                 <p

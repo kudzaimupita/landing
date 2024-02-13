@@ -29,7 +29,7 @@ const Navbar = ({ navRight, logoDark, right }) => {
               <img
                 style={{ height: '50px', marginRight: '20px' }}
                 className='mt-12'
-                src='assets/img/8083535-ai.png'
+                src='https://no-prompt-portal-aw91.vercel.app/img/logo/noo.png'
                 alt='Servly'
               />
               {/* <img
